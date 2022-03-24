@@ -1840,6 +1840,8 @@
 		<item component="ComponentInfo{com.treydev.micontrolcenter/com.treydev.shades.activities.SplashActivity}" drawable="mi_control_center" />
 		<item component="ComponentInfo{com.x2era.xcloud.app/com.x2era.xcloud.app.ui.home.welcome.WelcomeActivity}" drawable="famijia" />
 
+		<item component="ComponentInfo{ren.imyan.app_tracker/ren.imyan.app_tracker.ui.MainActivity}" drawable="app_tracker" />
+
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{net.oneplus.weather/net.oneplus.weather.app.MainActivity}" xml="weather" />
