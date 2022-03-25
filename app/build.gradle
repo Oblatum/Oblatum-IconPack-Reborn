@@ -21,11 +21,6 @@ apply plugin: 'kotlin-parcelize'
 apply plugin: 'kotlin-kapt'
 
 android {
-    lintOptions {
-        abortOnError false
-        checkReleaseBuilds true
-        disable 'MissingTranslation', 'GoogleAppIndexingWarning'
-    }
 
     compileSdkVersion Versions.targetSdk
     buildToolsVersion Versions.buildTools
@@ -71,13 +66,12 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
     packagingOptions {
-        pickFirst 'META-INF/core_debug.kotlin_module'
-        pickFirst 'META-INF/core_release.kotlin_module'
-        pickFirst 'META-INF/library_debug.kotlin_module'
-        pickFirst 'META-INF/library_release.kotlin_module'
+        resources {
+            pickFirsts += ['META-INF/core_debug.kotlin_module', 'META-INF/core_release.kotlin_module', 'META-INF/library_debug.kotlin_module', 'META-INF/library_release.kotlin_module']
+        }
     }
+
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -86,6 +80,11 @@ android {
 
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    lint {
+        abortOnError false
+        checkReleaseBuilds true
+        disable 'MissingTranslation', 'GoogleAppIndexingWarning'
     }
 }
 
