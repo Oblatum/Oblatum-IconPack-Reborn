@@ -44,7 +44,6 @@ android {
         setProperty("archivesBaseName", applicationId + "-" + versionName)
         vectorDrawables.useSupportLibrary = true
         proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-        consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
 
         javaCompileOptions {
             annotationProcessorOptions {
@@ -66,7 +65,6 @@ android {
             minifyEnabled true
             shrinkResources false
             proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-            consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
         }
     }
 

@@ -2,7 +2,7 @@
 
 object Versions {
     // Plugins
-    const val gradle = "7.1.1"
+    const val gradle = "7.1.2"
     const val kotlin = "1.5.31"
 
     // OneSignal
