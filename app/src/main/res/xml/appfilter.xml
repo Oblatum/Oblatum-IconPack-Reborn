@@ -1846,6 +1846,8 @@
 		<item component="ComponentInfo{me.fengmlo.qbRemoteFree/me.fengmlo.qb_remote.MainActivity}" drawable="qbittorrent_remote" />
 		<item component="ComponentInfo{io.github.nekoinverter.ehviewer/com.hippo.ehviewer.ui.MainActivity}" drawable="nekoinverter_ehviewer" />
 		<item component="ComponentInfo{com.emby.embyserver/crc64d513692d06de7687.MainActivity}" drawable="emby_server" />
+		<item component="ComponentInfo{com.eusoft.frhelper/com.eusoft.dict.activity.SplashActivity}" drawable="frdic"/>
+		<item component="ComponentInfo{com.moefactory.myxdu/com.moefactory.myxdu.activity.SplashActivity}" drawable="dianbiao"/>
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />

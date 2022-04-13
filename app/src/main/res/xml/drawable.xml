@@ -24,6 +24,8 @@
 		<item drawable="nekoinverter_ehviewer" />
 		<item drawable="qbittorrent_remote" />
 		<item drawable="emby_server" />
+		<item drawable="dianbiao" />
+		<item drawable="frdic" />
 
 
 	<category title="Folders and Widgets" />
