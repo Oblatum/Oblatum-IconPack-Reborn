@@ -21,11 +21,12 @@
 	<version>1</version>
 
 	<category title="New and Update" />
+		<item drawable="dianbiao" />
+		<item drawable="emby_server" />
+		<item drawable="frdic" />
 		<item drawable="nekoinverter_ehviewer" />
 		<item drawable="qbittorrent_remote" />
-		<item drawable="emby_server" />
-		<item drawable="dianbiao" />
-		<item drawable="frdic" />
+		<item drawable="todesk" />
 
 
 	<category title="Folders and Widgets" />
@@ -1243,6 +1244,7 @@
 		<item drawable="tmall" />
 		<item drawable="tmgp_cf" />
 		<item drawable="today_s_headline" />
+		<item drawable="todesk" />
 		<item drawable="todolist" />
 		<item drawable="torrse" />
 		<item drawable="total_launcher" />

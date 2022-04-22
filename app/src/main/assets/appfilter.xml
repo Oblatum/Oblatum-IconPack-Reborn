@@ -557,6 +557,7 @@
 		<item component="ComponentInfo{cn.ticktick.task/com.ticktick.task.activity.MeTaskActivity}" drawable="ticktick_task"/>
 		<item component="ComponentInfo{cn.w3cschool.app/com.uzmap.pkg.EntranceActivity}" drawable="w3cschool" />
 		<item component="ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity}" drawable="wps_office" />
+		<item component="ComponentInfo{com.kingsoft.moffice_pro/cn.wps.moffice.documentmanager.PreStartActivity}" drawable="wps_office" />
 		<item component="ComponentInfo{cn.xiaochuankeji.tieba/cn.xiaochuankeji.tieba.ui.base.SplashActivity}" drawable="zuiyou"/> 
 		<item component="ComponentInfo{cn.xuexi.android/com.alibaba.android.rimet.biz.SplashActivity}" drawable="xuexi_cn" />
 		<item component="ComponentInfo{co.mystops/co.mystops.ui.MainActivity}" drawable="mystops" />
@@ -1842,6 +1843,8 @@
 		<item component="ComponentInfo{com.x2era.xcloud.app/com.x2era.xcloud.app.ui.home.welcome.WelcomeActivity}" drawable="famijia" />
 		<item component="ComponentInfo{ren.imyan.app_tracker/ren.imyan.app_tracker.ui.MainActivity}" drawable="app_tracker" />
 		<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili"/>
+		<item component="ComponentInfo{alook.browser/alook.browser.LauncherActivity}" drawable="alook"/>
+		<item component="ComponentInfo{youqu.android.todesk/youqu.android.todesk.activity.WelcomeActivity}" drawable="todesk"/>
 
 		<item component="ComponentInfo{me.fengmlo.qbRemoteFree/me.fengmlo.qb_remote.MainActivity}" drawable="qbittorrent_remote" />
 		<item component="ComponentInfo{io.github.nekoinverter.ehviewer/com.hippo.ehviewer.ui.MainActivity}" drawable="nekoinverter_ehviewer" />
