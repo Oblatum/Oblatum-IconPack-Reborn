@@ -1161,6 +1161,7 @@
 		<item component="ComponentInfo{com.netease.cartoonreader/com.netease.cartoonreader.activity.ComicStartFlashActivity}" drawable="netease_cartoonreader" />
 		<item component="ComponentInfo{com.netease.cc/com.netease.cc.appstart.CCLauncher}" drawable="live_cc"/>
 		<item component="ComponentInfo{com.netease.cloudmusic/com.netease.cloudmusic.activity.LoadingActivity}" drawable="netease_cloudmusic" />
+		<item component="ComponentInfo{com.netease.cloudmusic/com.netease.cloudmusic.activity.IconChangeDefaultAlias}" drawable="netease_cloudmusic" />
 		<item component="ComponentInfo{com.netease.edu.ucmooc/com.netease.edu.ucmooc.activity.ActivityWelcome}" drawable="ucmooc"/>
 		<item component="ComponentInfo{com.netease.gl/com.netease.gl.ui.activity.WelcomeActivity}" drawable="wangyidashen"/>
 		<item component="ComponentInfo{com.netease.hearthstone/com.netease.hearthstone.module.splash.SplashActivity}" drawable="hearthstone"/>
