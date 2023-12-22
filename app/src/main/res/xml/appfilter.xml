@@ -1846,6 +1846,7 @@
 		<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili"/>
 		<item component="ComponentInfo{alook.browser/alook.browser.LauncherActivity}" drawable="alook"/>
 		<item component="ComponentInfo{youqu.android.todesk/youqu.android.todesk.activity.WelcomeActivity}" drawable="todesk"/>
+		<item component="ComponentInfo{com.nothing.glyph.composer/com.nothing.glyph.composer.ui.MainActivity}" drawable="nothing_glyph_composer" />
 
 		<item component="ComponentInfo{me.fengmlo.qbRemoteFree/me.fengmlo.qb_remote.MainActivity}" drawable="qbittorrent_remote" />
 		<item component="ComponentInfo{io.github.nekoinverter.ehviewer/com.hippo.ehviewer.ui.MainActivity}" drawable="nekoinverter_ehviewer" />

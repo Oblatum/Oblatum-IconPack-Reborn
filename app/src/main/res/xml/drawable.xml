@@ -21,12 +21,7 @@
 	<version>1</version>
 
 	<category title="New and Update" />
-		<item drawable="dianbiao" />
-		<item drawable="emby_server" />
-		<item drawable="frdic" />
-		<item drawable="nekoinverter_ehviewer" />
-		<item drawable="qbittorrent_remote" />
-		<item drawable="todesk" />
+		<item drawable="nothing_glyph_composer" />
 
 
 	<category title="Folders and Widgets" />
