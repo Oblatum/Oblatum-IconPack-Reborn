@@ -14,7 +14,7 @@ class NotificationServiceExtension : OSRemoteNotificationReceivedHandler {
         context: Context,
         notificationReceivedEvent: OSNotificationReceivedEvent
     ) {
-        if(!context.preferences.notificationsEnabled) {
+        if(!context.preferences.notificationsEnabled || !context.hasNotificationsPermission) {
             notificationReceivedEvent.complete(null)
             return
         }
