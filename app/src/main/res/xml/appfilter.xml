@@ -775,6 +775,7 @@
 		<item component="ComponentInfo{com.diershoubing.erbing/com.diershoubing.erbing.activity.VersionActivity}" drawable="erbing"/>
 		<item component="ComponentInfo{com.digibites.accubattery/com.digibites.abatterysaver.BatterySaverActivity}" drawable="accubattery" />
 		<item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="discord" />
+		<item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="discord" />
 		<item component="ComponentInfo{com.diyidan/com.diyidan.activity.SplashActivity}" drawable="diyidan" />
 		<item component="ComponentInfo{com.diyidan/com.diyidan.ui.launcher.LauncherActivity}" drawable="diyidan" />
 		<item component="ComponentInfo{com.dmzj.manhua/com.dmzj.manhua.ui.LaunchInterceptorActivity}" drawable="dmzj"/>

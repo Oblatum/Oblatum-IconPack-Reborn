@@ -24,7 +24,7 @@
 		<item drawable="dianbiao" />
 		<item drawable="emby_server" />
 		<item drawable="frdic" />
-		<item drawable="nekoinverter_ehviewer" />
+		<item drawable="nothing_glyph_composer" />
 		<item drawable="qbittorrent_remote" />
 		<item drawable="todesk" />
 
@@ -503,6 +503,7 @@
 		<item drawable="daydream" />
 		<item drawable="delve" />
 		<item drawable="devcheck" />
+		<item drawable="dianbiao" />
 		<item drawable="dianping" />
 		<item drawable="dida_music" />
 		<item drawable="didi" />
@@ -542,6 +543,7 @@
 		<item drawable="eleme" />
 		<item drawable="elexusclub" />
 		<item drawable="email" />
+		<item drawable="emby_server" />
 		<item drawable="emore" />
 		<item drawable="emoticoncreater" />
 		<item drawable="emui_accountagent" />
@@ -610,6 +612,7 @@
 		<item drawable="food_alaide" />
 		<item drawable="fooview" />
 		<item drawable="foxit_pdf" />
+		<item drawable="frdic" />
 		<item drawable="fsbi" />
 		<item drawable="fsbi_2" />
 		<item drawable="fusion_app" />
@@ -929,6 +932,7 @@
 		<item drawable="nokia_notes" />
 		<item drawable="nokia_smart_tuner" />
 		<item drawable="nord_vpn" />
+		<item drawable="nothing_glyph_composer" />
 		<item drawable="novalauncher" />
 		<item drawable="novasetting" />
 		<item drawable="novelmanager" />
@@ -1061,6 +1065,7 @@
 		<item drawable="puretie" />
 		<item drawable="pvz" />
 		<item drawable="q10000" />
+		<item drawable="qbittorrent_remote" />
 		<item drawable="qcloud" />
 		<item drawable="qdreader" />
 		<item drawable="qianji" />
@@ -1244,6 +1249,7 @@
 		<item drawable="tmall" />
 		<item drawable="tmgp_cf" />
 		<item drawable="today_s_headline" />
+		<item drawable="todesk" />
 		<item drawable="todesk" />
 		<item drawable="todolist" />
 		<item drawable="torrse" />
