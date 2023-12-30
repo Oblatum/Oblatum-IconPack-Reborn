@@ -28,6 +28,7 @@
 		<item drawable="nothing_glyph_composer" />
 		<item drawable="notion" />
 		<item drawable="qbittorrent_remote" />
+		<item drawable="surface" />
 		<item drawable="telegram_premium" />
 		<item drawable="todesk" />
 		<item drawable="tracker_network" />
@@ -1209,6 +1210,7 @@
 		<item drawable="superstar" />
 		<item drawable="supersu" />
 		<item drawable="surf_vpn" />
+		<item drawable="surface" />
 		<item drawable="svideo" />
 		<item drawable="swift_backup" />
 		<item drawable="swiftkey" />

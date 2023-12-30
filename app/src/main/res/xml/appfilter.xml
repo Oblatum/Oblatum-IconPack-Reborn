@@ -1864,6 +1864,7 @@
 		<item component="ComponentInfo{com.nothing.appservice/com.nothing.appservice.MainActivity}" drawable="nothing_system_service"/>
 		<item component="ComponentInfo{network.tracker.app/network.tracker.app.MainActivity}" drawable="tracker_network" />
 		<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.PremiumIcon}" drawable="telegram_premium" />
+		<item component="ComponentInfo{com.microsoft.surfaceaudio/com.microsoft.surfaceaudio.MainActivity}" drawable="surface" />
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
