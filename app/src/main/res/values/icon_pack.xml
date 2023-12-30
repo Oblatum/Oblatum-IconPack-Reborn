@@ -624,7 +624,6 @@
 	<item>nearme_game_center</item>
 	<item>nekogram</item>
 	<item>nekogram_1</item>
-	<item>nekoinverter_ehviewer</item>
 	<item>neoreader</item>
 	<item>netease_buff_compressed</item>
 	<item>netease_cartoonreader</item>
@@ -943,6 +942,7 @@
 	<item>teamviewer</item>
 	<item>ted</item>
 	<item>telegram</item>
+	<item>telegram_premium</item>
 	<item>telegram_x</item>
 	<item>telstra247</item>
 	<item>tencent_edu</item>
@@ -969,12 +969,14 @@
 	<item>tmall</item>
 	<item>tmgp_cf</item>
 	<item>today_s_headline</item>
+	<item>todesk</item>
 	<item>todolist</item>
 	<item>torrse</item>
 	<item>total_launcher</item>
 	<item>touchpal</item>
 	<item>tp_link</item>
 	<item>tpybx</item>
+	<item>tracker_network</item>
 	<item>transit</item>
 	<item>tray</item>
 	<item>tripview_lite</item>

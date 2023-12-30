@@ -293,6 +293,7 @@
 		<item component="ComponentInfo{org.lineageos.snap/com.android.camera.CameraLauncher}" drawable="camera" />
 		<item component="ComponentInfo{org.mokee.snap/com.android.camera.CameraLauncher}" drawable="camera" />
 		<item component="ComponentInfo{ com.essential.klik/com.essential.klik.Camera}" drawable="camera" />
+		<item component="ComponentInfo{com.nothing.camera/com.nothing.camera.activity.CameraActivity}" drawable="camera"/>
 
 		<item component="ComponentInfo{com.google.android.Pixel3Mod/com.android.camera.CameraLauncher}" drawable="google_camera" />
 		<item component="ComponentInfo{com.google.android.Pixel2Mod/com.android.camera.CameraLauncher}" drawable="google_camera" />
@@ -1860,6 +1861,9 @@
 		<item component="ComponentInfo{notion.id/notion.id.MainActivity}" drawable="notion" />
 		<item component="ComponentInfo{notion.id/notion.local.id.MainActivity}" drawable="notion" />
 		<item component="ComponentInfo{com.github.metacubex.clash.meta/com.github.kr328.clash.MainActivity}" drawable="clash_meta_for_android"/>
+		<item component="ComponentInfo{com.nothing.appservice/com.nothing.appservice.MainActivity}" drawable="nothing_system_service"/>
+		<item component="ComponentInfo{network.tracker.app/network.tracker.app.MainActivity}" drawable="tracker_network" />
+		<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.PremiumIcon}" drawable="telegram_premium" />
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />

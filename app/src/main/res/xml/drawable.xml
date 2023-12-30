@@ -28,7 +28,9 @@
 		<item drawable="nothing_glyph_composer" />
 		<item drawable="notion" />
 		<item drawable="qbittorrent_remote" />
+		<item drawable="telegram_premium" />
 		<item drawable="todesk" />
+		<item drawable="tracker_network" />
 
 
 	<category title="Folders and Widgets" />
@@ -1227,6 +1229,7 @@
 		<item drawable="teamviewer" />
 		<item drawable="ted" />
 		<item drawable="telegram" />
+		<item drawable="telegram_premium" />
 		<item drawable="telegram_x" />
 		<item drawable="telstra247" />
 		<item drawable="tencent_edu" />
