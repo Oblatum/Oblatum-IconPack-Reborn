@@ -1350,6 +1350,7 @@
 		<item component="ComponentInfo{com.smile.gifmaker/com.yxcorp.gifshow.HomeActivity}" drawable="kuaishou"/>
 		<item component="ComponentInfo{com.smzdm.client.android/com.smzdm.client.android.activity.WelComeActivity}" drawable="smzdm" />
 		<item component="ComponentInfo{com.smzdm.client.android/com.smzdm.client.android.welcome.WelComeActivity}" drawable="smzdm"/>
+		<item component="ComponentInfo{com.smzdm.client.android/com.smzdm.client.android.app.WelComeActivity}" drawable="smzdm"/>
 		<item component="ComponentInfo{com.snda.wifilocating/com.lantern.launcher.ui.MainActivity}" drawable="wifilocating" />
 		<item component="ComponentInfo{com.soft.blued/.icon0}" drawable="blued" />
 		<item component="ComponentInfo{com.soft.blued/com.soft.blued.icon0}" drawable="blued"/>
@@ -1559,6 +1560,7 @@
 		<item component="ComponentInfo{com.v2ray.ang/com.v2ray.ang.ui.MainActivity}" drawable="v2ray_ng" />
 		<item component="ComponentInfo{com.valvesoftware.android.steam.community.china/com.androlua.Welcome}" drawable="steam_lite" />
 		<item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.activity.MainActivity}" drawable="steam" />
+		<item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="steam"/>
 		<item component="ComponentInfo{com.videoapp.avgo/com.videoapp.avgo.MainActivity}" drawable="avgo"/>
 		<item component="ComponentInfo{com.vipercn.viper4android_v2/com.vipercn.viper4android_v2.activity.ViPER4Android}" drawable="viper4android" />
 		<item component="ComponentInfo{com.vitotechnology.StarWalk2/com.vitotechnology.common.GooglePlayBillingActivity}" drawable="star_walk2"/>
@@ -1735,6 +1737,7 @@
 		<item component="ComponentInfo{mmark.qrcode/.CaptureActivity}" drawable="mark_qrcode" />
 		<item component="ComponentInfo{moe.feng.nhentai/moe.feng.nhentai.ui.HomeActivity}" drawable="nhbooks"/>
 		<item component="ComponentInfo{moe.low.arc/org.cocos2dx.cpp.AppActivity}" drawable="arcaea" />
+		<item component="ComponentInfo{moe.low.arc/low.moe.AppActivity}" drawable="arcaea"/>
 		<item component="ComponentInfo{moe.shizuku.redirectstorage/moe.shizuku.redirectstorage.MainActivity}" drawable="storage_isolation"/>
 		<item component="ComponentInfo{name.caiyao.sporteditor/name.caiyao.sporteditor.MainActivityAlias}" drawable="sporteditor"/>
 		<item component="ComponentInfo{net.arraynetworks.mobilenow.browser/net.arraynetworks.mobilenow.portal.SplashActivity}" drawable="motionpro"/>
@@ -1848,12 +1851,15 @@
 		<item component="ComponentInfo{alook.browser/alook.browser.LauncherActivity}" drawable="alook"/>
 		<item component="ComponentInfo{youqu.android.todesk/youqu.android.todesk.activity.WelcomeActivity}" drawable="todesk"/>
 		<item component="ComponentInfo{com.nothing.glyph.composer/com.nothing.glyph.composer.ui.MainActivity}" drawable="nothing_glyph_composer" />
-
 		<item component="ComponentInfo{me.fengmlo.qbRemoteFree/me.fengmlo.qb_remote.MainActivity}" drawable="qbittorrent_remote" />
 		<item component="ComponentInfo{io.github.nekoinverter.ehviewer/com.hippo.ehviewer.ui.MainActivity}" drawable="nekoinverter_ehviewer" />
 		<item component="ComponentInfo{com.emby.embyserver/crc64d513692d06de7687.MainActivity}" drawable="emby_server" />
 		<item component="ComponentInfo{com.eusoft.frhelper/com.eusoft.dict.activity.SplashActivity}" drawable="frdic"/>
 		<item component="ComponentInfo{com.moefactory.myxdu/com.moefactory.myxdu.activity.SplashActivity}" drawable="dianbiao"/>
+
+		<item component="ComponentInfo{notion.id/notion.id.MainActivity}" drawable="notion" />
+		<item component="ComponentInfo{notion.id/notion.local.id.MainActivity}" drawable="notion" />
+		<item component="ComponentInfo{com.github.metacubex.clash.meta/com.github.kr328.clash.MainActivity}" drawable="clash_meta_for_android"/>
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />

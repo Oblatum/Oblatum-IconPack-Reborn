@@ -21,10 +21,12 @@
 	<version>1</version>
 
 	<category title="New and Update" />
+		<item drawable="clash_meta_for_android" />
 		<item drawable="dianbiao" />
 		<item drawable="emby_server" />
 		<item drawable="frdic" />
 		<item drawable="nothing_glyph_composer" />
+		<item drawable="notion" />
 		<item drawable="qbittorrent_remote" />
 		<item drawable="todesk" />
 
@@ -469,6 +471,7 @@
 		<item drawable="cjzc" />
 		<item drawable="cjzc_1" />
 		<item drawable="clash_for_android" />
+		<item drawable="clash_meta_for_android" />
 		<item drawable="clash_of_clans" />
 		<item drawable="clash_royale" />
 		<item drawable="class_163" />
@@ -933,6 +936,7 @@
 		<item drawable="nokia_smart_tuner" />
 		<item drawable="nord_vpn" />
 		<item drawable="nothing_glyph_composer" />
+		<item drawable="notion" />
 		<item drawable="novalauncher" />
 		<item drawable="novasetting" />
 		<item drawable="novelmanager" />
