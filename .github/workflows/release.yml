@@ -1,0 +1,60 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - "*"
+  workflow_dispatch:
+
+jobs:
+  assemble:
+    name: Generate Signed APK
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: zulu
+          java-version: 17
+          cache: gradle
+
+      - name: Delete some caches
+        run: rm -f ~/.gradle/caches/modules-2/modules-2.lock; rm -fr ~/.gradle/caches/*/plugin-resolution/
+
+      - name: Cache Gradle
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.android/build-cache
+            ~/.m2
+            ~/.gradle
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Change wrapper permissions
+        run: chmod +x ./gradlew
+
+      - name: Assemble
+        run: ./gradlew clean assemble --full-stacktrace
+
+      - name: Sign APK
+        run: |
+          export unsigned_apk=$(find ./app/build/outputs/apk/release -type f -name "*.apk")
+          export signed_apk=${unsigned_apk//unsigned/signed}
+
+          echo "signed_apk_name=${signed_apk##*/}" >> $GITHUB_ENV
+          echo "signed_apk=$signed_apk" >> $GITHUB_ENV
+
+          echo ${{ secrets.KEYSTORE }} | base64 --decode >> key.jks
+          jarsigner -keystore key.jks -signedjar $signed_apk $unsigned_apk -storepass ${{ secrets.SIGNING_STORE_PASSWORD }} public
+
+      - name: Upload to Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.signed_apk_name }}
+          path: ${{ env.signed_apk }}
