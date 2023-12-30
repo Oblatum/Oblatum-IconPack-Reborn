@@ -42,19 +42,17 @@ jobs:
       - name: Assemble
         run: ./gradlew clean assemble --full-stacktrace
 
-      - name: Sign APK
-        run: |
-          export unsigned_apk=$(find ./app/build/outputs/apk/release -type f -name "*.apk")
-          export signed_apk=${unsigned_apk//unsigned/signed}
-
-          echo "signed_apk_name=${signed_apk##*/}" >> $GITHUB_ENV
-          echo "signed_apk=$signed_apk" >> $GITHUB_ENV
-
-          echo ${{ secrets.KEYSTORE }} | base64 --decode >> key.jks
-          jarsigner -keystore key.jks -signedjar $signed_apk $unsigned_apk -storepass ${{ secrets.SIGNING_STORE_PASSWORD }} public
-
-      - name: Upload to Artifacts
-        uses: actions/upload-artifact@v4
+      - uses: r0adkll/sign-android-release@v1
+        name: Signing
+        id: sign_app
         with:
-          name: ${{ env.signed_apk_name }}
-          path: ${{ env.signed_apk }}
+          releaseDirectory: app/build/outputs/apk/release
+          signingKeyBase64: ${{ secrets.KEYSTORE }}
+          alias: ${{ secrets.SIGNING_KEY_ALIAS }}
+          keyStorePassword: ${{ secrets.SIGNING_STORE_PASSWORD }}
+          keyPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Signed APK
+          path: ${{steps.sign_app.outputs.signedReleaseFile}}
