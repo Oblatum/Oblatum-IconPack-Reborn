@@ -372,6 +372,7 @@
 	<item>google_pinyin</item>
 	<item>google_play</item>
 	<item>google_play_books</item>
+	<item>google_play_console</item>
 	<item>google_play_games</item>
 	<item>google_play_movies</item>
 	<item>google_play_music</item>
@@ -940,6 +941,7 @@
 	<item>tap_and_go_compressed</item>
 	<item>tap_go</item>
 	<item>taptap</item>
+	<item>tarsin_ehviewer</item>
 	<item>teamviewer</item>
 	<item>ted</item>
 	<item>telegram</item>

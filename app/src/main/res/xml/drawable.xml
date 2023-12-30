@@ -25,10 +25,12 @@
 		<item drawable="dianbiao" />
 		<item drawable="emby_server" />
 		<item drawable="frdic" />
+		<item drawable="google_play_console" />
 		<item drawable="nothing_glyph_composer" />
 		<item drawable="notion" />
 		<item drawable="qbittorrent_remote" />
 		<item drawable="surface" />
+		<item drawable="tarsin_ehviewer" />
 		<item drawable="telegram_premium" />
 		<item drawable="todesk" />
 		<item drawable="tracker_network" />
@@ -661,6 +663,7 @@
 		<item drawable="google_pinyin" />
 		<item drawable="google_play" />
 		<item drawable="google_play_books" />
+		<item drawable="google_play_console" />
 		<item drawable="google_play_games" />
 		<item drawable="google_play_movies" />
 		<item drawable="google_play_music" />
@@ -1228,6 +1231,7 @@
 		<item drawable="tap_and_go_compressed" />
 		<item drawable="tap_go" />
 		<item drawable="taptap" />
+		<item drawable="tarsin_ehviewer" />
 		<item drawable="teamviewer" />
 		<item drawable="ted" />
 		<item drawable="telegram" />

@@ -1160,6 +1160,7 @@
 		<item component="ComponentInfo{com.nearme.browser/com.android.browser.BrowserActivity}" drawable="browser"/>
 		<item component="ComponentInfo{com.nearme.gamecenter/com.nearme.gamecenter.ui.activity.SplashActivity}" drawable="nearme_game_center"/>
 		<item component="ComponentInfo{com.netease.buff/com.netease.buff.entry.SplashActivity}" drawable="netease_buff"/>
+		<item component="ComponentInfo{com.netease.buff/com.netease.buff.entry.SplashActivity}" drawable="netease_buff"/>
 		<item component="ComponentInfo{com.netease.cartoonreader/com.netease.cartoonreader.activity.ComicStartFlashActivity}" drawable="netease_cartoonreader" />
 		<item component="ComponentInfo{com.netease.cc/com.netease.cc.appstart.CCLauncher}" drawable="live_cc"/>
 		<item component="ComponentInfo{com.netease.cloudmusic/com.netease.cloudmusic.activity.LoadingActivity}" drawable="netease_cloudmusic" />
@@ -1865,6 +1866,8 @@
 		<item component="ComponentInfo{network.tracker.app/network.tracker.app.MainActivity}" drawable="tracker_network" />
 		<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.PremiumIcon}" drawable="telegram_premium" />
 		<item component="ComponentInfo{com.microsoft.surfaceaudio/com.microsoft.surfaceaudio.MainActivity}" drawable="surface" />
+		<item component="ComponentInfo{moe.tarsin.ehviewer/com.hippo.ehviewer.ui.MainActivity}" drawable="tarsin_ehviewer" />
+		<item component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity}" drawable="google_play_console" />
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
