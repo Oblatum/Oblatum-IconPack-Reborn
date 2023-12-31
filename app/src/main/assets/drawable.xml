@@ -34,6 +34,7 @@
 		<item drawable="telegram_premium" />
 		<item drawable="todesk" />
 		<item drawable="tracker_network" />
+		<item drawable="photos_go" />
 
 
 	<category title="Folders and Widgets" />
@@ -65,12 +66,12 @@
 		<item drawable="weather" />
 
 	<category title="Google" />
-		<item drawable="cardboard_camera" />
 		<item drawable="cardboard" />
+		<item drawable="cardboard_camera" />
+		<item drawable="chrome" />
 		<item drawable="chrome_beta" />
 		<item drawable="chrome_canary" />
 		<item drawable="chrome_dev" />
-		<item drawable="chrome" />
 		<item drawable="chromium" />
 		<item drawable="daydream" />
 		<item drawable="earth" />
@@ -78,6 +79,7 @@
 		<item drawable="fit" />
 		<item drawable="gboard" />
 		<item drawable="gmail" />
+		<item drawable="google" />
 		<item drawable="google_1" />
 		<item drawable="google_allo" />
 		<item drawable="google_assistant" />
@@ -102,14 +104,14 @@
 		<item drawable="google_translate" />
 		<item drawable="google_voice_search" />
 		<item drawable="google_wallpaper" />
-		<item drawable="google" />
 		<item drawable="googlecalendar" />
 		<item drawable="googleplay" />
 		<item drawable="hangouts" />
 		<item drawable="keep" />
 		<item drawable="news_and_weather" />
-		<item drawable="snapseed_1" />
+		<item drawable="photos_go" />
 		<item drawable="snapseed" />
+		<item drawable="snapseed_1" />
 		<item drawable="youtube" />
 
 	<category title="Oneplus" />
@@ -1041,6 +1043,7 @@
 		<item drawable="phone_2" />
 		<item drawable="phonograph" />
 		<item drawable="photoeditor" />
+		<item drawable="photos_go" />
 		<item drawable="picacg" />
 		<item drawable="pickaxechat" />
 		<item drawable="pingan_lifeinsurance" />
