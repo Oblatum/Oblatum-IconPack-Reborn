@@ -31,40 +31,40 @@
 
     <!-- These arrays are for the list of apps or links in main section. -->
     <string-array name="home_list_titles">
-        <item>检查更新</item>
+        <item>官网</item>
         <item>问题反馈</item>
         <item>上酷安评论</item>
-<!--        <item>糯米纸PY小店</item>-->
+        <item>糯米纸PY小店</item>
         <item>加入QQ群</item>
-        <item>帮助文档</item>
+        <item>备案号</item>
         <item>App Tracker</item>
     </string-array>
     <string-array name="home_list_descriptions">
-        <item>手动检查保持程序最新</item>
+        <item>oblatum.art</item>
         <item>使用时遇到问题？来这里问</item>
         <item>参加讨论上酷安话题#Oblatum图标#</item>
-<!--        <item>全新糯米纸PY小店现已上架</item>-->
+        <item>全新糯米纸PY小店现已上架</item>
         <item>欢迎加入Oblatum图标应援团</item>
-        <item>[萌新必备]糯米纸图标使用指南</item>
+        <item>蜀ICP备2024061249号-2A</item>
         <item>帮助我们丰富应用数据库</item>
     </string-array>
     <string-array name="home_list_icons">
         <item>oblatum_lgbtqiaplus</item>
         <item>message_1</item>
         <item>coolapk</item>
-<!--        <item>alipay_alt2</item>-->
+        <item>alipay_alt2</item>
         <item>qq_sp</item>
         <item>cliff</item>
         <item>app_tracker</item>
     </string-array>
     <string-array name="home_list_links">
-        <item>http://oblatum.xyz/getoblatum.html?vn=2.15.4_vc=259</item>
-        <item>http://oblatum.xyz/images/tuxiaocao.png</item>
+        <item>https://oblatum.art</item>
+        <item>https://txc.qq.com/products/133538</item>
         <item>https://www.coolapk.com/t/Oblatum%E5%9B%BE%E6%A0%87?type=0</item>
-<!--        <item>https://qr.alipay.com/00c06445cgqhoqhbs8joc0b</item>-->
+        <item>https://qr.alipay.com/00c06445cgqhoqhbs8joc0b</item>
 <!--        <item>https://img.vim-cn.com/10/9d20ea07cc8dbb98dfd98a3f4cfa3862e0cde1.png</item>-->
         <item>mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26k%3DSPmArtw7LPE5WFMXiv5HoEI45JcF98a-</item>
-        <item>http://oblatum.xyz/help.html</item>
-        <item>https://www.coolapk.com/apk/ren.imyan.app_tracker</item>
+        <item>https://oblatum.art</item>
+        <item>https://github.com/Oblatum/App-Tracker-for-Icon-Pack-Client-Side-Android-Version/releases</item>
     </string-array>
 </resources>
