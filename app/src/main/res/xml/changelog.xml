@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <version title="v1.0.0" />
-    <item text="Initial Changelog" />
-    <item text="Bullet point here" />
-    <item text="More points" />
+    <version title="v2.20g" />
+    <item text="适配15个新图标" />
+    <item text="新增官网oblatum.art" />
+    <item text="图标定制现已开放" />
     <item text="" /> <!-- this one is empty and therefore ignored -->
 </resources>
