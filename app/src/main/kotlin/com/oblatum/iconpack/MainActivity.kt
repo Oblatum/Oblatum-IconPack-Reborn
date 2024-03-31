@@ -49,7 +49,14 @@ class MainActivity : BottomNavigationBlueprintActivity() {
 
             // 设置对话框的标题和消息
             builder.setTitle("隐私保护政策")
-            builder.setMessage("本应用隐私政策详见https://docs.qq.com/doc/DRGJnU293ZG9KVWhn。如果您同意，请点击同意按钮，否则请点击退出按钮。")
+            //读取assets文件夹下的privacy.txt文件
+            val inputStream = assets.open("privacy.txt")
+            val size = inputStream.available()
+            val buffer = ByteArray(size)
+            inputStream.read(buffer)
+            inputStream.close()
+            val text = String(buffer)
+            builder.setMessage(text)
 
             // 设置对话框的按钮
             builder.setPositiveButton("同意", DialogInterface.OnClickListener { dialog, id ->
