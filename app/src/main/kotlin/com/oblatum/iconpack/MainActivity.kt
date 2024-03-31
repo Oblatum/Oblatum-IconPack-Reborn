@@ -53,7 +53,7 @@ class MainActivity : BottomNavigationBlueprintActivity() {
                 override fun onDialogNegativeClick() {
                     //用户点击不同意
                     //退出应用
-                    finish()
+                    System.exit(0)
 
                 }
             })
