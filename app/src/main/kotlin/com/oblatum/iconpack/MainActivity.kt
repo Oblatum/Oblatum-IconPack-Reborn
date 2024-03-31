@@ -35,6 +35,30 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      */
     override fun getLicenseChecker(): PiracyChecker? {
         destroyChecker() // Important
+        //弹出对话框提示用户隐私协议，用户点击同意后才能使用应用
+        //检查是否储存了用户的同意状态，如果没有则弹出对话框
+        var check = getSharedPreferences("privacy", MODE_PRIVATE).edit().putBoolean("agree", false).apply()
+        if (!check) {
+            //弹出对话框
+            val dialog = PrivacyDialogFragment()
+            dialog.show(supportFragmentManager, "privacy")
+            //设置对话框内容为“隐私协议”
+            dialog.setDialogText("隐私协议", "请您务必审慎阅读、充分理解“隐私政策”各条款，包括但不限于：为了向您提供产品和服务，我们需要收集您的设备信息、操作日志等个人信息。您可以在“设置”中查看、变更、删除个人信息并管理您的授权。您可阅读《隐私政策》了解详细信息。如果您同意，请点击“同意”开始接受我们的服务。")
+            //对话框按钮点击事件
+            dialog.setDialogListener(object : PrivacyDialogFragment.DialogListener {
+                override fun onDialogPositiveClick() {
+                    //用户点击同意
+                    getSharedPreferences("privacy", MODE_PRIVATE).edit().putBoolean("agree", true).apply()
+                }
+                override fun onDialogNegativeClick() {
+                    //用户点击不同意
+                    //退出应用
+                    finish()
+
+                }
+            })
+
+        }
         return null
         // return if (BuildConfig.DEBUG) null else super.getLicenseChecker()
     }
