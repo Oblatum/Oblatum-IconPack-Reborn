@@ -37,7 +37,7 @@ class MainActivity : BottomNavigationBlueprintActivity() {
         destroyChecker() // Important
         //弹出对话框提示用户隐私协议，用户点击同意后才能使用应用
         //检查是否储存了用户的同意状态，如果没有则弹出对话框
-        var check = getSharedPreferences("privacy", MODE_PRIVATE).edit().putBoolean("agree", false).apply()
+        var check = getSharedPreferences("privacy", MODE_PRIVATE).getBoolean("agree", false)
         if (!check) {
             //弹出对话框
             val dialog = PrivacyDialogFragment()
