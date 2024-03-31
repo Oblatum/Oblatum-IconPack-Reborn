@@ -48,16 +48,19 @@ class MainActivity : BottomNavigationBlueprintActivity() {
             val builder = AlertDialog.Builder(this)
 
             // 设置对话框的标题和消息
-            builder.setTitle("标题")
-            builder.setMessage("这是一个对话框的消息")
+            builder.setTitle("隐私保护政策")
+            builder.setMessage("本应用隐私政策详见https://docs.qq.com/doc/DRGJnU293ZG9KVWhn。如果您同意，请点击同意按钮，否则请点击退出按钮。")
 
             // 设置对话框的按钮
-            builder.setPositiveButton("确定", DialogInterface.OnClickListener { dialog, id ->
+            builder.setPositiveButton("同意", DialogInterface.OnClickListener { dialog, id ->
                 // 用户点击了确定按钮
+                // 保存用户的同意状态
+                getSharedPreferences("privacy", MODE_PRIVATE).edit().putBoolean("agree", true).apply()
             })
 
-            builder.setNegativeButton("取消", DialogInterface.OnClickListener { dialog, id ->
+            builder.setNegativeButton("退出", DialogInterface.OnClickListener { dialog, id ->
                 // 用户取消了对话框
+                finish()
             })
 
             // 创建并显示对话框
