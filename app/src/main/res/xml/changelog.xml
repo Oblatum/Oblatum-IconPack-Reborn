@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <version title="v2.20h" />
-    <item text="适配15个新图标" />
+    <version title="v2.21" />
+    <item text="适配14个新图标" />
     <item text="新增官网oblatum.art" />
     <item text="图标定制现已开放" />
     <item text="" /> <!-- this one is empty and therefore ignored -->
