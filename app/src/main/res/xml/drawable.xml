@@ -21,21 +21,20 @@
 	<version>1</version>
 
 	<category title="New and Update" />
-		<item drawable="clash_meta_for_android" />
-		<item drawable="dianbiao" />
-		<item drawable="emby_server" />
-		<item drawable="frdic" />
-		<item drawable="google_play_console" />
-		<item drawable="keepass_2_android" />
-		<item drawable="nothing_glyph_composer" />
-		<item drawable="notion" />
-		<item drawable="photos_go" />
-		<item drawable="qbittorrent_remote" />
-		<item drawable="surface" />
-		<item drawable="tarsin_ehviewer" />
-		<item drawable="telegram_premium" />
-		<item drawable="todesk" />
-		<item drawable="tracker_network" />
+		<item drawable="brave" />
+		<item drawable="duckduckgo" />
+		<item drawable="miss_lee" />
+		<item drawable="jd_xiao_jia" />
+		<item drawable="xingye_bank" />
+		<item drawable="sd_nongxin_bank" />
+		<item drawable="mandu" />
+		<item drawable="socmark" />
+		<item drawable="chanding_kongjian" />
+		<item drawable="yang_guang_hui_sheng_huo" />
+		<item drawable="moji_test" />
+		<item drawable="moji_dict" />
+		<item drawable="moji_read" />
+		<item drawable="pu_da_xi_beng" />
 
 
 	<category title="Folders and Widgets" />
