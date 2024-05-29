@@ -5,6 +5,7 @@ import com.github.javiersantos.piracychecker.PiracyChecker
 import dev.jahir.blueprint.ui.activities.BottomNavigationBlueprintActivity
 import android.app.AlertDialog
 import android.content.DialogInterface
+import android.os.Bundle
 
 /**
  * You can choose between:
@@ -30,14 +31,10 @@ class MainActivity : BottomNavigationBlueprintActivity() {
      */
     override fun getLicKey(): String? = ""
 
-    /**
-     * This is the license checker code. Feel free to create your own implementation or
-     * leave it as it is.
-     * Anyways, keep the 'destroyChecker()' as the very first line of this code block
-     * Return null to disable license check
-     */
-    override fun getLicenseChecker(): PiracyChecker? {
-        destroyChecker() // Important
+    override fun onCreate(savedInstanceState: Bundle?) {
+        // Call the superclass onCreate to complete the creation of
+        // the activity, like the view hierarchy.
+        super.onCreate(savedInstanceState)
         //弹出对话框提示用户隐私协议，用户点击同意后才能使用应用
         //检查是否储存了用户的同意状态，如果没有则弹出对话框
         var check = getSharedPreferences("privacy", MODE_PRIVATE).getBoolean("agree", false)
@@ -62,7 +59,8 @@ class MainActivity : BottomNavigationBlueprintActivity() {
             builder.setPositiveButton("同意", DialogInterface.OnClickListener { dialog, id ->
                 // 用户点击了确定按钮
                 // 保存用户的同意状态
-                getSharedPreferences("privacy", MODE_PRIVATE).edit().putBoolean("agree", true).apply()
+                getSharedPreferences("privacy", MODE_PRIVATE).edit().putBoolean("agree", true)
+                    .apply()
             })
 
             builder.setNegativeButton("退出", DialogInterface.OnClickListener { dialog, id ->
@@ -74,6 +72,17 @@ class MainActivity : BottomNavigationBlueprintActivity() {
             builder.create().show()
 
         }
+
+    }
+
+    /**
+     * This is the license checker code. Feel free to create your own implementation or
+     * leave it as it is.
+     * Anyways, keep the 'destroyChecker()' as the very first line of this code block
+     * Return null to disable license check
+     */
+    override fun getLicenseChecker(): PiracyChecker? {
+        destroyChecker() // Important
         return null
         // return if (BuildConfig.DEBUG) null else super.getLicenseChecker()
     }
