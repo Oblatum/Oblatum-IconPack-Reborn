@@ -52,6 +52,7 @@
             <!--几何天气-->
             <intent-filter>
                 <action android:name="com.wangdaye.geometricweather.ICON_PROVIDER" />
+            </intent-filter>
 
             
 
