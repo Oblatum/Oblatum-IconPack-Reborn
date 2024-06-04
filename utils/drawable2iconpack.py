@@ -21,7 +21,7 @@ item_template = "\t<item>{icon_name}</item>\n"
 
 file_content = ""
 
-with open(drawable_path, 'r') as f:
+with open(drawable_path, 'r', encoding='utf-8') as f:
     regex = r"^\s+<item\sdrawable=\"(\S+)\" \/>$"
     matches = re.finditer(regex, f.read(), re.MULTILINE)
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string-array name="icons_preview">
+	<item>a_139__you__xiang</item>
 	<item>a_1more_assistant</item>
 	<item>a_1password_compressed</item>
 	<item>a_50yin</item>
@@ -58,6 +59,7 @@
 	<item>apkmirror</item>
 	<item>apkpure</item>
 	<item>aplayer</item>
+	<item>app__fen__xiang</item>
 	<item>app_logo</item>
 	<item>app_tracker</item>
 	<item>apple_music</item>
@@ -138,6 +140,7 @@
 	<item>bose_connect</item>
 	<item>bosszhipin</item>
 	<item>brainmusic</item>
+	<item>brave__liu__lan__qi</item>
 	<item>brawl_stars</item>
 	<item>breeno_voice</item>
 	<item>browser</item>
@@ -165,6 +168,7 @@
 	<item>ccb</item>
 	<item>ccplay_cc</item>
 	<item>cebbank</item>
+	<item>chanding_kongjian</item>
 	<item>changsha_metro</item>
 	<item>changzhou_subway</item>
 	<item>cheapflights</item>
@@ -245,6 +249,7 @@
 	<item>drcom</item>
 	<item>drops</item>
 	<item>du</item>
+	<item>duckduckgo</item>
 	<item>duia</item>
 	<item>duo_mobile</item>
 	<item>duokan_reader</item>
@@ -399,6 +404,7 @@
 	<item>gxicon</item>
 	<item>h_viewer</item>
 	<item>habits</item>
+	<item>hai__tun__you__sheng</item>
 	<item>hangouts</item>
 	<item>hanju_tv</item>
 	<item>hanks_notes</item>
@@ -464,6 +470,7 @@
 	<item>jiaoyicat</item>
 	<item>jiguang_yingyuan</item>
 	<item>jike</item>
+	<item>jing__dong__xiao__jia</item>
 	<item>jisu_browser</item>
 	<item>jmail</item>
 	<item>kakaotalk</item>
@@ -476,6 +483,7 @@
 	<item>kihan</item>
 	<item>kindle</item>
 	<item>kitchen_stories</item>
+	<item>kiwi_browser</item>
 	<item>knowspace</item>
 	<item>kuaishou</item>
 	<item>kugou_music</item>
@@ -524,6 +532,7 @@
 	<item>maimemo</item>
 	<item>majsoul_compressed</item>
 	<item>mancamera</item>
+	<item>mandu</item>
 	<item>mangotv</item>
 	<item>mangotv_alt</item>
 	<item>manhuaren</item>
@@ -535,6 +544,8 @@
 	<item>mcdonalds</item>
 	<item>meetyou</item>
 	<item>meeye</item>
+	<item>mei__tuan__you__xuan</item>
+	<item>mei__zu__shang__cheng</item>
 	<item>meitu</item>
 	<item>meituan</item>
 	<item>memory_zone</item>
@@ -559,6 +570,7 @@
 	<item>mini_metro</item>
 	<item>mint_bookkeeping</item>
 	<item>mipush</item>
+	<item>miss_lee</item>
 	<item>miui_bbs</item>
 	<item>miui_browser</item>
 	<item>miui_clock</item>
@@ -592,6 +604,9 @@
 	<item>mobilism</item>
 	<item>mobvoi</item>
 	<item>modian</item>
+	<item>moji_dict</item>
+	<item>moji_read</item>
+	<item>moji_test</item>
 	<item>mokee_aegis</item>
 	<item>mokee_center</item>
 	<item>momo</item>
@@ -776,6 +791,7 @@
 	<item>ppsspp</item>
 	<item>psbc</item>
 	<item>pstouch</item>
+	<item>pu_da_xi_beng</item>
 	<item>pub_gfx_tool_xda</item>
 	<item>pubg_huazhi</item>
 	<item>pubgm</item>
@@ -792,6 +808,8 @@
 	<item>qdreader</item>
 	<item>qianji</item>
 	<item>qinbaobao</item>
+	<item>qing__dao__yin__hang</item>
+	<item>qingdao_metro</item>
 	<item>qingtingyingyu</item>
 	<item>qinxinsou</item>
 	<item>qpay</item>
@@ -833,6 +851,7 @@
 	<item>samsung_magazine</item>
 	<item>samsung_pay</item>
 	<item>samsung_smart_manager</item>
+	<item>sd_nongxin_bank</item>
 	<item>sdcleaner</item>
 	<item>sdmaid</item>
 	<item>search_by_image</item>
@@ -857,6 +876,7 @@
 	<item>sharepoint</item>
 	<item>shazam</item>
 	<item>shenqi_browser</item>
+	<item>shou__ji__xing__neng__pai__hang</item>
 	<item>shuttle</item>
 	<item>sim_toolkit</item>
 	<item>sketchbook</item>
@@ -981,7 +1001,6 @@
 	<item>touchpal</item>
 	<item>tp_link</item>
 	<item>tpybx</item>
-	<item>tracker_network</item>
 	<item>transit</item>
 	<item>tray</item>
 	<item>tripview_lite</item>
@@ -996,6 +1015,7 @@
 	<item>uc_browser</item>
 	<item>uc_browser_1</item>
 	<item>uc_browser_2</item>
+	<item>uc_turbo</item>
 	<item>ucmooc</item>
 	<item>umetrip</item>
 	<item>unionpay</item>
@@ -1053,6 +1073,7 @@
 	<item>wikipedia</item>
 	<item>windscribe</item>
 	<item>wisdom_tree</item>
+	<item>wo__de__qing__dao</item>
 	<item>woaika</item>
 	<item>wolf_man</item>
 	<item>word</item>
@@ -1084,6 +1105,7 @@
 	<item>xiaorichang</item>
 	<item>xiaoxizhixing</item>
 	<item>ximalayafm</item>
+	<item>xing__ye__yin__hang</item>
 	<item>xinyue_vip</item>
 	<item>xk_wallpaper</item>
 	<item>xmhealth</item>
@@ -1096,11 +1118,13 @@
 	<item>xunlei</item>
 	<item>xyst</item>
 	<item>yandex_disk</item>
+	<item>yang__guang__hui__sheng__huo</item>
 	<item>yangshipin</item>
 	<item>yanxuan</item>
 	<item>ygmh</item>
 	<item>yiciyuan</item>
 	<item>yidianzixun</item>
+	<item>ying__yong__zhong__xin</item>
 	<item>yizhifu</item>
 	<item>ykjl</item>
 	<item>yogurt_iconpack</item>
