@@ -54,9 +54,9 @@
                 <action android:name="com.wangdaye.geometricweather.ICON_PROVIDER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
             
 
+            
             <!-- TODO: Do NOT remove the intent-filter tags -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -311,9 +311,6 @@
                android:value="${applicationId}.NotificationServiceExtension" />
         -->
 
-        <!--几何天气-->
-        <meta-data
-            android:name="com.wangdaye.geometricweather.PROVIDER_CONFIG"
-            android:resource="@xml/icon_provider_config" />
+        
     </application>
 </manifest>
