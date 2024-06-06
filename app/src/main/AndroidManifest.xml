@@ -310,5 +310,10 @@
         <meta-data android:name="com.onesignal.NotificationServiceExtension"
                android:value="${applicationId}.NotificationServiceExtension" />
         -->
+
+        <!--几何天气-->
+        <meta-data
+            android:name="com.wangdaye.geometricweather.PROVIDER_CONFIG"
+            android:resource="@xml/icon_provider_config" />
     </application>
 </manifest>
