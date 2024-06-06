@@ -49,9 +49,10 @@
             <meta-data
                 android:name="com.wangdaye.geometricweather.DRAWABLE_FILTER"
                 android:resource="@xml/oblatum_icon_provider_drawable_filter" />
-            <!--几何天气-->
+             <!--几何天气-->
             <intent-filter>
                 <action android:name="com.wangdaye.geometricweather.ICON_PROVIDER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
             
