@@ -113,7 +113,7 @@ def index():
     for i in range(len(AppNameList)):
         if(i>0 and AppNameList[i] != AppNameList[i-1] or len(AppNameList)==1):
             with open(changelogPath, 'a', encoding='utf-8') as f:
-                f.write(AppNameList[i]+'\n')
+                f.write('适配和更新：'+'、'.join(AppNameList))
             with open(drawablePath, 'a', encoding='utf-8') as f:
                 f.write('''<item drawable="'''+AppNamePinyinList[i]+'''" />\n''')
 index()
