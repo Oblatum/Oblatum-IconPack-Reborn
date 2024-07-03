@@ -21,6 +21,7 @@
 	<version>1</version>
 
 	<category title="New and Update" />
+		<!-- oblatum autoPack location start -->
 		<item drawable="a_139__you__xiang" />
 		<item drawable="app__fen__xiang" />
 		<item drawable="brave__liu__lan__qi" />
@@ -38,6 +39,7 @@
 		<item drawable="xing__ye__yin__hang" />
 		<item drawable="yang__guang__hui__sheng__huo" />
 		<item drawable="ying__yong__zhong__xin" />
+		<!-- oblatum autoPack location end -->
 
 	<category title="Folders and Widgets" />
 		<item drawable="folder_masturbation" />
@@ -294,7 +296,6 @@
 		<item drawable="yyszs" />
 
 	<category title="All" /><!-- All icons here -->
-
 		<item drawable="a_139__you__xiang" />
 		<item drawable="a_1more_assistant" />
 		<item drawable="a_1password_compressed" />

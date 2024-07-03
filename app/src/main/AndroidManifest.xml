@@ -52,10 +52,10 @@
             <!--几何天气-->
             <intent-filter>
                 <action android:name="com.wangdaye.geometricweather.ICON_PROVIDER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
             
-
             <!-- TODO: Do NOT remove the intent-filter tags -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -309,5 +309,7 @@
         <meta-data android:name="com.onesignal.NotificationServiceExtension"
                android:value="${applicationId}.NotificationServiceExtension" />
         -->
+
+        
     </application>
 </manifest>
