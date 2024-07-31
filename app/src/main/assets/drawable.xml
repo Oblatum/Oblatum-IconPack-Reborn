@@ -27,11 +27,13 @@
 		<item drawable="hai__tun__you__sheng" />
 		<item drawable="market" />
 		<item drawable="mei__tuan__you__xuan" />
-		<item drawable="moji__ci__shu" />
+		<item drawable="moji_kana" />
+		<item drawable="moji__wen__da" />
 		<item drawable="music" />
 		<item drawable="qing__dao__yin__hang" />
 		<item drawable="smartisan_security" />
 		<item drawable="smartisan_store" />
+		<item drawable="tong__xin__xing__cheng__ka" />
 		<item drawable="weather" />
 		<item drawable="you__dao__yun__bi__ji" />
 		<item drawable="you__xi__zhong__xin" />
@@ -899,7 +901,9 @@
 		<item drawable="mobvoi" />
 		<item drawable="modian" />
 		<item drawable="moji__ci__shu" />
+		<item drawable="moji__wen__da" />
 		<item drawable="moji_dict" />
+		<item drawable="moji_kana" />
 		<item drawable="moji_read" />
 		<item drawable="moji_test" />
 		<item drawable="mokee_aegis" />
@@ -1292,6 +1296,7 @@
 		<item drawable="today_s_headline" />
 		<item drawable="todesk" />
 		<item drawable="todolist" />
+		<item drawable="tong__xin__xing__cheng__ka" />
 		<item drawable="torrse" />
 		<item drawable="total_launcher" />
 		<item drawable="touchpal" />
