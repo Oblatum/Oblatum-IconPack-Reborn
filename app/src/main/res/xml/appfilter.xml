@@ -1875,26 +1875,17 @@
 		<item component="ComponentInfo{keepass2android.keepass2android/md5b85ab5ea2545156b0f09600c184a5178.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass_2_android" />
 
-		<!--  Brave  -->
-		<item component="ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}" drawable="brave"/>
+
 		<!--  DuckDuckGo  -->
 		<item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="duckduckgo"/>
 		<!--  MissLee  -->
 		<item component="ComponentInfo{cn.litiaotiao.app/com.litiaotiao.app.LauncherActivity}" drawable="miss_lee"/>
-		<!--  京东小家  -->
-		<item component="ComponentInfo{com.jd.iots/com.jd.smart.activity.LoadingActivity}" drawable="jd_xiao_jia"/>
-		<!--  兴业银行  -->
-		<item component="ComponentInfo{com.cib.cibmb/com.newland.app.ui.firstpage.FirstPageActivity}" drawable="xingye_bank"/>
 		<!--  山东农信  -->
 		<item component="ComponentInfo{com.android.clock.sd/com.android.clock.sd.activty.IndexActivity}" drawable="sd_nongxin_bank"/>
 		<!--  慢读  -->
 		<item component="ComponentInfo{pro.mandu.enjoyreading/pro.mandu.enjoyreading.MainActivity}" drawable="mandu"/>
-		<!--  手机性能排行  -->
-		<item component="ComponentInfo{com.nasoft.socmark/com.nasoft.socmark.ui.MainActivity}" drawable="socmark"/>
 		<!--  禅定空间  -->
 		<item component="ComponentInfo{com.yunlian.meditationmode/com.yunlian.meditationmode.act.MainActD}" drawable="chanding_kongjian"/>
-		<!--  阳光惠生活  -->
-		<item component="ComponentInfo{com.ebank.creditcard/com.ebank.creditcard.MainActivity}" drawable="yang_guang_hui_sheng_huo"/>
 		<!--  MOJiTest  -->
 		<item component="ComponentInfo{com.mojitec.mojitest/com.mojitec.mojitest.home.SplashActivity}" drawable="moji_test"/>
 		<!--  MOJi辞書  -->
@@ -1903,8 +1894,57 @@
 		<item component="ComponentInfo{com.mojidict.read/com.mojidict.read.ui.SplashActivity}" drawable="moji_read"/>
 		<!--  浦大喜奔  -->
 		<item component="ComponentInfo{com.spdbccc.app/com.spdbccc.app.sp.splash.activity.SplashActivity}" drawable="pu_da_xi_beng"/>
+		<!--  139邮箱  -->
+		<item component="ComponentInfo{com.mail139.about.LaunchActivity}" drawable="a_139__you__xiang"/>
+		<!--  Brave浏览器  -->
+		<item component="ComponentInfo{com.google.android.apps.chrome.Main}" drawable="brave__liu__lan__qi"/>
+		<!--  兴业银行  -->
+		<item component="ComponentInfo{com.cib.cibmb.LPSplashScreen}" drawable="xing__ye__yin__hang"/>
+		<item component="ComponentInfo{com.newland.app.ui.firstpage.FirstPageActivity}" drawable="xing__ye__yin__hang"/>
+		<!--  阳光惠生活  -->
+		<item component="ComponentInfo{com.ebank.creditcard.loadingpage.activity.NewLoadingActivity}" drawable="yang__guang__hui__sheng__huo"/>
+		<item component="ComponentInfo{com.ebank.creditcard.MainActivity}" drawable="yang__guang__hui__sheng__huo"/>
+		<!--  魅族商城  -->
+		<item component="ComponentInfo{com.meizu.store.newhome.NewHomeActivity}" drawable="mei__zu__shang__cheng"/>
+		<item component="ComponentInfo{com.meizu.store.screen.main.Main2Activity}" drawable="mei__zu__shang__cheng"/>
+		<item component="ComponentInfo{com.meizu.store.home.HomeActivity}" drawable="mei__zu__shang__cheng"/>
+		<!--  海豚有声  -->
+		<item component="ComponentInfo{com.iflytek.readassistant.ui.JumpActivity}" drawable="hai__tun__you__sheng"/>
+		<item component="ComponentInfo{com.iflytek.readassistant.biz.home.JumpActivity}" drawable="hai__tun__you__sheng"/>
+		<!--  京东小家  -->
+		<item component="ComponentInfo{com.jd.smart.activity.LoadingActivity}" drawable="jing__dong__xiao__jia"/>
+		<!--  Kiwi Browser  -->
+		<item component="ComponentInfo{com.google.android.apps.chrome.Main}" drawable="kiwi_browser"/>
+		<!--  应用中心  -->
+		<item component="ComponentInfo{com.lenovo.leos.appstore.activities.Main}" drawable="ying__yong__zhong__xin"/>
+		<!--  123云盘  -->
+		<item component="ComponentInfo{com.mfcloudcalculate.networkdisk.MainActivity}" drawable="a_123__yun__pan"/>
+		<!--  Soul  -->
+		<item component="ComponentInfo{com.mycompany.app.web.WebViewActivity}" drawable="soul"/>
+		<!--  手机性能排行  -->
+		<item component="ComponentInfo{com.nasoft.socmark.ui.MainActivity}" drawable="shou__ji__xing__neng__pai__hang"/>
+		<!--  青岛银行 -->
+		<item component="ComponentInfo{com.alipay.mobile.quinox.LauncherActivity}" drawable="qing__dao__yin__hang"/>
+		<!--  美团优选  -->
+		<item component="ComponentInfo{com.sankuai.youxuan.TransferActivity}" drawable="mei__tuan__you__xuan"/>
+		<item component="ComponentInfo{com.sankuai.youxuan.MainMPActivity}" drawable="mei__tuan__you__xuan"/>
+		<item component="ComponentInfo{com.sankuai.youxuan.splash.SplashActivity}" drawable="mei__tuan__you__xuan"/>
+		<!--  QINGDAO METRO  -->
+		<item component="ComponentInfo{com.sdjictec.qdmetro.module.login.StartActivity}" drawable="qingdao_metro"/>
+		<item component="ComponentInfo{com.sdjictec.qdmetro.module.start.StartActivity}" drawable="qingdao_metro"/>
+		<item component="ComponentInfo{com.sdjictec.qdmetro.view.activity.SplashActivity}" drawable="qingdao_metro"/>
+		<!--  UC Turbo  -->
+		<item component="ComponentInfo{com.ucturbo.MainActivity}" drawable="uc_turbo"/>
+		<item component="ComponentInfo{com.ucturbo.MainActivityNew}" drawable="uc_turbo"/>
+		<!--  我的青岛  -->
+		<item component="ComponentInfo{com.umpay.qingdaonfc.ui.activity.SplashActivity}" drawable="wo__de__qing__dao"/>
+		<!-- App分享 -->
+		<item component="ComponentInfo{info.muge.appshare.view.launch.LaunchActivity}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.launcher0}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.activities.LaunchActivity}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.launcher3}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.launcher1}" drawable="app__fen__xiang"/>
 
-		<!-- oblatum autoPack location -->
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
