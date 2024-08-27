@@ -139,8 +139,8 @@ def autoPackIcons():
     print("\033[92m图标已复制到 app\src\main\res\drawable-nodpi。\033[0m")
 
 
-# set_iconPackInfo()
-# autoPackAppfilter()
-# autoPackDrawable()
-# autoPackChangelog()
+set_iconPackInfo()
+autoPackAppfilter()
+autoPackDrawable()
+autoPackChangelog()
 autoPackIcons()

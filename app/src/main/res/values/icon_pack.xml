@@ -225,6 +225,7 @@
 	<item>daydream</item>
 	<item>delve</item>
 	<item>devcheck</item>
+	<item>dian__zi__you__jian</item>
 	<item>dianbiao</item>
 	<item>dianping</item>
 	<item>dida_music</item>
@@ -313,6 +314,7 @@
 	<item>feizhu</item>
 	<item>fenqile</item>
 	<item>file_explorer</item>
+	<item>file_manager</item>
 	<item>files</item>
 	<item>files_go</item>
 	<item>firefox</item>
@@ -541,6 +543,7 @@
 	<item>maoyan</item>
 	<item>maoyan_pro</item>
 	<item>mark_qrcode</item>
+	<item>market</item>
 	<item>mcdonalds</item>
 	<item>meetyou</item>
 	<item>meeye</item>
@@ -604,7 +607,10 @@
 	<item>mobilism</item>
 	<item>mobvoi</item>
 	<item>modian</item>
+	<item>moji__ci__shu</item>
+	<item>moji__wen__da</item>
 	<item>moji_dict</item>
+	<item>moji_kana</item>
 	<item>moji_read</item>
 	<item>moji_test</item>
 	<item>mokee_aegis</item>
@@ -889,6 +895,7 @@
 	<item>smartisan_notes</item>
 	<item>smartisan_onestep</item>
 	<item>smartisan_security</item>
+	<item>smartisan_store</item>
 	<item>smartisanos_mover</item>
 	<item>smzdm</item>
 	<item>snailread</item>
@@ -996,6 +1003,7 @@
 	<item>today_s_headline</item>
 	<item>todesk</item>
 	<item>todolist</item>
+	<item>tong__xin__xing__cheng__ka</item>
 	<item>torrse</item>
 	<item>total_launcher</item>
 	<item>touchpal</item>
@@ -1128,6 +1136,8 @@
 	<item>yizhifu</item>
 	<item>ykjl</item>
 	<item>yogurt_iconpack</item>
+	<item>you__dao__yun__bi__ji</item>
+	<item>you__xi__zhong__xin</item>
 	<item>youdao_dict</item>
 	<item>youdao_net_note</item>
 	<item>youku</item>
@@ -1143,6 +1153,7 @@
 	<item>zenge</item>
 	<item>zenly</item>
 	<item>zero_vpn</item>
+	<item>zhen__xin__wen</item>
 	<item>zhifou</item>
 	<item>zhihu</item>
 	<item>zhihu_daily</item>

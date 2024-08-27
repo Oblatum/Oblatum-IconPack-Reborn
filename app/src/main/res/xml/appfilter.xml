@@ -1874,8 +1874,6 @@
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64ae7e22645ed9821f.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/md5b85ab5ea2545156b0f09600c184a5178.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass_2_android" />
-
-
 		<!--  DuckDuckGo  -->
 		<item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="duckduckgo"/>
 		<!--  MissLee  -->
@@ -1888,8 +1886,6 @@
 		<item component="ComponentInfo{com.yunlian.meditationmode/com.yunlian.meditationmode.act.MainActD}" drawable="chanding_kongjian"/>
 		<!--  MOJiTest  -->
 		<item component="ComponentInfo{com.mojitec.mojitest/com.mojitec.mojitest.home.SplashActivity}" drawable="moji_test"/>
-		<!--  MOJi辞書  -->
-		<item component="ComponentInfo{com.mojitec.mojidict/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji_dict"/>
 		<!--  MOJi阅读  -->
 		<item component="ComponentInfo{com.mojidict.read/com.mojidict.read.ui.SplashActivity}" drawable="moji_read"/>
 		<!--  浦大喜奔  -->
@@ -1944,7 +1940,43 @@
 		<item component="ComponentInfo{info.muge.appshare.activities.LaunchActivity}" drawable="app__fen__xiang"/>
 		<item component="ComponentInfo{info.muge.appshare.launcher3}" drawable="app__fen__xiang"/>
 		<item component="ComponentInfo{info.muge.appshare.launcher1}" drawable="app__fen__xiang"/>
-
+		<!--  MOJi辞書  -->
+		<item component="ComponentInfo{com.mojitec.mojidict/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji_dict"/>
+		<!-- AutoPack: add in v3.0.24.7.31 -->
+		<!-- 阿里云盘 -->
+		<item component="ComponentInfo{com.alicloud.databox.launcher.splash.SplashActivity}" drawable="a__li__yun__pan"/>
+		<!-- 电子邮件 -->
+		<item component="ComponentInfo{com.android.email.activity.Welcome}" drawable="dian__zi__you__jian"/>
+		<!-- Moji问答 -->
+		<item component="ComponentInfo{com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
+		<!-- 珍新闻 -->
+		<item component="ComponentInfo{com.smartisan.reader.activities.MainActivity_}" drawable="zhen__xin__wen"/>
+		<!-- Smartisan Store -->
+		<item component="ComponentInfo{com.smartisan.smartisanstore.activities.MainActivity_}" drawable="smartisan_store"/>
+		<item component="ComponentInfo{com.smartisan.smartisanstore.activities.SplashActivity}" drawable="smartisan_store"/>
+		<!-- Market -->
+		<item component="ComponentInfo{com.smartisanos.appstore.AppStoreActivity}" drawable="market"/>
+		<item component="ComponentInfo{com.smartisanos.common.ui.SplashActivity}" drawable="market"/>
+		<!-- File Manager -->
+		<item component="ComponentInfo{com.smartisan.filemanager.MainActivity}" drawable="file_manager"/>
+		<!-- 游戏中心 -->
+		<item component="ComponentInfo{com.smartisanos.gamestore.GameStoreActivity}" drawable="you__xi__zhong__xin"/>
+		<!-- Music -->
+		<item component="ComponentInfo{com.smartisanos.music.activities.MusicMain}" drawable="music"/>
+		<!-- Weather -->
+		<item component="ComponentInfo{com.smartisanos.weather.CityWeather}" drawable="weather"/>
+		<!-- 有道云笔记 -->
+		<item component="ComponentInfo{com.youdao.note.activity2.NormalSplashActivity}" drawable="you__dao__yun__bi__ji"/>
+		<!-- Smartisan手机管理 -->
+		<item component="ComponentInfo{com.smartisanos.security.MainActivity}" drawable="smartisan_security"/>
+		<!-- Smartisan浏览器 -->
+		<item component="ComponentInfo{com.android.browser.BrowserActivity}" drawable="browser"/>
+		<!-- 通信行程卡 -->
+		<item component="ComponentInfo{com.caict.xingchengka.activity.Splash}" drawable="tong__xin__xing__cheng__ka"/>
+		<!--  MOJiKana  -->
+		<item component="ComponentInfo{com.mojidict.kana/com.mojidict.kana.ui.SplashActivity}" drawable="moji_kana"/>
+		<!--  MOJi问答  -->
+		<item component="ComponentInfo{com.mojidict.qa/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
