@@ -1874,7 +1874,6 @@
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64ae7e22645ed9821f.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/md5b85ab5ea2545156b0f09600c184a5178.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass_2_android" />
-
 		<!--  DuckDuckGo  -->
 		<item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="duckduckgo"/>
 		<!--  MissLee  -->
@@ -1978,8 +1977,6 @@
 		<item component="ComponentInfo{com.mojidict.kana/com.mojidict.kana.ui.SplashActivity}" drawable="moji_kana"/>
 		<!--  MOJi问答  -->
 		<item component="ComponentInfo{com.mojidict.qa/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
-
-		<!-- oblatum autoPack location -->
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
