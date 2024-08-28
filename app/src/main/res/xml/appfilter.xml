@@ -900,6 +900,7 @@
 		<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" />
 		<item component="ComponentInfo{com.google.android.GoogleCameraEng/com.android.camera.CameraLauncher}" drawable="google_camera"/>
 		<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="google" />
+		<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.launcher.RobinEntryPointActivity}" drawable="google"/>
 		<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="google_voice_search" />
 		<item component="ComponentInfo{com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity}" drawable="gboard" />
 		<item component="ComponentInfo{com.google.android.inputmethod.pinyin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity}" drawable="google_pinyin" />
@@ -1612,6 +1613,7 @@
 		<item component="ComponentInfo{com.ximalaya.ting.android/com.ximalaya.ting.android.host.activity.WelComeActivity}" drawable="ximalayafm" />
 		<item component="ComponentInfo{com.ximalaya.ting.android/com.ximalaya.ting.android.main.activity.account.WelComeActivity}" drawable="ximalayafm" />
 		<item component="ComponentInfo{com.xingin.xhs/com.xingin.xhs.activity.SplashActivity}" drawable="xiaohongshu"/>
+		<item component="ComponentInfo{com.xingin.xhs/com.xingin.xhs.index.v2.IndexActivityV2}" drawable="xiaohongshu"/>
 		<item component="ComponentInfo{com.xingyuyou.xingyuyou/com.xingyuyou.xingyuyou.SplashActivity}" drawable="ciyuanjn"/>
 		<item component="ComponentInfo{com.xinyue.gsmobilewxzt/com.xinyue.gsmobilewxzt.activitys.SplashActivity}" drawable="chinamobile" />
 		<item component="ComponentInfo{com.xtuone.android.syllabus/com.xtuone.android.friday.InitActivity}" drawable="super_class_schedule" />
