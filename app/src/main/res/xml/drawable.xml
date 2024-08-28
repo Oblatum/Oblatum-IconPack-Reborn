@@ -25,6 +25,7 @@
 		<item drawable="aria2app" />
 		<item drawable="dian__zi__you__jian" />
 		<item drawable="file_manager" />
+		<item drawable="gartic__io" />
 		<item drawable="hai__tun__you__sheng" />
 		<item drawable="market" />
 		<item drawable="mei__tuan__you__xuan" />
@@ -643,6 +644,7 @@
 		<item drawable="game_space" />
 		<item drawable="gameguardian" />
 		<item drawable="gaode_maps" />
+		<item drawable="gartic__io" />
 		<item drawable="gboard" />
 		<item drawable="geek360" />
 		<item drawable="gemini" />

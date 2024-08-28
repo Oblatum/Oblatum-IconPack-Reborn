@@ -1980,6 +1980,8 @@
 		<item component="ComponentInfo{com.gianlu.aria2app/com.gianlu.aria2app.LoadingActivity}" drawable="aria2app"/>
 		<!-- 腾讯课堂 -->
 		<item component="ComponentInfo{com.tencent.edu/com.tencent.edu.module.SplashActivity}" drawable="teng__xun__ke__tang" />
+		<!-- Gartic.io -->
+		<item component="ComponentInfo{com.gartic.Gartic/com.gartic.Gartic.MainActivity}" drawable="gartic__io" />
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
