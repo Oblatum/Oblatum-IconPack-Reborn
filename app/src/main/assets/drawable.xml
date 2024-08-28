@@ -22,17 +22,19 @@
 
 	<category title="New and Update" />
 		<!-- oblatum autoPack location start -->
+		<item drawable="aria2app" />
 		<item drawable="dian__zi__you__jian" />
 		<item drawable="file_manager" />
 		<item drawable="hai__tun__you__sheng" />
 		<item drawable="market" />
 		<item drawable="mei__tuan__you__xuan" />
-		<item drawable="moji_kana" />
 		<item drawable="moji__wen__da" />
+		<item drawable="moji_kana" />
 		<item drawable="music" />
 		<item drawable="qing__dao__yin__hang" />
 		<item drawable="smartisan_security" />
 		<item drawable="smartisan_store" />
+		<item drawable="teng__xun__ke__tang" />
 		<item drawable="tong__xin__xing__cheng__ka" />
 		<item drawable="weather" />
 		<item drawable="you__dao__yun__bi__ji" />
@@ -362,6 +364,7 @@
 		<item drawable="appopsx" />
 		<item drawable="aqjypt" />
 		<item drawable="arcaea" />
+		<item drawable="aria2app" />
 		<item drawable="aries_iconpack" />
 		<item drawable="aries_iconpack_lite" />
 		<item drawable="asphalt9" />
@@ -1270,7 +1273,6 @@
 		<item drawable="telegram_premium" />
 		<item drawable="telegram_x" />
 		<item drawable="telstra247" />
-		<item drawable="tencent_edu" />
 		<item drawable="tencent_filemanager" />
 		<item drawable="tencent_karaoke" />
 		<item drawable="tencent_maps" />
@@ -1278,6 +1280,7 @@
 		<item drawable="tencent_speedmobile" />
 		<item drawable="tencent_video" />
 		<item drawable="tencent_weread" />
+		<item drawable="teng__xun__ke__tang" />
 		<item drawable="termux" />
 		<item drawable="terrarium_tv" />
 		<item drawable="tesla_unread" />

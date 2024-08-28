@@ -1160,7 +1160,7 @@
 		<item component="ComponentInfo{com.nearme.browser/com.android.browser.BrowserActivity}" drawable="browser"/>
 		<item component="ComponentInfo{com.nearme.gamecenter/com.nearme.gamecenter.ui.activity.SplashActivity}" drawable="nearme_game_center"/>
 		<item component="ComponentInfo{com.netease.buff/com.netease.buff.entry.SplashActivity}" drawable="netease_buff"/>
-		<item component="ComponentInfo{com.netease.buff/com.netease.buff.entry.SplashActivity}" drawable="netease_buff"/>
+		<item component="ComponentInfo{com.netease.buff/com.netease.buff.entry.launcher.icon2}" drawable="netease_buff"/>
 		<item component="ComponentInfo{com.netease.cartoonreader/com.netease.cartoonreader.activity.ComicStartFlashActivity}" drawable="netease_cartoonreader" />
 		<item component="ComponentInfo{com.netease.cc/com.netease.cc.appstart.CCLauncher}" drawable="live_cc"/>
 		<item component="ComponentInfo{com.netease.cloudmusic/com.netease.cloudmusic.activity.LoadingActivity}" drawable="netease_cloudmusic" />
@@ -1839,7 +1839,6 @@
 		<item component="ComponentInfo{zmob.com.magnetman/zmob.com.magnetman.ui.main.MainActivity}" drawable="magnetman"/>
 		<item component="ComponentInfo{com.netease.vopen/com.netease.vopen.activity.WelcomeActivity}" drawable="class_163"/>
  		<item component="ComponentInfo{com.sony.songpal.mdr/com.sony.songpal.mdr.vim.activity.MdrMainActivity}" drawable="sony_headphones"/>
- 		<item component="ComponentInfo{com.tencent.edu/com.tencent.edu.module.SplashActivity}" drawable="tencent_edu" />
 		<item component="ComponentInfo{com.fenqile.fenqile/com.fenqile.ui.home.HomeActivity}" drawable="fenqile" />
 		<item component="ComponentInfo{com.chan.cwallpaper/com.chan.cwallpaper.module.launch.LaunchActivity}" drawable="turing_wallpaper" />
 		<item component="ComponentInfo{com.dreamon.bubblegum/com.dreamon.bubblegum.activities.SplashActivity}" drawable="bubblegum" />
@@ -1874,7 +1873,6 @@
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64ae7e22645ed9821f.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/md5b85ab5ea2545156b0f09600c184a5178.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass_2_android" />
-
 		<!--  DuckDuckGo  -->
 		<item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="duckduckgo"/>
 		<!--  MissLee  -->
@@ -1978,8 +1976,10 @@
 		<item component="ComponentInfo{com.mojidict.kana/com.mojidict.kana.ui.SplashActivity}" drawable="moji_kana"/>
 		<!--  MOJi问答  -->
 		<item component="ComponentInfo{com.mojidict.qa/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
-
-		<!-- oblatum autoPack location -->
+		<!-- Aria2App -->
+		<item component="ComponentInfo{com.gianlu.aria2app/com.gianlu.aria2app.LoadingActivity}" drawable="aria2app"/>
+		<!-- 腾讯课堂 -->
+		<item component="ComponentInfo{com.tencent.edu/com.tencent.edu.module.SplashActivity}" drawable="teng__xun__ke__tang" />
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
