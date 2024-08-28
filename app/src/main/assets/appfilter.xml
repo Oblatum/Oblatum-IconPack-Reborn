@@ -1984,6 +1984,8 @@
 		<item component="ComponentInfo{com.tencent.edu/com.tencent.edu.module.SplashActivity}" drawable="teng__xun__ke__tang" />
 		<!-- Gartic.io -->
 		<item component="ComponentInfo{com.gartic.Gartic/com.gartic.Gartic.MainActivity}" drawable="gartic__io" />
+		<!-- AntennaPod -->
+		<item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity}" drawable="antennapod" />
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />

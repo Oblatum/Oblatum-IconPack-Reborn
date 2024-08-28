@@ -22,6 +22,7 @@
 
 	<category title="New and Update" />
 		<!-- oblatum autoPack location start -->
+		<item drawable="antennapod" />
 		<item drawable="aria2app" />
 		<item drawable="dian__zi__you__jian" />
 		<item drawable="file_manager" />
@@ -351,6 +352,7 @@
 		<item drawable="android_pay" />
 		<item drawable="ankidroid" />
 		<item drawable="ansole" />
+		<item drawable="antennapod" />
 		<item drawable="antutu" />
 		<item drawable="anyview" />
 		<item drawable="apex" />
