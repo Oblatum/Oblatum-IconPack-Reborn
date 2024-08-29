@@ -1941,6 +1941,42 @@
 		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.activities.LaunchActivity}" drawable="app__fen__xiang"/>
 		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.launcher3}" drawable="app__fen__xiang"/>
 		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.launcher1}" drawable="app__fen__xiang"/>
+		<!--  MOJi辞書  -->
+		<item component="ComponentInfo{com.mojitec.mojidict/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji_dict"/>
+
+		<!-- AutoPack: add in v3.0.24.7.31 -->
+		<!-- 电子邮件 -->
+		<item component="ComponentInfo{com.smartisan.email/com.android.email.activity.Welcome}" drawable="dian__zi__you__jian"/>
+		<!-- Moji问答 -->
+		<item component="ComponentInfo{com.mojidict.qa/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
+		<!-- 珍新闻 -->
+		<item component="ComponentInfo{com.smartisan.reader/com.smartisan.reader.activities.MainActivity_}" drawable="zhen__xin__wen"/>
+		<!-- Smartisan Store -->
+		<item component="ComponentInfo{com.smartisan.smartisanstore/com.smartisan.smartisanstore.activities.MainActivity_}" drawable="smartisan_store"/>
+		<item component="ComponentInfo{com.smartisan.smartisanstore/com.smartisan.smartisanstore.activities.SplashActivity}" drawable="smartisan_store"/>
+		<!-- Market -->
+		<item component="ComponentInfo{com.smartisanos.appstore/com.smartisanos.appstore.AppStoreActivity}" drawable="market"/>
+		<item component="ComponentInfo{com.smartisanos.appstore/com.smartisanos.common.ui.SplashActivity}" drawable="market"/>
+		<!-- File Manager -->
+		<item component="ComponentInfo{com.smartisanos.filemanager/com.smartisan.filemanager.MainActivity}" drawable="file_manager"/>
+		<!-- 游戏中心 -->
+		<item component="ComponentInfo{com.smartisanos.gamestore/com.smartisanos.gamestore.GameStoreActivity}" drawable="you__xi__zhong__xin"/>
+		<!-- Music -->
+		<item component="ComponentInfo{com.smartisanos.music/com.smartisanos.music.activities.MusicMain}" drawable="music"/>
+		<!-- Weather -->
+		<item component="ComponentInfo{com.smartisanos.weather/com.smartisanos.weather.CityWeather}" drawable="weather"/>
+		<!-- 有道云笔记 -->
+		<item component="ComponentInfo{com.youdao.note/com.youdao.note.activity2.NormalSplashActivity}" drawable="you__dao__yun__bi__ji"/>
+		<!-- Smartisan手机管理 -->
+		<item component="ComponentInfo{com.smartisanos.security/com.smartisanos.security.MainActivity}" drawable="smartisan_security"/>
+		<!-- Smartisan浏览器 -->
+		<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="browser"/>
+		<!-- 通信行程卡 -->
+		<item component="ComponentInfo{com.caict.xingchengka/com.caict.xingchengka.activity.Splash}" drawable="tong__xin__xing__cheng__ka"/>
+		<!--  MOJiKana  -->
+		<item component="ComponentInfo{com.mojidict.kana/com.mojidict.kana.ui.SplashActivity}" drawable="moji_kana"/>
+		<!--  MOJi问答  -->
+		<item component="ComponentInfo{com.mojidict.qa/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
 
 		<!-- AutoPack: add in v3.0.24.8.29 -->
 		<!-- 阿里云盘 -->
