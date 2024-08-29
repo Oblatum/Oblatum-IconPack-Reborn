@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <version title="v3.0.24.7.31" />
+    <version title="v3.0.24.8.29" />
     	<!-- oblatum autoPack location start -->
-		<item text="适配和更新：阿里云盘、电子邮件、海豚有声、Moji辞书、青岛银行、美团优选、珍新闻、Smartisan Store、Market、File Manager、游戏中心、Music、Weather、有道云笔记、Smartisan手机管理、通信行程卡、mojikana、moji问答" />
-
+		<item text="适配和更新：阿里云盘、迷你键盘" />
+		<item text="修复：appfilter未带包名" />
 		<!-- oblatum autoPack location end -->
         <item text="" /> <!-- this one is empty and therefore ignored -->
 </resources>

@@ -22,23 +22,8 @@
 
 	<category title="New and Update" />
 		<!-- oblatum autoPack location start -->
-		<item drawable="dian__zi__you__jian" />
-		<item drawable="file_manager" />
-		<item drawable="hai__tun__you__sheng" />
-		<item drawable="market" />
-		<item drawable="mei__tuan__you__xuan" />
-		<item drawable="moji_kana" />
-		<item drawable="moji__wen__da" />
-		<item drawable="music" />
-		<item drawable="qing__dao__yin__hang" />
-		<item drawable="smartisan_security" />
-		<item drawable="smartisan_store" />
-		<item drawable="tong__xin__xing__cheng__ka" />
-		<item drawable="weather" />
-		<item drawable="you__dao__yun__bi__ji" />
-		<item drawable="you__xi__zhong__xin" />
-		<item drawable="zhen__xin__wen" />
-
+		<item drawable="a__li__yun__pan" />
+		<item drawable="mi__ni__jian__pan" />
 		<!-- oblatum autoPack location end -->
 
 	<category title="Folders and Widgets" />
@@ -302,6 +287,7 @@
 		<item drawable="a_1password_compressed" />
 		<item drawable="a_50yin" />
 		<item drawable="a_95fen" />
+		<item drawable="a__li__yun__pan" />
 		<item drawable="a_island" />
 		<item drawable="abbey" />
 		<item drawable="abc" />
@@ -608,7 +594,7 @@
 		<item drawable="feizhu" />
 		<item drawable="fenqile" />
 		<item drawable="file_explorer" />
-		<item drawable="file_manager" />
+		<item drawable="files_go" />
 		<item drawable="files" />
 		<item drawable="files_go" />
 		<item drawable="firefox" />
@@ -700,7 +686,7 @@
 		<item drawable="gxicon" />
 		<item drawable="h_viewer" />
 		<item drawable="habits" />
-		<item drawable="hai__tun__you__sheng" />
+		<item drawable="xun__fei__you__sheng" />
 		<item drawable="hangouts" />
 		<item drawable="hanju_tv" />
 		<item drawable="hanks_notes" />
@@ -850,6 +836,7 @@
 		<item drawable="message_1" />
 		<item drawable="messenger_lite" />
 		<item drawable="metro" />
+		<item drawable="mi__ni__jian__pan" />
 		<item drawable="mi_control_center" />
 		<item drawable="mi_home" />
 		<item drawable="mi_router" />

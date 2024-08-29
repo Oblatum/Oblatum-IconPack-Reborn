@@ -39,7 +39,7 @@ import requests
 # 使用api，通过包名查询应用信息
 def get_app_info(package_name):
     # 使用包名查询应用信息
-    url = "https://apptracker-dev.cn2.tiers.top/api/appinfo?per=2147483647&page=1&regex=^"+package_name+"$"
+    url = "https://apptracker-api.cn2.tiers.top/api/appInfo?per=2147483647&page=1&regex=^"+package_name+"$"
     # 发送请求
     response = requests.get(url)
     # json格式数据
@@ -84,7 +84,7 @@ def produce_xml_and_txt(app_info,first_appName,first_appName_pinyin):
     packageName = app_info.get('packageName')
     # 检测appfilter.xml、drawable.xml、和changelog.txt文件是否存在，不存在则创建,存在就追加
     with open(appfilterPath, 'a', encoding='utf-8') as f:
-        f.write('''<item component="ComponentInfo{'''+activityName+'''}" drawable="'''+appName_pinyin+'''"/>\n''')
+        f.write('''<item component="ComponentInfo{'''+packageName+'/'+activityName+'''}" drawable="'''+appName_pinyin+'''"/>\n''')
     return appName,appName_pinyin
     
 

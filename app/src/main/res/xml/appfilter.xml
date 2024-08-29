@@ -1874,6 +1874,7 @@
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64ae7e22645ed9821f.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/md5b85ab5ea2545156b0f09600c184a5178.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass_2_android" />
+
 		<!--  DuckDuckGo  -->
 		<item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="duckduckgo"/>
 		<!--  MissLee  -->
@@ -1891,92 +1892,105 @@
 		<!--  浦大喜奔  -->
 		<item component="ComponentInfo{com.spdbccc.app/com.spdbccc.app.sp.splash.activity.SplashActivity}" drawable="pu_da_xi_beng"/>
 		<!--  139邮箱  -->
-		<item component="ComponentInfo{com.mail139.about.LaunchActivity}" drawable="a_139__you__xiang"/>
+		<item component="ComponentInfo{cn.cj.pe/com.mail139.about.LaunchActivity}" drawable="a_139__you__xiang"/>
 		<!--  Brave浏览器  -->
-		<item component="ComponentInfo{com.google.android.apps.chrome.Main}" drawable="brave__liu__lan__qi"/>
+		<item component="ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}" drawable="brave__liu__lan__qi"/>
 		<!--  兴业银行  -->
-		<item component="ComponentInfo{com.cib.cibmb.LPSplashScreen}" drawable="xing__ye__yin__hang"/>
-		<item component="ComponentInfo{com.newland.app.ui.firstpage.FirstPageActivity}" drawable="xing__ye__yin__hang"/>
+		<item component="ComponentInfo{com.cib.cibmb/com.cib.cibmb.LPSplashScreen}" drawable="xing__ye__yin__hang"/>
+		<item component="ComponentInfo{com.cib.cibmb/com.newland.app.ui.firstpage.FirstPageActivity}" drawable="xing__ye__yin__hang"/>
 		<!--  阳光惠生活  -->
-		<item component="ComponentInfo{com.ebank.creditcard.loadingpage.activity.NewLoadingActivity}" drawable="yang__guang__hui__sheng__huo"/>
-		<item component="ComponentInfo{com.ebank.creditcard.MainActivity}" drawable="yang__guang__hui__sheng__huo"/>
+		<item component="ComponentInfo{com.ebank.creditcard/com.ebank.creditcard.loadingpage.activity.NewLoadingActivity}" drawable="yang__guang__hui__sheng__huo"/>
+		<item component="ComponentInfo{com.ebank.creditcard/com.ebank.creditcard.MainActivity}" drawable="yang__guang__hui__sheng__huo"/>
 		<!--  魅族商城  -->
-		<item component="ComponentInfo{com.meizu.store.newhome.NewHomeActivity}" drawable="mei__zu__shang__cheng"/>
-		<item component="ComponentInfo{com.meizu.store.screen.main.Main2Activity}" drawable="mei__zu__shang__cheng"/>
-		<item component="ComponentInfo{com.meizu.store.home.HomeActivity}" drawable="mei__zu__shang__cheng"/>
+		<item component="ComponentInfo{com.flyme.meizu.store/com.meizu.store.newhome.NewHomeActivity}" drawable="mei__zu__shang__cheng"/>
+		<item component="ComponentInfo{com.flyme.meizu.store/com.meizu.store.screen.main.Main2Activity}" drawable="mei__zu__shang__cheng"/>
+		<item component="ComponentInfo{com.flyme.meizu.store/com.meizu.store.home.HomeActivity}" drawable="mei__zu__shang__cheng"/>
 		<!--  海豚有声  -->
-		<item component="ComponentInfo{com.iflytek.readassistant.ui.JumpActivity}" drawable="hai__tun__you__sheng"/>
-		<item component="ComponentInfo{com.iflytek.readassistant.biz.home.JumpActivity}" drawable="hai__tun__you__sheng"/>
+		<item component="ComponentInfo{com.iflytek.readassistant/com.iflytek.readassistant.ui.JumpActivity}" drawable="xun__fei__you__sheng"/>
+		<item component="ComponentInfo{com.iflytek.readassistant/com.iflytek.readassistant.biz.home.JumpActivity}" drawable="xun__fei__you__sheng"/>
 		<!--  京东小家  -->
-		<item component="ComponentInfo{com.jd.smart.activity.LoadingActivity}" drawable="jing__dong__xiao__jia"/>
+		<item component="ComponentInfo{com.jd.iots/com.jd.smart.activity.LoadingActivity}" drawable="jing__dong__xiao__jia"/>
 		<!--  Kiwi Browser  -->
-		<item component="ComponentInfo{com.google.android.apps.chrome.Main}" drawable="kiwi_browser"/>
+		<item component="ComponentInfo{com.kiwibrowser.browser/com.google.android.apps.chrome.Main}" drawable="kiwi_browser"/>
 		<!--  应用中心  -->
-		<item component="ComponentInfo{com.lenovo.leos.appstore.activities.Main}" drawable="ying__yong__zhong__xin"/>
+		<item component="ComponentInfo{com.lenovo.leos.appstore/com.lenovo.leos.appstore.activities.Main}" drawable="ying__yong__zhong__xin"/>
 		<!--  123云盘  -->
-		<item component="ComponentInfo{com.mfcloudcalculate.networkdisk.MainActivity}" drawable="a_123__yun__pan"/>
+		<item component="ComponentInfo{com.mfcloudcalculate.networkdisk/com.mfcloudcalculate.networkdisk.MainActivity}" drawable="a_123__yun__pan"/>
 		<!--  Soul  -->
-		<item component="ComponentInfo{com.mycompany.app.web.WebViewActivity}" drawable="soul"/>
+		<item component="ComponentInfo{cn.soulapp.android/com.mycompany.app.web.WebViewActivity}" drawable="soul"/>
 		<!--  手机性能排行  -->
-		<item component="ComponentInfo{com.nasoft.socmark.ui.MainActivity}" drawable="shou__ji__xing__neng__pai__hang"/>
+		<item component="ComponentInfo{com.nasoft.socmark/com.nasoft.socmark.ui.MainActivity}" drawable="shou__ji__xing__neng__pai__hang"/>
 		<!--  青岛银行 -->
-		<item component="ComponentInfo{com.alipay.mobile.quinox.LauncherActivity}" drawable="qing__dao__yin__hang"/>
+		<item component="ComponentInfo{com.qdccb.bank/com.alipay.mobile.quinox.LauncherActivity}" drawable="qing__dao__yin__hang"/>
 		<!--  美团优选  -->
-		<item component="ComponentInfo{com.sankuai.youxuan.TransferActivity}" drawable="mei__tuan__you__xuan"/>
-		<item component="ComponentInfo{com.sankuai.youxuan.MainMPActivity}" drawable="mei__tuan__you__xuan"/>
-		<item component="ComponentInfo{com.sankuai.youxuan.splash.SplashActivity}" drawable="mei__tuan__you__xuan"/>
+		<item component="ComponentInfo{com.sankuai.youxuan/com.sankuai.youxuan.TransferActivity}" drawable="mei__tuan__you__xuan"/>
+		<item component="ComponentInfo{com.sankuai.youxuan/com.sankuai.youxuan.MainMPActivity}" drawable="mei__tuan__you__xuan"/>
+		<item component="ComponentInfo{com.sankuai.youxuan/com.sankuai.youxuan.splash.SplashActivity}" drawable="mei__tuan__you__xuan"/>
 		<!--  QINGDAO METRO  -->
-		<item component="ComponentInfo{com.sdjictec.qdmetro.module.login.StartActivity}" drawable="qingdao_metro"/>
-		<item component="ComponentInfo{com.sdjictec.qdmetro.module.start.StartActivity}" drawable="qingdao_metro"/>
-		<item component="ComponentInfo{com.sdjictec.qdmetro.view.activity.SplashActivity}" drawable="qingdao_metro"/>
+		<item component="ComponentInfo{com.sdjictec.qdmetro/com.sdjictec.qdmetro.module.login.StartActivity}" drawable="qingdao_metro"/>
+		<item component="ComponentInfo{com.sdjictec.qdmetro/com.sdjictec.qdmetro.module.start.StartActivity}" drawable="qingdao_metro"/>
+		<item component="ComponentInfo{com.sdjictec.qdmetro/com.sdjictec.qdmetro.view.activity.SplashActivity}" drawable="qingdao_metro"/>
 		<!--  UC Turbo  -->
-		<item component="ComponentInfo{com.ucturbo.MainActivity}" drawable="uc_turbo"/>
-		<item component="ComponentInfo{com.ucturbo.MainActivityNew}" drawable="uc_turbo"/>
+		<item component="ComponentInfo{com.ucturbo/com.ucturbo.MainActivity}" drawable="uc_turbo"/>
+		<item component="ComponentInfo{com.ucturbo/com.ucturbo.MainActivityNew}" drawable="uc_turbo"/>
 		<!--  我的青岛  -->
-		<item component="ComponentInfo{com.umpay.qingdaonfc.ui.activity.SplashActivity}" drawable="wo__de__qing__dao"/>
+		<item component="ComponentInfo{com.umpay.qingdaonfc/com.umpay.qingdaonfc.ui.activity.SplashActivity}" drawable="wo__de__qing__dao"/>
 		<!-- App分享 -->
-		<item component="ComponentInfo{info.muge.appshare.view.launch.LaunchActivity}" drawable="app__fen__xiang"/>
-		<item component="ComponentInfo{info.muge.appshare.launcher0}" drawable="app__fen__xiang"/>
-		<item component="ComponentInfo{info.muge.appshare.activities.LaunchActivity}" drawable="app__fen__xiang"/>
-		<item component="ComponentInfo{info.muge.appshare.launcher3}" drawable="app__fen__xiang"/>
-		<item component="ComponentInfo{info.muge.appshare.launcher1}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.view.launch.LaunchActivity}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.launcher0}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.activities.LaunchActivity}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.launcher3}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.launcher1}" drawable="app__fen__xiang"/>
 		<!--  MOJi辞書  -->
 		<item component="ComponentInfo{com.mojitec.mojidict/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji_dict"/>
+
 		<!-- AutoPack: add in v3.0.24.7.31 -->
-		<!-- 阿里云盘 -->
-		<item component="ComponentInfo{com.alicloud.databox.launcher.splash.SplashActivity}" drawable="a__li__yun__pan"/>
 		<!-- 电子邮件 -->
-		<item component="ComponentInfo{com.android.email.activity.Welcome}" drawable="dian__zi__you__jian"/>
+		<item component="ComponentInfo{com.smartisan.email/com.android.email.activity.Welcome}" drawable="dian__zi__you__jian"/>
 		<!-- Moji问答 -->
-		<item component="ComponentInfo{com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
+		<item component="ComponentInfo{com.mojidict.qa/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
 		<!-- 珍新闻 -->
-		<item component="ComponentInfo{com.smartisan.reader.activities.MainActivity_}" drawable="zhen__xin__wen"/>
+		<item component="ComponentInfo{com.smartisan.reader/com.smartisan.reader.activities.MainActivity_}" drawable="zhen__xin__wen"/>
 		<!-- Smartisan Store -->
-		<item component="ComponentInfo{com.smartisan.smartisanstore.activities.MainActivity_}" drawable="smartisan_store"/>
-		<item component="ComponentInfo{com.smartisan.smartisanstore.activities.SplashActivity}" drawable="smartisan_store"/>
+		<item component="ComponentInfo{com.smartisan.smartisanstore/com.smartisan.smartisanstore.activities.MainActivity_}" drawable="smartisan_store"/>
+		<item component="ComponentInfo{com.smartisan.smartisanstore/com.smartisan.smartisanstore.activities.SplashActivity}" drawable="smartisan_store"/>
 		<!-- Market -->
-		<item component="ComponentInfo{com.smartisanos.appstore.AppStoreActivity}" drawable="market"/>
-		<item component="ComponentInfo{com.smartisanos.common.ui.SplashActivity}" drawable="market"/>
+		<item component="ComponentInfo{com.smartisanos.appstore/com.smartisanos.appstore.AppStoreActivity}" drawable="market"/>
+		<item component="ComponentInfo{com.smartisanos.appstore/com.smartisanos.common.ui.SplashActivity}" drawable="market"/>
 		<!-- File Manager -->
-		<item component="ComponentInfo{com.smartisan.filemanager.MainActivity}" drawable="file_manager"/>
+		<item component="ComponentInfo{com.smartisanos.filemanager/com.smartisan.filemanager.MainActivity}" drawable="file_manager"/>
 		<!-- 游戏中心 -->
-		<item component="ComponentInfo{com.smartisanos.gamestore.GameStoreActivity}" drawable="you__xi__zhong__xin"/>
+		<item component="ComponentInfo{com.smartisanos.gamestore/com.smartisanos.gamestore.GameStoreActivity}" drawable="you__xi__zhong__xin"/>
 		<!-- Music -->
-		<item component="ComponentInfo{com.smartisanos.music.activities.MusicMain}" drawable="music"/>
+		<item component="ComponentInfo{com.smartisanos.music/com.smartisanos.music.activities.MusicMain}" drawable="music"/>
 		<!-- Weather -->
-		<item component="ComponentInfo{com.smartisanos.weather.CityWeather}" drawable="weather"/>
+		<item component="ComponentInfo{com.smartisanos.weather/com.smartisanos.weather.CityWeather}" drawable="weather"/>
 		<!-- 有道云笔记 -->
-		<item component="ComponentInfo{com.youdao.note.activity2.NormalSplashActivity}" drawable="you__dao__yun__bi__ji"/>
+		<item component="ComponentInfo{com.youdao.note/com.youdao.note.activity2.NormalSplashActivity}" drawable="you__dao__yun__bi__ji"/>
 		<!-- Smartisan手机管理 -->
-		<item component="ComponentInfo{com.smartisanos.security.MainActivity}" drawable="smartisan_security"/>
+		<item component="ComponentInfo{com.smartisanos.security/com.smartisanos.security.MainActivity}" drawable="smartisan_security"/>
 		<!-- Smartisan浏览器 -->
-		<item component="ComponentInfo{com.android.browser.BrowserActivity}" drawable="browser"/>
+		<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="browser"/>
 		<!-- 通信行程卡 -->
-		<item component="ComponentInfo{com.caict.xingchengka.activity.Splash}" drawable="tong__xin__xing__cheng__ka"/>
+		<item component="ComponentInfo{com.caict.xingchengka/com.caict.xingchengka.activity.Splash}" drawable="tong__xin__xing__cheng__ka"/>
 		<!--  MOJiKana  -->
 		<item component="ComponentInfo{com.mojidict.kana/com.mojidict.kana.ui.SplashActivity}" drawable="moji_kana"/>
 		<!--  MOJi问答  -->
 		<item component="ComponentInfo{com.mojidict.qa/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji__wen__da"/>
+
+		<!-- AutoPack: add in v3.0.24.8.29 -->
+		<!-- 阿里云盘 -->
+		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.biz.splash.SplashActivity}" drawable="a__li__yun__pan"/>
+		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.launcher.splash.SplashActivity}" drawable="a__li__yun__pan"/>
+		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.biz.login.LoginActivity}" drawable="a__li__yun__pan"/>
+		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.MainActivity}" drawable="a__li__yun__pan"/>
+		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.launcher.splash.SplashIcon1Activity}" drawable="a__li__yun__pan"/>
+		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.launcher.splash.SplashIcon4Activity}" drawable="a__li__yun__pan"/>
+		<!-- 迷你键盘 -->
+		<item component="ComponentInfo{me.weishu.minime/com.android.inputmethod.pinyin.SettingsActivity}" drawable="mi__ni__jian__pan"/>
+
+		<!-- oblatum autoPack location -->
+
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />

@@ -26,6 +26,7 @@ local.properties
 .settings/
 .loadpath
 utils/*put
+utils/temp
 
 # External tool builders
 .externalToolBuilders/
