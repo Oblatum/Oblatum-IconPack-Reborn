@@ -21,9 +21,11 @@
 	<version>1</version>
 
 	<category title="New and Update" />
+	
 		<!-- oblatum autoPack location start -->
 		<item drawable="a__li__yun__pan" />
 		<item drawable="mi__ni__jian__pan" />
+		
 		<!-- oblatum autoPack location end -->
 
 	<category title="Folders and Widgets" />
@@ -504,6 +506,7 @@
 		<item drawable="daydream" />
 		<item drawable="delve" />
 		<item drawable="devcheck" />
+		<item drawable="dian__zi__you__jian" />
 		<item drawable="dianbiao" />
 		<item drawable="dianping" />
 		<item drawable="dida_music" />
@@ -592,6 +595,7 @@
 		<item drawable="feizhu" />
 		<item drawable="fenqile" />
 		<item drawable="file_explorer" />
+		<item drawable="files_go" />
 		<item drawable="files" />
 		<item drawable="files_go" />
 		<item drawable="firefox" />
@@ -820,6 +824,7 @@
 		<item drawable="maoyan" />
 		<item drawable="maoyan_pro" />
 		<item drawable="mark_qrcode" />
+		<item drawable="market" />
 		<item drawable="mcdonalds" />
 		<item drawable="meetyou" />
 		<item drawable="meeye" />
@@ -883,7 +888,10 @@
 		<item drawable="mobilism" />
 		<item drawable="mobvoi" />
 		<item drawable="modian" />
+		<item drawable="moji__ci__shu" />
+		<item drawable="moji__wen__da" />
 		<item drawable="moji_dict" />
+		<item drawable="moji_kana" />
 		<item drawable="moji_read" />
 		<item drawable="moji_test" />
 		<item drawable="mokee_aegis" />
@@ -1168,6 +1176,7 @@
 		<item drawable="smartisan_notes" />
 		<item drawable="smartisan_onestep" />
 		<item drawable="smartisan_security" />
+		<item drawable="smartisan_store" />
 		<item drawable="smartisanos_mover" />
 		<item drawable="smzdm" />
 		<item drawable="snailread" />
@@ -1275,6 +1284,7 @@
 		<item drawable="today_s_headline" />
 		<item drawable="todesk" />
 		<item drawable="todolist" />
+		<item drawable="tong__xin__xing__cheng__ka" />
 		<item drawable="torrse" />
 		<item drawable="total_launcher" />
 		<item drawable="touchpal" />
@@ -1406,6 +1416,8 @@
 		<item drawable="yizhifu" />
 		<item drawable="ykjl" />
 		<item drawable="yogurt_iconpack" />
+		<item drawable="you__dao__yun__bi__ji" />
+		<item drawable="you__xi__zhong__xin" />
 		<item drawable="youdao_dict" />
 		<item drawable="youdao_net_note" />
 		<item drawable="youku" />
@@ -1421,6 +1433,7 @@
 		<item drawable="zenge" />
 		<item drawable="zenly" />
 		<item drawable="zero_vpn" />
+		<item drawable="zhen__xin__wen" />
 		<item drawable="zhifou" />
 		<item drawable="zhihu" />
 		<item drawable="zhihu_daily" />

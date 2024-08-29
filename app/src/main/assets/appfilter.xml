@@ -1875,7 +1875,6 @@
 		<item component="ComponentInfo{keepass2android.keepass2android/md5b85ab5ea2545156b0f09600c184a5178.KeePass}" drawable="keepass_2_android" />
 		<item component="ComponentInfo{keepass2android.keepass2android/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass_2_android" />
 
-
 		<!--  DuckDuckGo  -->
 		<item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="duckduckgo"/>
 		<!--  MissLee  -->
@@ -1888,8 +1887,6 @@
 		<item component="ComponentInfo{com.yunlian.meditationmode/com.yunlian.meditationmode.act.MainActD}" drawable="chanding_kongjian"/>
 		<!--  MOJiTest  -->
 		<item component="ComponentInfo{com.mojitec.mojitest/com.mojitec.mojitest.home.SplashActivity}" drawable="moji_test"/>
-		<!--  MOJi辞書  -->
-		<item component="ComponentInfo{com.mojitec.mojidict/com.mojitec.mojidict.ui.SplashActivity}" drawable="moji_dict"/>
 		<!--  MOJi阅读  -->
 		<item component="ComponentInfo{com.mojidict.read/com.mojidict.read.ui.SplashActivity}" drawable="moji_read"/>
 		<!--  浦大喜奔  -->
@@ -1939,24 +1936,12 @@
 		<!--  我的青岛  -->
 		<item component="ComponentInfo{com.umpay.qingdaonfc/com.umpay.qingdaonfc.ui.activity.SplashActivity}" drawable="wo__de__qing__dao"/>
 		<!-- App分享 -->
-		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.view.launch.LaunchActivity}" drawable="app__fen__xiang"/>
-		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.launcher0}" drawable="app__fen__xiang"/>
-		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.activities.LaunchActivity}" drawable="app__fen__xiang"/>
-		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.launcher3}" drawable="app__fen__xiang"/>
-		<item component="ComponentInfo{info.muge.appshare/info.muge.appshare.launcher1}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.view.launch.LaunchActivity}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.launcher0}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.activities.LaunchActivity}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.launcher3}" drawable="app__fen__xiang"/>
+		<item component="ComponentInfo{info.muge.appshare.launcher1}" drawable="app__fen__xiang"/>
 
-		<!-- AutoPack: add in v3.0.24.8.29 -->
-		<!-- 阿里云盘 -->
-		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.biz.splash.SplashActivity}" drawable="a__li__yun__pan"/>
-		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.launcher.splash.SplashActivity}" drawable="a__li__yun__pan"/>
-		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.biz.login.LoginActivity}" drawable="a__li__yun__pan"/>
-		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.MainActivity}" drawable="a__li__yun__pan"/>
-		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.launcher.splash.SplashIcon1Activity}" drawable="a__li__yun__pan"/>
-		<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.launcher.splash.SplashIcon4Activity}" drawable="a__li__yun__pan"/>
-		<!-- 迷你键盘 -->
-		<item component="ComponentInfo{me.weishu.minime/com.android.inputmethod.pinyin.SettingsActivity}" drawable="mi__ni__jian__pan"/>
-
-		<!-- oblatum autoPack location -->
 
 		<item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
 		<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
