@@ -12,7 +12,7 @@ changelog_path = os.path.join(os.getcwd(), os.path.dirname('app/src/main/res/xml
 myapp_file_path = os.path.join(os.getcwd(), 'buildSrc\src\main\java\MyApp.kt')
 
 if not os.path.exists(appfilter_path):
-    print("没有找到 appfilter.xml，请确认当前工作目录为图标包根目录，其中应该包含 gradle, app 文件夹。")
+    print("err：没有找到 appfilter.xml，请确认当前工作目录为图标包根目录，其中应该包含 gradle, app 文件夹。")
     exit()
 
 def get_file(path):
@@ -48,7 +48,7 @@ def autoPackAppfilter():
     appfilter = get_file(appfilter_path)
     # 在 appfilter.xml 中查找single_mark的位置
     if single_mark not in appfilter:
-        print("appfilter.xml 中没有找到标记，请确认是否已经添加标记。")
+        print("err：appfilter.xml 中没有找到标记，请确认是否已经添加标记。")
         exit()
     # 读取output下的appfilter.xml文件
     output_appfilter_path = os.path.join(os.getcwd(), 'utils\output', 'appfilter.xml')
@@ -65,7 +65,7 @@ def autoPackDrawable():
     drawable = get_file(drawable_path)
     # 在 drawable.xml 中查找double_mark_start和double_mark_end的位置，在其间添加<test />
     if double_mark_start not in drawable or double_mark_end not in drawable:
-        print("drawable.xml 中没有找到标记，请确认是否已经添加标记。")
+        print("err：drawable.xml 中没有找到标记，请确认是否已经添加标记。")
         exit()
     # 读取output下的drawable.xml文件
     output_drawable_path = os.path.join(os.getcwd(), 'utils\output', 'drawable.xml')
@@ -93,7 +93,7 @@ def autoPackChangelog():
     changelog = get_file(changelog_path)
     # 在 changelog.xml 中查找double_mark_start和double_mark_end的位置，在其间添加<test />
     if double_mark_start not in changelog or double_mark_end not in changelog:
-        print("changelog.xml 中没有找到标记，请确认是否已经添加标记。")
+        print("err：changelog.xml 中没有找到标记，请确认是否已经添加标记。")
         exit()
     # 读取output下的changelog.xml文件
     output_changelog_path = os.path.join(os.getcwd(), 'utils\output', 'changelog.txt')
@@ -144,3 +144,4 @@ autoPackAppfilter()
 autoPackDrawable()
 autoPackChangelog()
 autoPackIcons()
+print("\033[92m自动打包完成。\033[0m")
