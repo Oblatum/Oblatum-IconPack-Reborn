@@ -25,7 +25,7 @@ bin/
 local.properties
 .settings/
 .loadpath
-utils/*put
+utils/output
 utils/temp
 
 # External tool builders
