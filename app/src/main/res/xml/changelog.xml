@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <version title="v3.0.24.6.5_FIX" />
+    <version title="v3.0.24.8.29" />
     	<!-- oblatum autoPack location start -->
-        <item text="3.0版本更新，内部规范优化" />
-        <item text="更新或新增适配：Brave浏览器、兴业银行、阳光惠生活、魅族商城、海豚有声、京东小家、Kiwi Browser、应用中心、123云盘、Soul、手机性能排行、青岛银行、美团优选、QINGDAO METRO、UC Turbo、我的青岛、App分享" />
-        <item text="官网oblatum.art" />
-        <!-- <item text="图标定制现已开放" /> -->
-        <!-- oblatum autoPack location end -->
+		<item text="适配和更新：阿里云盘、迷你键盘" />
+		<item text="修复：appfilter未带包名" />
+		<!-- oblatum autoPack location end -->
         <item text="" /> <!-- this one is empty and therefore ignored -->
 </resources>
