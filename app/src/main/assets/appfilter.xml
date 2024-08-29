@@ -1906,8 +1906,8 @@
 		<item component="ComponentInfo{com.flyme.meizu.store/com.meizu.store.screen.main.Main2Activity}" drawable="mei__zu__shang__cheng"/>
 		<item component="ComponentInfo{com.flyme.meizu.store/com.meizu.store.home.HomeActivity}" drawable="mei__zu__shang__cheng"/>
 		<!--  海豚有声  -->
-		<item component="ComponentInfo{com.iflytek.readassistant/com.iflytek.readassistant.ui.JumpActivity}" drawable="hai__tun__you__sheng"/>
-		<item component="ComponentInfo{com.iflytek.readassistant/com.iflytek.readassistant.biz.home.JumpActivity}" drawable="hai__tun__you__sheng"/>
+		<item component="ComponentInfo{com.iflytek.readassistant/com.iflytek.readassistant.ui.JumpActivity}" drawable="xun__fei__you__sheng"/>
+		<item component="ComponentInfo{com.iflytek.readassistant/com.iflytek.readassistant.biz.home.JumpActivity}" drawable="xun__fei__you__sheng"/>
 		<!--  京东小家  -->
 		<item component="ComponentInfo{com.jd.iots/com.jd.smart.activity.LoadingActivity}" drawable="jing__dong__xiao__jia"/>
 		<!--  Kiwi Browser  -->
