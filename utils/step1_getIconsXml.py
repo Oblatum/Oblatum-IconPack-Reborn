@@ -93,6 +93,9 @@ def index():
     global AppNameList, AppNamePinyinList  # 声明全局变量
     clear_file()
     files = get_file_list(path)
+    if len(files) == 0:
+        print('err：未在utils/input文件夹下找到图标文件！')
+        return
     for file in files:
         app_infoes = get_app_info(file)
         appName,appName_pinyin='',''
@@ -116,4 +119,6 @@ def index():
                 f.write('适配和更新：'+'、'.join(AppNameList))
             with open(drawablePath, 'a', encoding='utf-8') as f:
                 f.write('''<item drawable="'''+AppNamePinyinList[i]+'''" />\n''')
+
+    print('appfilter.xml、drawable.xml、changelog.txt文件已生成')
 index()
