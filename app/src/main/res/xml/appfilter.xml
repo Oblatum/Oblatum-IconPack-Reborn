@@ -1989,6 +1989,31 @@
 		<!-- 迷你键盘 -->
 		<item component="ComponentInfo{me.weishu.minime/com.android.inputmethod.pinyin.SettingsActivity}" drawable="mi__ni__jian__pan"/>
 
+		<!-- AutoPack: add in v3.0.24.9.16 -->
+		<!-- 京东快递 -->
+		<item component="ComponentInfo{com.jd.jdlogistic/com.jd.jdlogistic.flutter.HomeActivity}" drawable="jing__dong__kuai__di"/>
+		<!-- 123云盘 -->
+		<item component="ComponentInfo{com.mfcloudcalculate.networkdisk/com.mfcloudcalculate.networkdisk.MainActivity}" drawable="a_123__yun__pan"/>
+		<item component="ComponentInfo{com.mfcloudcalculate.networkdisk/com.mfcloudcalculate.networkdisk.activity.LauncherActivity}" drawable="a_123__yun__pan"/>
+		<item component="ComponentInfo{com.mfcloudcalculate.networkdisk/com.mfcloudcalculate.networkdisk.activity.SplashActivity}" drawable="a_123__yun__pan"/>
+		<!-- 掌上出行 -->
+		<item component="ComponentInfo{com.mygolbs.mybus/com.mygolbs.mybus.LoginActivity}" drawable="zhang__shang__chu__xing"/>
+		<!-- 叮咚FM电台 -->
+		<item component="ComponentInfo{com.pansoft.dingdongfm3/com.jnbt.ddfm.activities.WelcomeActivity}" drawable="ding__dong__fm__dian__tai"/>
+		<!-- smartisan_屏幕录像 -->
+		<item component="ComponentInfo{com.smartisanos.screenrecorder/com.smartisanos.screenrecorder.EmptyActivity}" drawable="smartisan___ping__mu__lu__xiang"/>
+		<!-- 交通卡 -->
+		<item component="ComponentInfo{com.smartisanos.wallet/com.smartisanos.wallet.WalletMainActivity}" drawable="jiao__tong__ka"/>
+		<!-- ZUI_文件管理 -->
+		<item component="ComponentInfo{com.zui.filemanager/com.zui.filemanager.MainActivity}" drawable="zui___wen__jian__guan__li"/>
+		<item component="ComponentInfo{com.zui.filemanager/com.zui.filemanager.SplashActivity}" drawable="zui___wen__jian__guan__li"/>
+		<!-- Dolphin -->
+		<item component="ComponentInfo{mobi.mgeek.TunnyBrowser/mobi.mgeek.TunnyBrowser.SplashActivity}" drawable="dolphin"/>
+		<!-- Translate -->
+		<item component="ComponentInfo{ru.yandex.translate/ru.yandex.translate.ui.activities.MainActivity}" drawable="translate"/>
+		<!-- Lenovo -->
+		<item component="ComponentInfo{com.lenovo.club.app/com.lenovo.club.app.AppStart}" drawable="lenovo"/>
+
 		<!-- oblatum autoPack location -->
 
 

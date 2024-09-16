@@ -21,11 +21,18 @@
 	<version>1</version>
 
 	<category title="New and Update" />
-	
 		<!-- oblatum autoPack location start -->
-		<item drawable="a__li__yun__pan" />
-		<item drawable="mi__ni__jian__pan" />
-		
+		<item drawable="ding__dong__fm__dian__tai" />
+		<item drawable="dolphin" />
+		<item drawable="jiao__tong__ka" />
+		<item drawable="jing__dong__kuai__di" />
+		<item drawable="lenovo" />
+		<item drawable="smartisan___ping__mu__lu__xiang" />
+		<item drawable="smartisan_browser"
+		<item drawable="translate" />
+		<item drawable="zhang__shang__chu__xing" />
+		<item drawable="zui___wen__jian__guan__li" />
+
 		<!-- oblatum autoPack location end -->
 
 	<category title="Folders and Widgets" />
@@ -283,6 +290,7 @@
 		<item drawable="yyszs" />
 
 	<category title="All" /><!-- All icons here -->
+
 		<item drawable="a_139__you__xiang" />
 		<item drawable="a_1more_assistant" />
 		<item drawable="a_1password_compressed" />
@@ -512,6 +520,7 @@
 		<item drawable="dida_music" />
 		<item drawable="didi" />
 		<item drawable="digit" />
+		<item drawable="ding__dong__fm__dian__tai" />
 		<item drawable="ding_talk" />
 		<item drawable="dir" />
 		<item drawable="discord" />
@@ -520,6 +529,7 @@
 		<item drawable="dji_mimo" />
 		<item drawable="dmzj" />
 		<item drawable="dnf_zhushou" />
+		<item drawable="dolphin" />
 		<item drawable="donghuabizhi" />
 		<item drawable="douban" />
 		<item drawable="douyin" />
@@ -595,7 +605,6 @@
 		<item drawable="feizhu" />
 		<item drawable="fenqile" />
 		<item drawable="file_explorer" />
-		<item drawable="files_go" />
 		<item drawable="files" />
 		<item drawable="files_go" />
 		<item drawable="firefox" />
@@ -687,7 +696,6 @@
 		<item drawable="gxicon" />
 		<item drawable="h_viewer" />
 		<item drawable="habits" />
-		<item drawable="xun__fei__you__sheng" />
 		<item drawable="hangouts" />
 		<item drawable="hanju_tv" />
 		<item drawable="hanks_notes" />
@@ -750,9 +758,11 @@
 		<item drawable="jg12123" />
 		<item drawable="jiakao_baodian" />
 		<item drawable="jianying" />
+		<item drawable="jiao__tong__ka" />
 		<item drawable="jiaoyicat" />
 		<item drawable="jiguang_yingyuan" />
 		<item drawable="jike" />
+		<item drawable="jing__dong__kuai__di" />
 		<item drawable="jing__dong__xiao__jia" />
 		<item drawable="jisu_browser" />
 		<item drawable="jmail" />
@@ -777,6 +787,7 @@
 		<item drawable="lawnchair" />
 		<item drawable="lbe_security" />
 		<item drawable="leafpic" />
+		<item drawable="lenovo" />
 		<item drawable="lenovo_sync" />
 		<item drawable="lexus_mirror" />
 		<item drawable="light_beauty" />
@@ -1170,7 +1181,9 @@
 		<item drawable="sky_compass" />
 		<item drawable="skype_for_business" />
 		<item drawable="sleep" />
+		<item drawable="smartisan___ping__mu__lu__xiang" />
 		<item drawable="smartisan_bbs" />
+		<item drawable="smartisan_browser"
 		<item drawable="smartisan_drivingmode" />
 		<item drawable="smartisan_idearpills" />
 		<item drawable="smartisan_notes" />
@@ -1291,6 +1304,7 @@
 		<item drawable="tp_link" />
 		<item drawable="tpybx" />
 		<item drawable="transit" />
+		<item drawable="translate" />
 		<item drawable="tray" />
 		<item drawable="tripview_lite" />
 		<item drawable="troye_sivan" />
@@ -1402,6 +1416,7 @@
 		<item drawable="xposed" />
 		<item drawable="xueqiu" />
 		<item drawable="xuexi_cn" />
+		<item drawable="xun__fei__you__sheng" />
 		<item drawable="xunfei_input" />
 		<item drawable="xunlei" />
 		<item drawable="xyst" />
@@ -1433,6 +1448,7 @@
 		<item drawable="zenge" />
 		<item drawable="zenly" />
 		<item drawable="zero_vpn" />
+		<item drawable="zhang__shang__chu__xing" />
 		<item drawable="zhen__xin__wen" />
 		<item drawable="zhifou" />
 		<item drawable="zhihu" />
@@ -1443,6 +1459,7 @@
 		<item drawable="zlive" />
 		<item drawable="zlive_1" />
 		<item drawable="zonghengxiaoshuo" />
+		<item drawable="zui___wen__jian__guan__li" />
 		<item drawable="zzw" />
 
 	<category title="Dynamic icon" />
