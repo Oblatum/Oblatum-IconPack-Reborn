@@ -42,7 +42,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Assemble
-        run: ./gradlew clean assemble --full-stacktrace
+        run: ./gradlew clean assemble --warning-mode all --full-stacktrace
 
       - uses: r0adkll/sign-android-release@v1
         name: Signing
