@@ -4,6 +4,7 @@
     	<!-- oblatum autoPack location start -->
 		<item text="适配和更新：京东快递、123云盘、掌上出行、叮咚FM电台、smartisan_屏幕录像、交通卡、ZUI_文件管理、Dolphin、Translate、联想、Smartisan浏览器（需手动替换）。" />
 
+
 		<!-- oblatum autoPack location end -->
         <item text="" /> <!-- this one is empty and therefore ignored -->
 </resources>

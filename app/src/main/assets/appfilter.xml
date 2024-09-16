@@ -1989,6 +1989,7 @@
 		<!-- 迷你键盘 -->
 		<item component="ComponentInfo{me.weishu.minime/com.android.inputmethod.pinyin.SettingsActivity}" drawable="mi__ni__jian__pan"/>
 
+
 		<!-- AutoPack: add in v3.0.24.9.16 -->
 		<!-- 京东快递 -->
 		<item component="ComponentInfo{com.jd.jdlogistic/com.jd.jdlogistic.flutter.HomeActivity}" drawable="jing__dong__kuai__di"/>

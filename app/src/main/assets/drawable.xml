@@ -21,6 +21,7 @@
 	<version>1</version>
 
 	<category title="New and Update" />
+	
 		<!-- oblatum autoPack location start -->
 		<item drawable="ding__dong__fm__dian__tai" />
 		<item drawable="dolphin" />
@@ -32,6 +33,7 @@
 		<item drawable="translate" />
 		<item drawable="zhang__shang__chu__xing" />
 		<item drawable="zui___wen__jian__guan__li" />
+
 
 		<!-- oblatum autoPack location end -->
 
@@ -290,7 +292,6 @@
 		<item drawable="yyszs" />
 
 	<category title="All" /><!-- All icons here -->
-
 		<item drawable="a_139__you__xiang" />
 		<item drawable="a_1more_assistant" />
 		<item drawable="a_1password_compressed" />
@@ -696,6 +697,7 @@
 		<item drawable="gxicon" />
 		<item drawable="h_viewer" />
 		<item drawable="habits" />
+		<item drawable="xun__fei__you__sheng" />
 		<item drawable="hangouts" />
 		<item drawable="hanju_tv" />
 		<item drawable="hanks_notes" />
