@@ -13,6 +13,7 @@ def get_file_list(path):
     file_list = os.listdir(path)
     # 过滤文件，只保留png，返回的值中截取.png前的部分
     file_list = [file.split('.png')[0] for file in file_list if file.endswith('.png')]
+    print('共找到'+str(len(file_list))+'个图标文件')
     # 返回文件列表
     return file_list
 
@@ -97,7 +98,12 @@ def index():
         print('err：未在utils/input文件夹下找到图标文件！')
         return
     for file in files:
+        print('-------------------')
+        print('正在处理：'+file)
         app_infoes = get_app_info(file)
+        if len(app_infoes) == 0:
+            print('err：未找到'+file+'的应用信息！')
+            continue
         appName,appName_pinyin='',''
         for i in range(len(app_infoes)):
             if(i==0):

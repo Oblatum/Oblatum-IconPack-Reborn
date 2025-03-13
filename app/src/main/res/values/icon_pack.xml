@@ -6,6 +6,7 @@
 	<item>a_1password_compressed</item>
 	<item>a_50yin</item>
 	<item>a_95fen</item>
+	<item>a__li__yun__pan</item>
 	<item>a_island</item>
 	<item>abbey</item>
 	<item>abc</item>
@@ -231,6 +232,7 @@
 	<item>dida_music</item>
 	<item>didi</item>
 	<item>digit</item>
+	<item>ding__dong__fm__dian__tai</item>
 	<item>ding_talk</item>
 	<item>dir</item>
 	<item>discord</item>
@@ -239,6 +241,7 @@
 	<item>dji_mimo</item>
 	<item>dmzj</item>
 	<item>dnf_zhushou</item>
+	<item>dolphin</item>
 	<item>donghuabizhi</item>
 	<item>douban</item>
 	<item>douyin</item>
@@ -314,7 +317,6 @@
 	<item>feizhu</item>
 	<item>fenqile</item>
 	<item>file_explorer</item>
-	<item>file_manager</item>
 	<item>files</item>
 	<item>files_go</item>
 	<item>firefox</item>
@@ -406,7 +408,6 @@
 	<item>gxicon</item>
 	<item>h_viewer</item>
 	<item>habits</item>
-	<item>xun__fei__you__sheng</item>
 	<item>hangouts</item>
 	<item>hanju_tv</item>
 	<item>hanks_notes</item>
@@ -469,9 +470,11 @@
 	<item>jg12123</item>
 	<item>jiakao_baodian</item>
 	<item>jianying</item>
+	<item>jiao__tong__ka</item>
 	<item>jiaoyicat</item>
 	<item>jiguang_yingyuan</item>
 	<item>jike</item>
+	<item>jing__dong__kuai__di</item>
 	<item>jing__dong__xiao__jia</item>
 	<item>jisu_browser</item>
 	<item>jmail</item>
@@ -496,6 +499,7 @@
 	<item>lawnchair</item>
 	<item>lbe_security</item>
 	<item>leafpic</item>
+	<item>lenovo</item>
 	<item>lenovo_sync</item>
 	<item>lexus_mirror</item>
 	<item>light_beauty</item>
@@ -556,6 +560,7 @@
 	<item>message_1</item>
 	<item>messenger_lite</item>
 	<item>metro</item>
+	<item>mi__ni__jian__pan</item>
 	<item>mi_control_center</item>
 	<item>mi_home</item>
 	<item>mi_router</item>
@@ -889,6 +894,7 @@
 	<item>sky_compass</item>
 	<item>skype_for_business</item>
 	<item>sleep</item>
+	<item>smartisan___ping__mu__lu__xiang</item>
 	<item>smartisan_bbs</item>
 	<item>smartisan_drivingmode</item>
 	<item>smartisan_idearpills</item>
@@ -1010,6 +1016,7 @@
 	<item>tp_link</item>
 	<item>tpybx</item>
 	<item>transit</item>
+	<item>translate</item>
 	<item>tray</item>
 	<item>tripview_lite</item>
 	<item>troye_sivan</item>
@@ -1122,6 +1129,7 @@
 	<item>xposed</item>
 	<item>xueqiu</item>
 	<item>xuexi_cn</item>
+	<item>xun__fei__you__sheng</item>
 	<item>xunfei_input</item>
 	<item>xunlei</item>
 	<item>xyst</item>
@@ -1153,6 +1161,7 @@
 	<item>zenge</item>
 	<item>zenly</item>
 	<item>zero_vpn</item>
+	<item>zhang__shang__chu__xing</item>
 	<item>zhen__xin__wen</item>
 	<item>zhifou</item>
 	<item>zhihu</item>
@@ -1163,6 +1172,7 @@
 	<item>zlive</item>
 	<item>zlive_1</item>
 	<item>zonghengxiaoshuo</item>
+	<item>zui___wen__jian__guan__li</item>
 	<item>zzw</item>
 
     </string-array>
