@@ -2,6 +2,6 @@
 
 object MyApp {
     const val appId = "com.oblatum.iconpack"
-    const val version = 278
-    const val versionName = "3.0.24.9.16"
+    const val version = 279
+    const val versionName = "3.0.25.4.1"
 }

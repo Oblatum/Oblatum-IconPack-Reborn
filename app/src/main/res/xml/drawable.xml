@@ -22,16 +22,24 @@
 
 	<category title="New and Update" />
 		<!-- oblatum autoPack location start -->
-		<item drawable="ding__dong__fm__dian__tai" />
-		<item drawable="dolphin" />
-		<item drawable="jiao__tong__ka" />
-		<item drawable="jing__dong__kuai__di" />
-		<item drawable="lenovo" />
-		<item drawable="smartisan___ping__mu__lu__xiang" />
-		<item drawable="smartisan_browser" />
-		<item drawable="translate" />
-		<item drawable="zhang__shang__chu__xing" />
-		<item drawable="zui___wen__jian__guan__li" />
+		<item drawable="bluesky" />
+		<item drawable="deepseek" />
+		<item drawable="fan__qie__mian__fei__xiao__shuo" />
+		<item drawable="feng__chao" />
+		<item drawable="gei__wei__lai__xie__feng__xin" />
+		<item drawable="li__tiao__tiao" />
+		<item drawable="magisk_delta" />
+		<item drawable="oppo_relax" />
+		<item drawable="protonmail" />
+		<item drawable="qi__miao__ying__yong" />
+		<item drawable="shizuku" />
+		<item drawable="shu__zi__ren__min__bi" />
+		<item drawable="teng__xun__shou__ji__guan__jia" />
+		<item drawable="teng__xun__shou__you__jia__su__qi" />
+		<item drawable="teng__xun__wei__shi" />
+		<item drawable="wei__pin__hui" />
+		<item drawable="ying__xiong__lian__meng__shou__you" />
+		<item drawable="yun__zhi__jia" />
 
 		<!-- oblatum autoPack location end -->
 
@@ -420,6 +428,7 @@
 		<item drawable="blued_hook_1" />
 		<item drawable="blued_int" />
 		<item drawable="bluemail" />
+		<item drawable="bluesky" />
 		<item drawable="bmap" />
 		<item drawable="boa" />
 		<item drawable="boc" />
@@ -512,6 +521,7 @@
 		<item drawable="data_monitor" />
 		<item drawable="datong_dict" />
 		<item drawable="daydream" />
+		<item drawable="deepseek" />
 		<item drawable="delve" />
 		<item drawable="devcheck" />
 		<item drawable="dian__zi__you__jian" />
@@ -598,11 +608,13 @@
 		<item drawable="facebook" />
 		<item drawable="faloo_bookreader" />
 		<item drawable="famijia" />
+		<item drawable="fan__qie__mian__fei__xiao__shuo" />
 		<item drawable="fasthub" />
 		<item drawable="faxianjc" />
 		<item drawable="feedly" />
 		<item drawable="feishu" />
 		<item drawable="feizhu" />
+		<item drawable="feng__chao" />
 		<item drawable="fenqile" />
 		<item drawable="file_explorer" />
 		<item drawable="files" />
@@ -638,6 +650,7 @@
 		<item drawable="gaode_maps" />
 		<item drawable="gboard" />
 		<item drawable="geek360" />
+		<item drawable="gei__wei__lai__xie__feng__xin" />
 		<item drawable="gemini" />
 		<item drawable="geometric_weather" />
 		<item drawable="get" />
@@ -790,6 +803,7 @@
 		<item drawable="lenovo" />
 		<item drawable="lenovo_sync" />
 		<item drawable="lexus_mirror" />
+		<item drawable="li__tiao__tiao" />
 		<item drawable="light_beauty" />
 		<item drawable="light_start" />
 		<item drawable="line" />
@@ -816,6 +830,7 @@
 		<item drawable="magenetman" />
 		<item drawable="magic_magnet" />
 		<item drawable="magicalstory_cleaner" />
+		<item drawable="magisk_delta" />
 		<item drawable="magisk_manager" />
 		<item drawable="magnet_torrent_player" />
 		<item drawable="magnetic_king" />
@@ -1043,6 +1058,7 @@
 		<item drawable="oppo_notes" />
 		<item drawable="oppo_one_tap_lockscreen" />
 		<item drawable="oppo_oroaming" />
+		<item drawable="oppo_relax" />
 		<item drawable="oppo_security" />
 		<item drawable="oppo_sound_recorder" />
 		<item drawable="oppo_tips" />
@@ -1087,6 +1103,7 @@
 		<item drawable="powerpoint_1" />
 		<item drawable="ppiicc" />
 		<item drawable="ppsspp" />
+		<item drawable="protonmail" />
 		<item drawable="psbc" />
 		<item drawable="pstouch" />
 		<item drawable="pu_da_xi_beng" />
@@ -1104,6 +1121,7 @@
 		<item drawable="qbittorrent_remote" />
 		<item drawable="qcloud" />
 		<item drawable="qdreader" />
+		<item drawable="qi__miao__ying__yong" />
 		<item drawable="qianji" />
 		<item drawable="qinbaobao" />
 		<item drawable="qing__dao__yin__hang" />
@@ -1174,7 +1192,9 @@
 		<item drawable="sharepoint" />
 		<item drawable="shazam" />
 		<item drawable="shenqi_browser" />
+		<item drawable="shizuku" />
 		<item drawable="shou__ji__xing__neng__pai__hang" />
+		<item drawable="shu__zi__ren__min__bi" />
 		<item drawable="shuttle" />
 		<item drawable="sim_toolkit" />
 		<item drawable="sketchbook" />
@@ -1279,6 +1299,9 @@
 		<item drawable="tencent_speedmobile" />
 		<item drawable="tencent_video" />
 		<item drawable="tencent_weread" />
+		<item drawable="teng__xun__shou__ji__guan__jia" />
+		<item drawable="teng__xun__shou__you__jia__su__qi" />
+		<item drawable="teng__xun__wei__shi" />
 		<item drawable="termux" />
 		<item drawable="terrarium_tv" />
 		<item drawable="tesla_unread" />
@@ -1356,6 +1379,7 @@
 		<item drawable="weatherzone" />
 		<item drawable="wechat_scanonescan" />
 		<item drawable="wechat_work" />
+		<item drawable="wei__pin__hui" />
 		<item drawable="wei_account" />
 		<item drawable="weibo" />
 		<item drawable="weibo_int" />
@@ -1427,6 +1451,7 @@
 		<item drawable="ygmh" />
 		<item drawable="yiciyuan" />
 		<item drawable="yidianzixun" />
+		<item drawable="ying__xiong__lian__meng__shou__you" />
 		<item drawable="ying__yong__zhong__xin" />
 		<item drawable="yizhifu" />
 		<item drawable="ykjl" />
@@ -1438,6 +1463,7 @@
 		<item drawable="youku" />
 		<item drawable="your_phone_companion" />
 		<item drawable="youtube" />
+		<item drawable="yun__zhi__jia" />
 		<item drawable="yunduo_nighttools" />
 		<item drawable="yys" />
 		<item drawable="yys_1" />

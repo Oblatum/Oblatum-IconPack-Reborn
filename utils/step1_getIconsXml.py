@@ -94,15 +94,17 @@ def index():
     global AppNameList, AppNamePinyinList  # 声明全局变量
     clear_file()
     files = get_file_list(path)
+    err_count = []
     if len(files) == 0:
-        print('err：未在utils/input文件夹下找到图标文件！')
+        print('\033[31m'+'err：未在utils/input文件夹下找到图标文件！'+ '\033[0m')
         return
     for file in files:
         print('-------------------')
         print('正在处理：'+file)
         app_infoes = get_app_info(file)
         if len(app_infoes) == 0:
-            print('err：未找到'+file+'的应用信息！')
+            err_count.append(file)
+            print('\033[31m'+'err：未找到'+file+'的应用信息！'+ '\033[0m')
             continue
         appName,appName_pinyin='',''
         for i in range(len(app_infoes)):
@@ -127,4 +129,5 @@ def index():
                 f.write('''<item drawable="'''+AppNamePinyinList[i]+'''" />\n''')
 
     print('appfilter.xml、drawable.xml、changelog.txt文件已生成')
+    print('共找到'+str(len(files))+'个图标文件，未找到应用信息的有'+len(err_count)+'个')
 index()
