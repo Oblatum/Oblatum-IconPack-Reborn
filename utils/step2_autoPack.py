@@ -120,9 +120,14 @@ def check_image_size(icon_path):
     root.withdraw()  # 隐藏窗口
     img = tkinter.PhotoImage(file=icon_path)
     if img.width() != 192 or img.height() != 192:
-        print(f"\033[91m{icon_path} 图标尺寸不是192*192，请检查。\033[0m")
-        exit()
-    root.destroy()  # 销毁窗口
+        print(f"\033[91m{icon_path} 图标尺寸不是192*192 \033[0m")
+        # 将图片尺寸等比例缩放到192*192
+        from PIL import Image
+        img = Image.open(icon_path)
+        img = img.resize((192, 192), Image.ANTIALIAS)
+        img.save(icon_path)
+        print(f"\033[92m{icon_path} 图标已缩放到192*192 \033[0m")
+    root.destroy()
 
 def autoPackIcons():
     icons_path = os.path.join(os.getcwd(), 'utils\output\icons')

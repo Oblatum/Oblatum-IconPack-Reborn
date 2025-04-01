@@ -2014,6 +2014,63 @@
 		<!-- Lenovo -->
 		<item component="ComponentInfo{com.lenovo.club.app/com.lenovo.club.app.AppStart}" drawable="lenovo"/>
 
+		<!-- AutoPack: add in v3.0.25.4.1 -->
+		<!-- ProtonMail -->
+		<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.activities.SplashActivity}" drawable="protonmail"/>
+		<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.mailbox.presentation.ui.MailboxActivity}" drawable="protonmail"/>
+		<!-- 数字人民币 -->
+		<item component="ComponentInfo{cn.gov.pbc.dcep/cn.gov.pbc.dcep.DcepLauncherActivity}" drawable="shu__zi__ren__min__bi"/>
+		<item component="ComponentInfo{cn.gov.pbc.dcep/com.alipay.mobile.quinox.LauncherActivity}" drawable="shu__zi__ren__min__bi"/>
+		<!-- 唯品会 -->
+		<item component="ComponentInfo{com.achievo.vipshop/com.achievo.vipshop.activity.LodingActivity}" drawable="wei__pin__hui"/>
+		<!-- OPPO Relax -->
+		<item component="ComponentInfo{com.coloros.relax/com.coloros.relax.ui.MainActivity}" drawable="oppo_relax"/>
+		<!-- DeepSeek -->
+		<item component="ComponentInfo{com.deepseek.chat/com.deepseek.chat.MainActivity}" drawable="deepseek"/>
+		<!-- 番茄免费小说 -->
+		<item component="ComponentInfo{com.dragon.read/com.dragon.read.pages.splash.SplashActivity}" drawable="fan__qie__mian__fei__xiao__shuo"/>
+		<!-- 丰巢 -->
+		<item component="ComponentInfo{com.fcbox.hiveconsumer/com.fcbox.hiveconsumer.app.business.entrance.EntranceDelegateActivity}" drawable="feng__chao"/>
+		<item component="ComponentInfo{com.fcbox.hiveconsumer/kt.com.fcbox.hiveconsumer.app.business.entrance.EntranceDelegateActivity}" drawable="feng__chao"/>
+		<!-- 云之家 -->
+		<item component="ComponentInfo{com.kdweibo.client/com.kdweibo.android.ui.activity.StartActivity}" drawable="yun__zhi__jia"/>
+		<item component="ComponentInfo{com.kdweibo.client/com.kdweibo.android.ui.activity.StartActivity_YunXingKong}" drawable="yun__zhi__jia"/>
+		<!-- 给未来写封信 -->
+		<item component="ComponentInfo{com.kongzue.tofuture/com.kongzue.tofuture.FirstActivity}" drawable="gei__wei__lai__xie__feng__xin"/>
+		<item component="ComponentInfo{com.kongzue.tofuture/com.kongzue.tofuture.activity.FirstActivity}" drawable="gei__wei__lai__xie__feng__xin"/>
+		<item component="ComponentInfo{com.kongzue.tofuture/com.kongzue.tofuture.activity.SplashActivity}" drawable="gei__wei__lai__xie__feng__xin"/>
+		<!-- 奇妙应用 -->
+		<item component="ComponentInfo{com.magicalstory.AppStore/com.magicalstory.AppStore.main.MainActivity}" drawable="qi__miao__ying__yong"/>
+		<!-- 腾讯手游加速器 -->
+		<item component="ComponentInfo{com.tencent.cmocmna/com.tencent.mocmna.activity.SplashActivity}" drawable="teng__xun__shou__you__jia__su__qi"/>
+		<!-- 英雄联盟手游 -->
+		<item component="ComponentInfo{com.tencent.lolm/com.tencent.lolm.lgame}" drawable="ying__xiong__lian__meng__shou__you"/>
+		<!-- 腾讯手机管家 -->
+		<item component="ComponentInfo{com.tencent.qqpimsecure/com.tencent.server.fore.DefaultAliasActivity}" drawable="teng__xun__shou__ji__guan__jia"/>
+		<item component="ComponentInfo{com.tencent.qqpimsecure/com.tencent.server.fore.QuickLoadActivity}" drawable="teng__xun__shou__ji__guan__jia"/>
+		<item component="ComponentInfo{com.tencent.qqpimsecure/com.tencent.server.fore.RubbishAliasActivity}" drawable="teng__xun__shou__ji__guan__jia"/>
+		<!-- 腾讯微视 -->
+		<item component="ComponentInfo{com.tencent.weishi/com.tencent.oscar.module.splash.SplashActivity}" drawable="teng__xun__wei__shi"/>
+		<!-- 58同城 -->
+		<item component="ComponentInfo{com.wuba/com.wuba.home.activity.HomeActivity}" drawable="a_58__tong__cheng"/>
+		<item component="ComponentInfo{com.wuba/com.wuba.activity.launch.LaunchActivity}" drawable="a_58__tong__cheng"/>
+		<item component="ComponentInfo{com.wuba/com.wuba.default}" drawable="a_58__tong__cheng"/>
+		<!-- 李跳跳 -->
+		<item component="ComponentInfo{hello.litiaotiao.app/hello.litiaotiao.app.LauncherActivity}" drawable="li__tiao__tiao"/>
+		<item component="ComponentInfo{hello.litiaotiao.app/hello.litiaotiao.app.MainActivity}" drawable="li__tiao__tiao"/>
+		<!-- Magisk Delta -->
+		<item component="ComponentInfo{io.github.huskydg.magisk/com.topjohnwu.magisk.ui.MainActivity}" drawable="magisk_delta"/>
+		<!-- Shizuku -->
+		<item component="ComponentInfo{moe.shizuku.privileged.api/moe.shizuku.manager.MainActivity}" drawable="shizuku"/>
+		<!-- Bluesky -->
+		<item component="ComponentInfo{xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity}" drawable="bluesky"/>
+		<!-- 修复 -->
+		<!-- Clash Meta For Android -->
+		<item component="ComponentInfo{com.eterocell.mihomoforandroid.meta/com.github.kr328.clash.MainActivity}" drawable="clash_meta_for_android"/>
+		<!-- 铁路12306 -->
+		<item component="ComponentInfo{com.MobileTicket/com.MobileTicket.ui.activity.WelcomeGuideActivity}" drawable="铁路12306"/>
+		<!-- McDonald S -->
+		<item component="ComponentInfo{com.mcdonalds.gma.cn/com.mcdonalds.gma.cn.activity.LaunchActivity}" drawable="mcdonald_s"/>
 		<!-- oblatum autoPack location -->
 
 
