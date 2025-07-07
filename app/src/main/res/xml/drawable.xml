@@ -22,24 +22,24 @@
 
 	<category title="New and Update" />
 		<!-- oblatum autoPack location start -->
-		<item drawable="bluesky" />
-		<item drawable="deepseek" />
-		<item drawable="fan__qie__mian__fei__xiao__shuo" />
-		<item drawable="feng__chao" />
-		<item drawable="gei__wei__lai__xie__feng__xin" />
-		<item drawable="li__tiao__tiao" />
-		<item drawable="magisk_delta" />
-		<item drawable="oppo_relax" />
-		<item drawable="protonmail" />
-		<item drawable="qi__miao__ying__yong" />
-		<item drawable="shizuku" />
-		<item drawable="shu__zi__ren__min__bi" />
-		<item drawable="teng__xun__shou__ji__guan__jia" />
-		<item drawable="teng__xun__shou__you__jia__su__qi" />
-		<item drawable="teng__xun__wei__shi" />
-		<item drawable="wei__pin__hui" />
-		<item drawable="ying__xiong__lian__meng__shou__you" />
-		<item drawable="yun__zhi__jia" />
+		<item drawable="animepipe" />
+		<item drawable="battery_guru" />
+		<item drawable="bilibili_cn" />
+		<item drawable="chong__chong__zhu__shou" />
+		<item drawable="f__droid" />
+		<item drawable="github" />
+		<item drawable="guang__huan__zhu__shou" />
+		<item drawable="hao__you__kuai__bao" />
+		<item drawable="jie__ya__suo__quan__neng__wang" />
+		<item drawable="k_9__mail" />
+		<item drawable="kai__yan" />
+		<item drawable="lv__fa__shi__ying__di" />
+		<item drawable="miru" />
+		<item drawable="newpipe" />
+		<item drawable="qian__cheng__wu__you__51job" />
+		<item drawable="qing__zhuo" />
+		<item drawable="seal" />
+		<item drawable="xiao__qi__e__shu__ru__fa__5" />
 
 		<!-- oblatum autoPack location end -->
 
@@ -349,6 +349,7 @@
 		<item drawable="ampere" />
 		<item drawable="android_p_ify" />
 		<item drawable="android_pay" />
+		<item drawable="animepipe" />
 		<item drawable="ankidroid" />
 		<item drawable="ansole" />
 		<item drawable="antutu" />
@@ -401,6 +402,7 @@
 		<item drawable="bank_pingan" />
 		<item drawable="bankcomm" />
 		<item drawable="bar" />
+		<item drawable="battery_guru" />
 		<item drawable="battle_net_authenticator" />
 		<item drawable="bbs1024" />
 		<item drawable="behance" />
@@ -412,6 +414,7 @@
 		<item drawable="bilibili" />
 		<item drawable="bilibili_1" />
 		<item drawable="bilibili_blue" />
+		<item drawable="bilibili_cn" />
 		<item drawable="bilibili_comic" />
 		<item drawable="bilibili_cover" />
 		<item drawable="bilibili_cover2" />
@@ -476,6 +479,7 @@
 		<item drawable="chinamobile" />
 		<item drawable="chinatelecom" />
 		<item drawable="chinaunicom" />
+		<item drawable="chong__chong__zhu__shou" />
 		<item drawable="chrissen_card" />
 		<item drawable="chrome" />
 		<item drawable="chrome_alt1" />
@@ -605,6 +609,7 @@
 		<item drawable="evernote" />
 		<item drawable="excel" />
 		<item drawable="excel_1" />
+		<item drawable="f__droid" />
 		<item drawable="facebook" />
 		<item drawable="faloo_bookreader" />
 		<item drawable="famijia" />
@@ -654,6 +659,7 @@
 		<item drawable="gemini" />
 		<item drawable="geometric_weather" />
 		<item drawable="get" />
+		<item drawable="github" />
 		<item drawable="gjzs" />
 		<item drawable="gmail" />
 		<item drawable="gohosts" />
@@ -702,6 +708,7 @@
 		<item drawable="gravitybox_q" />
 		<item drawable="greenify" />
 		<item drawable="gta_sa" />
+		<item drawable="guang__huan__zhu__shou" />
 		<item drawable="guanzhi_meiriyiwen" />
 		<item drawable="guazi" />
 		<item drawable="guizhou_sjcj" />
@@ -712,6 +719,7 @@
 		<item drawable="hangouts" />
 		<item drawable="hanju_tv" />
 		<item drawable="hanks_notes" />
+		<item drawable="hao__you__kuai__bao" />
 		<item drawable="haoce" />
 		<item drawable="happy_browser" />
 		<item drawable="happyelements" />
@@ -773,12 +781,15 @@
 		<item drawable="jianying" />
 		<item drawable="jiao__tong__ka" />
 		<item drawable="jiaoyicat" />
+		<item drawable="jie__ya__suo__quan__neng__wang" />
 		<item drawable="jiguang_yingyuan" />
 		<item drawable="jike" />
 		<item drawable="jing__dong__kuai__di" />
 		<item drawable="jing__dong__xiao__jia" />
 		<item drawable="jisu_browser" />
 		<item drawable="jmail" />
+		<item drawable="k_9__mail" />
+		<item drawable="kai__yan" />
 		<item drawable="kakaotalk" />
 		<item drawable="kancn" />
 		<item drawable="kaochong" />
@@ -825,6 +836,7 @@
 		<item drawable="lucky_patch" />
 		<item drawable="ludashi" />
 		<item drawable="lushi" />
+		<item drawable="lv__fa__shi__ying__di" />
 		<item drawable="lxqw" />
 		<item drawable="lyft" />
 		<item drawable="magenetman" />
@@ -880,6 +892,7 @@
 		<item drawable="mini_metro" />
 		<item drawable="mint_bookkeeping" />
 		<item drawable="mipush" />
+		<item drawable="miru" />
 		<item drawable="miss_lee" />
 		<item drawable="miui_bbs" />
 		<item drawable="miui_browser" />
@@ -969,6 +982,7 @@
 		<item drawable="netflix_compressed" />
 		<item drawable="nevo" />
 		<item drawable="new500" />
+		<item drawable="newpipe" />
 		<item drawable="news_and_weather" />
 		<item drawable="nga" />
 		<item drawable="nga_git" />
@@ -1122,9 +1136,11 @@
 		<item drawable="qcloud" />
 		<item drawable="qdreader" />
 		<item drawable="qi__miao__ying__yong" />
+		<item drawable="qian__cheng__wu__you__51job" />
 		<item drawable="qianji" />
 		<item drawable="qinbaobao" />
 		<item drawable="qing__dao__yin__hang" />
+		<item drawable="qing__zhuo" />
 		<item drawable="qingdao_metro" />
 		<item drawable="qingtingyingyu" />
 		<item drawable="qinxinsou" />
@@ -1170,6 +1186,7 @@
 		<item drawable="sd_nongxin_bank" />
 		<item drawable="sdcleaner" />
 		<item drawable="sdmaid" />
+		<item drawable="seal" />
 		<item drawable="search_by_image" />
 		<item drawable="search_lite" />
 		<item drawable="searchpicturetool" />
@@ -1422,6 +1439,7 @@
 		<item drawable="xiachufang" />
 		<item drawable="xiami_music" />
 		<item drawable="xianyou" />
+		<item drawable="xiao__qi__e__shu__ru__fa__5" />
 		<item drawable="xiaoenai" />
 		<item drawable="xiaoheihe" />
 		<item drawable="xiaohongshu" />
