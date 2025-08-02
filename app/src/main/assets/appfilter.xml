@@ -2071,6 +2071,56 @@
 		<item component="ComponentInfo{com.MobileTicket/com.MobileTicket.ui.activity.WelcomeGuideActivity}" drawable="铁路12306"/>
 		<!-- McDonald S -->
 		<item component="ComponentInfo{com.mcdonalds.gma.cn/com.mcdonalds.gma.cn.activity.LaunchActivity}" drawable="mcdonald_s"/>
+
+		<!-- AutoPack: add in v3.0.25.7.7 -->
+		<!-- Bilibili CN -->
+		<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili_cn"/>
+		<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili_cn"/>
+		<!-- 解压缩全能王 -->
+		<item component="ComponentInfo{com.cjtec.uncompress/com.cjtec.uncompress.ui.activity.FileListActivity}" drawable="jie__ya__suo__quan__neng__wang"/>
+		<item component="ComponentInfo{com.cjtec.uncompress/com.cjtec.uncompress.ui.activity.FileListActivity2}" drawable="jie__ya__suo__quan__neng__wang"/>
+		<!-- 清浊 -->
+		<item component="ComponentInfo{com.farplace.qingzhuo/com.farplace.qingzhuo.views.SplashActivity}" drawable="qing__zhuo"/>
+		<item component="ComponentInfo{com.farplace.qingzhuo/com.farplace.qingzhuo.views.MainActivity}" drawable="qing__zhuo"/>
+		<!-- K_9__mail -->
+		<item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="k_9__mail"/>
+		<item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="k_9__mail"/>
+		<!-- 光环助手 -->
+		<item component="ComponentInfo{com.gh.gamecenter/com.gh.gamecenter.SplashScreenActivity}" drawable="guang__huan__zhu__shou"/>
+		<!-- GitHub -->
+		<item component="ComponentInfo{com.github.android/com.github.android.activities.MainActivity}" drawable="github"/>
+		<item component="ComponentInfo{com.github.android/com.github.android.main.MainActivity}" drawable="github"/>
+		<!-- 旅法师营地 -->
+		<item component="ComponentInfo{com.gonlan.iplaymtg/com.gonlan.iplaymtg.common.StartActivity}" drawable="lv__fa__shi__ying__di"/>
+		<!-- 前程无忧51Job -->
+		<item component="ComponentInfo{com.job.android/com.job.android.pages.common.OpenImageActivity}" drawable="qian__cheng__wu__you__51job"/>
+		<item component="ComponentInfo{com.job.android/com.job.android.pages.launcher.LauncherActivity}" drawable="qian__cheng__wu__you__51job"/>
+		<!-- Seal -->
+		<item component="ComponentInfo{com.junkfood.seal/com.junkfood.seal.MainActivity}" drawable="seal"/>
+		<!-- 虫虫助手 -->
+		<item component="ComponentInfo{com.lion.market/com.lion.market.app.InitiateActivity}" drawable="chong__chong__zhu__shou"/>
+		<!-- 4399游戏盒 -->
+		<item component="ComponentInfo{com.m4399.gamecenter/com.m4399.gamecenter.controllers.splash.SplashActivity}" drawable="a_4399__you__xi__he"/>
+		<!-- Battery Guru -->
+		<item component="ComponentInfo{com.paget96.batteryguru/com.paget96.batteryguru.activities.SplashScreen}" drawable="battery_guru"/>
+		<!-- 开眼 -->
+		<item component="ComponentInfo{com.wandoujia.eyepetizer/com.wandoujia.eyepetizer.ui.activity.LandingActivity}" drawable="kai__yan"/>
+		<!-- 好游快爆 -->
+		<item component="ComponentInfo{com.xmcy.hykb/com.xmcy.hykb.app.ui.splash.SplashActivity}" drawable="hao__you__kuai__bao"/>
+		<item component="ComponentInfo{com.xmcy.hykb/com.xmcy.hykb.splash.SplashActivity}" drawable="hao__you__kuai__bao"/>
+		<!-- AnimePipe -->
+		<item component="ComponentInfo{InfinityLoop1309.NewPipeEnhanced/org.schabi.newpipe.MainActivity}" drawable="animepipe"/>
+		<!-- Miru -->
+		<item component="ComponentInfo{miru.miaomint/miru.miaomint.MainActivity}" drawable="miru"/>
+		<!-- 小企鹅输入法5 -->
+		<item component="ComponentInfo{org.fcitx.fcitx5.android/org.fcitx.fcitx5.android.ui.main.MainActivity}" drawable="xiao__qi__e__shu__ru__fa__5"/>
+		<!-- f__droid -->
+		<item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="f__droid"/>
+		<item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.FDroid}" drawable="f__droid"/>
+		<!-- NewPipe -->
+		<item component="ComponentInfo{org.schabi.newpipe/org.schabi.newpipe.MainActivity}" drawable="newpipe"/>
+
+
 		<!-- oblatum autoPack location -->
 
 
