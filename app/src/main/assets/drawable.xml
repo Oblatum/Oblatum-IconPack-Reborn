@@ -22,25 +22,14 @@
 
 	<category title="New and Update" />
 		<!-- oblatum autoPack location start -->
-
-		<item drawable="animepipe" />
-		<item drawable="battery_guru" />
-		<item drawable="bilibili_cn" />
+		<item drawable="a_4399__you__xi__he" />
+		<item drawable="blackbox64" />
 		<item drawable="chong__chong__zhu__shou" />
-		<item drawable="f__droid" />
-		<item drawable="github" />
-		<item drawable="guang__huan__zhu__shou" />
-		<item drawable="hao__you__kuai__bao" />
-		<item drawable="jie__ya__suo__quan__neng__wang" />
-		<item drawable="k_9__mail" />
-		<item drawable="kai__yan" />
-		<item drawable="lv__fa__shi__ying__di" />
-		<item drawable="miru" />
-		<item drawable="newpipe" />
-		<item drawable="qian__cheng__wu__you__51job" />
-		<item drawable="qing__zhuo" />
-		<item drawable="seal" />
-		<item drawable="xiao__qi__e__shu__ru__fa__5" />
+		<item drawable="f___droid" />
+		<item drawable="kazumi" />
+		<item drawable="superimage" />
+		<item drawable="wei__xing__tong__xin" />
+		<item drawable="x_icon_changer" />
 
 		<!-- oblatum autoPack location end -->
 
@@ -303,6 +292,7 @@
 		<item drawable="a_139__you__xiang" />
 		<item drawable="a_1more_assistant" />
 		<item drawable="a_1password_compressed" />
+		<item drawable="a_4399__you__xi__he" />
 		<item drawable="a_50yin" />
 		<item drawable="a_95fen" />
 		<item drawable="a__li__yun__pan" />
@@ -424,6 +414,7 @@
 		<item drawable="bing_dict" />
 		<item drawable="biubiu_jiasuqi" />
 		<item drawable="blackblub" />
+		<item drawable="blackbox64" />
 		<item drawable="blackhouse" />
 		<item drawable="bluecoins" />
 		<item drawable="blued" />
@@ -610,6 +601,7 @@
 		<item drawable="evernote" />
 		<item drawable="excel" />
 		<item drawable="excel_1" />
+		<item drawable="f___droid" />
 		<item drawable="f__droid" />
 		<item drawable="facebook" />
 		<item drawable="faloo_bookreader" />
@@ -794,6 +786,7 @@
 		<item drawable="kakaotalk" />
 		<item drawable="kancn" />
 		<item drawable="kaochong" />
+		<item drawable="kazumi" />
 		<item drawable="keep" />
 		<item drawable="keepass_2_android" />
 		<item drawable="kernel_adiutor" />
@@ -1281,6 +1274,7 @@
 		<item drawable="super_class_schedule" />
 		<item drawable="super_pad" />
 		<item drawable="super_vpn" />
+		<item drawable="superimage" />
 		<item drawable="superstar" />
 		<item drawable="supersu" />
 		<item drawable="surf_vpn" />
@@ -1398,6 +1392,7 @@
 		<item drawable="wechat_scanonescan" />
 		<item drawable="wechat_work" />
 		<item drawable="wei__pin__hui" />
+		<item drawable="wei__xing__tong__xin" />
 		<item drawable="wei_account" />
 		<item drawable="weibo" />
 		<item drawable="weibo_int" />
@@ -1431,6 +1426,7 @@
 		<item drawable="wzry_beta" />
 		<item drawable="wzry_helper" />
 		<item drawable="x_apm" />
+		<item drawable="x_icon_changer" />
 		<item drawable="x_plore" />
 		<item drawable="xbj" />
 		<item drawable="xbox" />

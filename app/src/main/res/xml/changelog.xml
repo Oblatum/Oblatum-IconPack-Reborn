@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <version title="v3.0.25.7.7" />
+    <version title="v3.0.25.8.2" />
     	<!-- oblatum autoPack location start -->
-		<item text="适配和更新：Bilibili CN、解压缩全能王、清浊、K_9__mail、光环助手、GitHub、旅法师营地、前程无忧51Job、Seal、虫虫助手、4399游戏盒、Battery Guru、开眼、好游快爆、AnimePipe、Miru、小企鹅输入法5、f__droid、NewPipe" />
+		<item text="适配和更新：卫星通信、虫虫助手、4399游戏盒、Kazumi、SuperImage、X Icon Changer、f___droid、BlackBox64" />
+
 		<!-- oblatum autoPack location end -->
         <item text="" /> <!-- this one is empty and therefore ignored -->
 </resources>
