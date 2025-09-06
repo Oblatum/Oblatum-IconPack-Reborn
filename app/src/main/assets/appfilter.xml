@@ -2071,7 +2071,6 @@
 		<item component="ComponentInfo{com.MobileTicket/com.MobileTicket.ui.activity.WelcomeGuideActivity}" drawable="铁路12306"/>
 		<!-- McDonald S -->
 		<item component="ComponentInfo{com.mcdonalds.gma.cn/com.mcdonalds.gma.cn.activity.LaunchActivity}" drawable="mcdonald_s"/>
-
 		<!-- AutoPack: add in v3.0.25.7.7 -->
 		<!-- Bilibili CN -->
 		<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili_cn"/>
@@ -2120,6 +2119,23 @@
 		<!-- NewPipe -->
 		<item component="ComponentInfo{org.schabi.newpipe/org.schabi.newpipe.MainActivity}" drawable="newpipe"/>
 
+		<!-- AutoPack: add in v3.0.25.8.2 -->
+		<!-- 卫星通信 -->
+		<item component="ComponentInfo{com.hihonor.satellite/com.hihonor.satellite.SettingSatelliteActivity}" drawable="wei__xing__tong__xin"/>
+		<!-- 虫虫助手 -->
+		<item component="ComponentInfo{com.lion.market/com.lion.market.app.InitiateActivity}" drawable="chong__chong__zhu__shou"/>
+		<!-- 4399游戏盒 -->
+		<item component="ComponentInfo{com.m4399.gamecenter/com.m4399.gamecenter.controllers.splash.SplashActivity}" drawable="a_4399__you__xi__he"/>
+		<!-- Kazumi -->
+		<item component="ComponentInfo{com.predidit.kazumi/com.example.kazumi.MainActivity}" drawable="kazumi"/>
+		<!-- SuperImage -->
+		<item component="ComponentInfo{com.zhenxiang.superimage/com.zhenxiang.superimage.MainActivity}" drawable="superimage"/>
+		<!-- X Icon Changer -->
+		<item component="ComponentInfo{io.hexman.xiconchanger/io.hexman.xiconchanger.activity.SplashActivity}" drawable="x_icon_changer"/>
+		<!-- f___droid -->
+		<item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="f___droid"/>
+		<!-- BlackBox64 -->
+		<item component="ComponentInfo{top.niunaijun.blackboxa64/top.niunaijun.blackboxa.view.main.WelcomeActivity}" drawable="blackbox64"/>
 
 		<!-- oblatum autoPack location -->
 
