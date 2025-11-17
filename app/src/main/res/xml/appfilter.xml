@@ -2071,6 +2071,7 @@
 		<item component="ComponentInfo{com.MobileTicket/com.MobileTicket.ui.activity.WelcomeGuideActivity}" drawable="铁路12306"/>
 		<!-- McDonald S -->
 		<item component="ComponentInfo{com.mcdonalds.gma.cn/com.mcdonalds.gma.cn.activity.LaunchActivity}" drawable="mcdonald_s"/>
+
 		<!-- AutoPack: add in v3.0.25.7.7 -->
 		<!-- Bilibili CN -->
 		<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili_cn"/>
