@@ -7,6 +7,14 @@ AppNameList = []
 AppNamePinyinList = []
 
 import os
+import re
+
+def init ():
+    # 初始化文件夹
+    if not os.path.exists('utils\output'):
+        os.makedirs('utils\output')
+    if not os.path.exists('utils\output\icons'):
+        os.makedirs('utils\output\icons')
 # 获取文件列表
 def get_file_list(path):
     # 获取文件列表
@@ -17,9 +25,30 @@ def get_file_list(path):
     # 返回文件列表
     return file_list
 
+# 获取appfiler.xml内容
+def get_appfilter_content():
+    # 检查input中xml文件是否存在，不存在则return[]
+    if not os.path.exists('utils/input/appfilter.xml'):
+        return []
+    with open('utils/input/appfilter.xml', 'r', encoding='utf-8') as f:
+        content = f.read()
+        # 匹配出packageName、activityName和appName
+        # 正则匹配出<item component="ComponentInfo{'''+packageName+'/'+activityName+'''}" drawable="'''+appName+'''"/>
+        content = content.split('\n')
+        content = [i for i in content if re.match('<item component="ComponentInfo{.*?}" drawable=".*?"/>', i)]
+        content = [i.strip() for i in content if i.strip()]
+        # 从中解析出packageName、activityName和appName，转为json  <item component="ComponentInfo{io.dcloud.H576E6CC7/io.dcloud.H576E6CC7.launch.LaunchActivity}" drawable="鱼泡直聘"/>
+        content = [re.match('<item component="ComponentInfo{(.*?)/(.*?)}" drawable="(.*?)"/>', i).groups() for i in content]
+        content = [{'packageName': match[0], 'activityName': match[1], 'appName': match[2]} for match in content]
+
+        # 返回匹配到的内容
+        return content
+
 # 删除文件
 def clear_file():
     global appfilterPath,drawablePath,changelogPath
+
+    init()
     # 如果文件存在，删除文件
     if os.path.exists(appfilterPath):
         os.remove(appfilterPath)
@@ -101,11 +130,23 @@ def index():
     for file in files:
         print('-------------------')
         print('正在处理：'+file)
-        app_infoes = get_app_info(file)
+        try:
+            app_infoes = get_app_info(file)
+        except Exception as e:
+            print(f"获取 {file} 的应用信息时出错: {e}")
+            app_infoes = []
         if len(app_infoes) == 0:
-            err_count.append(file)
-            print('\033[31m'+'err：未找到'+file+'的应用信息！'+ '\033[0m')
-            continue
+            
+            # 如果未找到应用信息，从appfilter.xml中查找
+            appfilter_content = get_appfilter_content()
+            for item in appfilter_content:
+                if item['packageName'] == file:
+                    app_infoes.append(item)
+                    break
+            if len(app_infoes) == 0:
+              err_count.append(file)
+              print('\033[31m'+'err：未找到'+file+'的应用信息！'+ '\033[0m')
+              continue
         appName,appName_pinyin='',''
         for i in range(len(app_infoes)):
             if(i==0):
@@ -121,13 +162,24 @@ def index():
 
     # AppNamePinYinList 按字母排序
     AppNamePinyinList = sorted(AppNamePinyinList)
-    for i in range(len(AppNameList)):
-        if(i>0 and AppNameList[i] != AppNameList[i-1] or len(AppNameList)==1):
-            with open(changelogPath, 'a', encoding='utf-8') as f:
-                f.write('适配和更新：'+'、'.join(AppNameList))
-            with open(drawablePath, 'a', encoding='utf-8') as f:
-                f.write('''<item drawable="'''+AppNamePinyinList[i]+'''" />\n''')
+        # ...existing code...
+    
+    # 去重且保持顺序
+    unique_pinyin = []
+    seen = set()
+    for p in AppNamePinyinList:
+        if p not in seen:
+            unique_pinyin.append(p)
+            seen.add(p)
+    for p in unique_pinyin:
+        with open(drawablePath, 'a', encoding='utf-8') as f:
+            f.write(f'<item drawable="{p}" />\n')
+    
+    # ...existing code...
+    with open(changelogPath, 'a', encoding='utf-8') as f:
+        f.write('适配和更新：'+'、'.join(AppNameList))
 
     print('appfilter.xml、drawable.xml、changelog.txt文件已生成')
     print('共找到'+str(len(files))+'个图标文件，未找到应用信息的有'+len(err_count)+'个')
 index()
+# print(get_appfilter_content())

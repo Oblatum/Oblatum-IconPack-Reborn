@@ -1,0 +1,121 @@
+<resources>
+<!-- 4399游戏盒 -->
+<item component="ComponentInfo{com.m4399.gamecenter/com.m4399.gamecenter.controllers.splash.SplashActivity}" drawable="4399游戏盒"/>
+
+
+<!-- 7723游戏盒 -->
+<item component="ComponentInfo{com.upgadata.up7723/com.upgadata.up7723.main.activity.SplashActivity}" drawable="7723游戏盒"/>
+
+
+<!-- Battery Guru -->
+<item component="ComponentInfo{com.paget96.batteryguru/com.paget96.batteryguru.activities.SplashScreen}" drawable="Battery Guru"/>
+
+
+<!-- BlackBox64 -->
+<item component="ComponentInfo{top.niunaijun.blackboxa64/top.niunaijun.blackboxa.view.main.WelcomeActivity}" drawable="BlackBox64"/>
+
+
+<!-- Droid-ify -->
+<item component="ComponentInfo{com.looker.droidify/com.looker.droidify.MainActivity}" drawable="Droid-ify"/>
+
+
+<!-- ES文件浏览器 -->
+<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.app.openscreenad.NewSplashActivity}" drawable="ES文件浏览器"/>
+
+
+<!-- F-Droid -->
+<item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="F-Droid"/>
+
+
+<!-- GitHub -->
+<item component="ComponentInfo{com.github.android/com.github.android.main.MainActivity}" drawable="GitHub"/>
+
+
+<!-- K-9 Mail -->
+<item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="K-9 Mail"/>
+
+
+<!-- Kazumi -->
+<item component="ComponentInfo{com.predidit.kazumi/com.example.kazumi.MainActivity}" drawable="Kazumi"/>
+
+
+<!-- Miru -->
+<item component="ComponentInfo{miru.miaomint/miru.miaomint.MainActivity}" drawable="Miru"/>
+
+
+<!-- NewPipe -->
+<item component="ComponentInfo{org.schabi.newpipe/org.schabi.newpipe.MainActivity}" drawable="NewPipe"/>
+
+
+<!-- PipePipe -->
+<item component="ComponentInfo{InfinityLoop1309.NewPipeEnhanced/org.schabi.newpipe.MainActivity}" drawable="PipePipe"/>
+
+
+<!-- Seal -->
+<item component="ComponentInfo{com.junkfood.seal/com.junkfood.seal.MainActivity}" drawable="Seal"/>
+
+
+<!-- SuperImage -->
+<item component="ComponentInfo{com.zhenxiang.superimage/com.zhenxiang.superimage.MainActivity}" drawable="SuperImage"/>
+
+
+<!-- Via -->
+<item component="ComponentInfo{mark.via/mark.via.Shell}" drawable="Via"/>
+
+
+<!-- X Icon Changer -->
+<item component="ComponentInfo{io.hexman.xiconchanger/io.hexman.xiconchanger.activity.SplashActivity}" drawable="X Icon Changer"/>
+
+
+<!-- ZArchiver -->
+<item component="ComponentInfo{ru.zdevs.zarchiver/ru.zdevs.zarchiver.ZArchiver}" drawable="ZArchiver"/>
+
+
+<!-- 光环助手 -->
+<item component="ComponentInfo{com.gh.gamecenter/com.gh.gamecenter.SplashScreenActivity}" drawable="光环助手"/>
+
+
+<!-- 前程无忧51Job -->
+<item component="ComponentInfo{com.job.android/com.job.android.pages.launcher.LauncherActivity}" drawable="前程无忧51Job"/>
+
+
+<!-- 卫星通信 -->
+<item component="ComponentInfo{com.hihonor.satellite/com.hihonor.satellite.SettingSatelliteActivity}" drawable="卫星通信"/>
+
+
+<!-- 哔哩哔哩 -->
+<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="哔哩哔哩"/>
+
+
+<!-- 好游快爆 -->
+<item component="ComponentInfo{com.xmcy.hykb/com.xmcy.hykb.app.ui.splash.SplashActivity}" drawable="好游快爆"/>
+
+
+<!-- 小企鹅输入法 -->
+<item component="ComponentInfo{org.fcitx.fcitx5.android/org.fcitx.fcitx5.android.ui.main.MainActivity}" drawable="小企鹅输入法"/>
+
+
+<!-- 开眼 -->
+<item component="ComponentInfo{com.wandoujia.eyepetizer/com.wandoujia.eyepetizer.ui.activity.LandingActivity}" drawable="开眼"/>
+
+
+<!-- 旅法师营地 -->
+<item component="ComponentInfo{com.gonlan.iplaymtg/com.gonlan.iplaymtg.common.StartActivity}" drawable="旅法师营地"/>
+
+
+<!-- 清浊 -->
+<item component="ComponentInfo{com.farplace.qingzhuo/com.farplace.qingzhuo.views.SplashActivity}" drawable="清浊"/>
+
+
+<!-- 虫虫助手 -->
+<item component="ComponentInfo{com.lion.market/com.lion.market.app.InitiateActivity}" drawable="虫虫助手"/>
+
+
+<!-- 解压缩全能王 -->
+<item component="ComponentInfo{com.cjtec.uncompress/com.cjtec.uncompress.ui.activity.FileListActivity2}" drawable="解压缩全能王"/>
+
+
+<!-- 鱼泡直聘 -->
+<item component="ComponentInfo{io.dcloud.H576E6CC7/io.dcloud.H576E6CC7.launch.LaunchActivity}" drawable="鱼泡直聘"/>
+
+</resources>
