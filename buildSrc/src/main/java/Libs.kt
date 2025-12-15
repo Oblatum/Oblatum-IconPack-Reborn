@@ -5,7 +5,7 @@ object Libs {
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
 
     // Blueprint
-    const val blueprint = "dev.jahir:Blueprint:${Versions.blueprint}@aar"
+    const val blueprint = "com.github.Oblatum:Blueprint:${Versions.blueprint}-apptracker"
 
     // OneSignal
     const val oneSignal = "com.onesignal:OneSignal:${Versions.oneSignal}"

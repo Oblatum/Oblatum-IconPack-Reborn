@@ -41,6 +41,14 @@ jobs:
       - name: Change wrapper permissions
         run: chmod +x ./gradlew
 
+      - name: Inject secrets
+        run: |
+          chmod +x ./scripts/inject-secrets.sh
+          ./scripts/inject-secrets.sh
+        env:
+          APPTRACKER_ACCESS_KEY: ${{ secrets.APPTRACKER_ACCESS_KEY }}
+          APPTRACKER_BASE_URL: ${{ vars.APPTRACKER_BASE_URL }}
+
       - name: Assemble
         run: ./gradlew clean assemble --full-stacktrace
 

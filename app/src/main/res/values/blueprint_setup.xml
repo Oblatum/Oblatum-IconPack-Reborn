@@ -78,4 +78,7 @@
         Get yours at https://arcticmanager.com
     -->
     <string name="arctic_backend_api_key" translatable="false"></string>
+
+    <string name="apptracker_access_key" translatable="false">INJECT_APPTRACKER_KEY</string>
+    <string name="apptracker_base_url" translatable="false">INJECT_APPTRACKER_URL</string>
 </resources>
