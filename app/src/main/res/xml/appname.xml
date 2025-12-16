@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appnames>
+    <!--
+	  用于中文环境下的图标中文名映射（优先显示）。
+
+	  key: 图标文件名（drawable 资源名，不带扩展名），例如 amber_circle
+	  value: 中文名，例如 琥珀圆形
+
+	  示例：
+	  <item drawable="amber_circle" cn="琥珀圆形" />
+	-->
+    <item drawable="a_123__yun__pan" cn="123云盘" />
+    <item drawable="a_139__you__xiang" cn="139邮箱" />
+    <item drawable="a_1password" cn="1Password - 密码管理器" />
+    <item drawable="a_4399__you__xi__he" cn="4399游戏盒" />
+    <item drawable="a_50yin" cn="50音起源 - 日语五十音单词学习" />
+    <item drawable="a_58__tong__cheng" cn="58同城-招聘找工作找家政" />
+    <item drawable="a_95fen" cn="95分" />
+    <item drawable="a__li__yun__pan" cn="阿里云盘" />
+    <item drawable="a_island" cn="A岛" />
+    <item drawable="abbey" cn="Abbey Music Player" />
+    <item drawable="abc" cn="中国农业银行" />
+    <item drawable="accubattery" cn="AccuBattery" />
+    <item drawable="acfun" cn="AcFun" />
+    <item drawable="acrobat" cn="Adobe Acrobat Reader: Edit PDF" />
+    <item drawable="actinium" cn="Actinium" />
+    <item drawable="action_launcher" cn="Action Launcher" />
+    <item drawable="ad_wars" cn="大圣净化" />
+    <item drawable="adguard" cn="AdGuard" />
+    <item drawable="adm" cn="Advanced Download Manager &amp; Torrent downloader" />
+    <item drawable="adm_pro" cn="ADM Pro" />
+    <item drawable="adobe_capture" cn="Adobe Capture: Tool for Photoshop, Illustrator" />
+    <item drawable="adobe_draw" cn="Adobe Illustrator Draw" />
+    <item drawable="adobe_flashplayer" cn="Adobe Flash Player 11.1" />
+    <item drawable="adobe_lrmobile" cn="Adobe Lightroom mobile" />
+    <item drawable="adobe_photoshop_sketch" cn="Adobe Photoshop Sketch" />
+    <item drawable="adobe_scan" cn="Adobe Scan: PDF Scanner, OCR" />
+    <item drawable="adobe_xd" cn="Adobe XD" />
+    <item drawable="aide" cn="AIDE- IDE for Android Java C++" />
+    <item drawable="aikan_reader" cn="爱看阅读" />
+    <item drawable="ainanning" cn="爱南宁" />
+    <item drawable="airbattery" cn="AirBattery" />
+    <item drawable="airbnb" cn="Airbnb爱彼迎" />
+    <item drawable="airdroid" cn="AirDroid" />
+    <item drawable="airfrozen" cn="AirFrozen" />
+    <item drawable="ali_smartdail" cn="阿里小号" />
+    <item drawable="alibaba" cn="阿里巴巴" />
+    <item drawable="alipay" cn="支付宝" />
+    <item drawable="aliqin" cn="阿里通信" />
+    <item drawable="aliyun" cn="阿里云" />
+    <item drawable="aliyun_alink" cn="阿里智能" />
+    <item drawable="allhistory" cn="全历史" />
+    <item drawable="aloha" cn="Aloha" />
+    <item drawable="alook" cn="Alook 浏览器" />
+    <item drawable="amazon" cn="Amazon Shopping" />
+    <item drawable="ampere" cn="Ampere" />
+    <item drawable="android_p_ify" cn="Android P ify" />
+    <item drawable="android_pay" cn="Google Pay" />
+    <item drawable="animepipe" cn="AnimePipe" />
+    <item drawable="ankidroid" cn="AnkiDroid" />
+    <item drawable="ansole" cn="Ansole" />
+    <item drawable="antutu" cn="安兔兔评测" />
+    <item drawable="anyview" cn="Anyview Reader" />
+    <item drawable="apex" cn="Apex Launcher - Customize,Secure,and Efficient" />
+    <item drawable="apk_store" cn="商店 / Market" />
+    <item drawable="apkmirror" cn="APKMirror" />
+    <item drawable="apkpure" cn="APKPure" />
+    <item drawable="aplayer" cn="APlayer" />
+    <item drawable="app__fen__xiang" cn="App分享" />
+    <item drawable="app_logo" cn="Oblatum IconPack" />
+    <item drawable="app_qq" cn="应用宝" />
+    <item drawable="app_tracker" cn="App Tracker" />
+    <item drawable="apple_music" cn="Apple Music" />
+    <item drawable="appopsx" cn="AppOpsX" />
+    <item drawable="aqjypt" cn="安全教育平台" />
+    <item drawable="arcaea" cn="Arcaea – 创新立体节奏游戏" />
+    <item drawable="asphalt9" cn="Asphalt 9" />
+    <item drawable="asus_router" cn="华硕路由器" />
+    <item drawable="aurora_store" cn="Aurora Store" />
+    <item drawable="authenticator" cn="战网安全令" />
+    <item drawable="authy2" cn="Twilio Authy 2-Factor Authentication" />
+    <item drawable="autohome" cn="汽车之家" />
+    <item drawable="avgo" cn="AVGO" />
+    <item drawable="avmovie" cn="AVmovie" />
+    <item drawable="avnight" cn="AVnight" />
+    <item drawable="awesome_qr" cn="Awesome QR" />
+    <item drawable="b612" cn="B612咔叽" />
+    <item drawable="baicizhan" cn="百词斩" />
+    <item drawable="baidu" cn="百度" />
+    <item drawable="baidu_browser" cn="百度浏览器" />
+    <item drawable="baidu_homework" cn="作业帮-作业检查和辅导工具" />
+    <item drawable="baidu_input" cn="百度输入法" />
+    <item drawable="baidu_map" cn="Maps" />
+    <item drawable="baidu_netdisk" cn="百度盘破解A版" />
+    <item drawable="baidu_nuomi" cn="百度糯米" />
+    <item drawable="baidu_read" cn="百度阅读" />
+    <item drawable="baidu_tieba" cn="百度贴吧" />
+    <item drawable="baidu_translate" cn="百度翻译（语音翻译）" />
+    <item drawable="baidu_tuiguang" cn="百度营销" />
+    <item drawable="baiguoyuan" cn="百果园" />
+    <item drawable="baimiao" cn="白描-OCR图片转文字与文件证件扫描" />
+    <item drawable="banciyuan" cn="半次元" />
+    <item drawable="bangumi" cn="Bangumi" />
+    <item drawable="bank_jiangsu" cn="江苏银行" />
+    <item drawable="bank_pingan" cn="平安口袋银行" />
+    <item drawable="bankcomm" cn="交通银行" />
+    <item drawable="bar" cn="Bar" />
+    <item drawable="battery_guru" cn="Battery Guru" />
+    <item drawable="battle_net_authenticator" cn="Authenticator" />
+    <item drawable="bbs1024" cn="小草" />
+    <item drawable="behance" cn="Behance – Creative 作品集" />
+    <item drawable="benghuai2" cn="崩坏学园2" />
+    <item drawable="benghuai3" cn="崩坏3" />
+    <item drawable="beoplay" cn="Beoplay" />
+    <item drawable="bifrostv" cn="BifrostV" />
+    <item drawable="bilibili" cn="bilibili" />
+    <item drawable="bilibili_blue" cn="哔哩哔哩概念" />
+    <item drawable="bilibili_cn" cn="bilibili" />
+    <item drawable="bilibili_comic" cn="哔哩哔哩漫画" />
+    <item drawable="bilibili_link" cn="哔哩哔哩直播姬" />
+    <item drawable="bing_dict" cn="微软必应词典" />
+    <item drawable="biubiu_jiasuqi" cn="BiuBiu加速器" />
+    <item drawable="blackberry_launcher" cn="BlackBerry Launcher" />
+    <item drawable="blackblub" cn="夜间屏幕" />
+    <item drawable="blackhouse" cn="小黑屋" />
+    <item drawable="bluecoins" cn="Bluecoins - 财务，预算，金钱，费用跟踪" />
+    <item drawable="blued" cn="Blued" />
+    <item drawable="blued_int" cn="Blued: Gay Live Chat &amp; Dating" />
+    <item drawable="bluemail" cn="Email Blue Mail - Calendar" />
+    <item drawable="bluesky" cn="Bluesky" />
+    <item drawable="bmap" cn="Bmap 白马地图" />
+    <item drawable="boa" cn="Bank of America Mobile Banking" />
+    <item drawable="boc" cn="中国银行手机银行" />
+    <item drawable="book_cp" cn="长佩阅读" />
+    <item drawable="book_douban" cn="豆瓣阅读" />
+    <item drawable="book_jj" cn="晋江小说阅读" />
+    <item drawable="bookshelf" cn="BookShelf" />
+    <item drawable="bose_connect" cn="Bose Connect" />
+    <item drawable="bosszhipin" cn="BOSS直聘" />
+    <item drawable="brave__liu__lan__qi" cn="Brave浏览器：快速、安全的私密浏览器&amp;搜索" />
+    <item drawable="breeno_voice" cn="Breeno" />
+    <item drawable="browser" cn="Browser" />
+    <item drawable="bsz" cn="苏州银行" />
+    <item drawable="btkanba_player" cn="完美视频大全" />
+    <item drawable="bubblegum" cn="Bubblegum Icon pack" />
+    <item drawable="bubeidanci" cn="不背单词" />
+    <item drawable="bullet_message" cn="聊天宝" />
+    <item drawable="burn" cn="Burn" />
+    <item drawable="business_calendar" cn="Business 日历  中文行事历 包括天气，小工具和任务" />
+    <item drawable="buy_home" cn="掌上到家- 美食外卖配送最佳选择" />
+    <item drawable="buyathome" cn="掌上到家- 美食外卖配送最佳选择" />
+    <item drawable="caihong_world" cn="彩虹世界" />
+    <item drawable="cainiao" cn="菜鸟（菜鸟裹裹）" />
+    <item drawable="calculator" cn="Calculator / Calculator" />
+    <item drawable="calendar_dynamic" cn="Calendar" />
+    <item drawable="camera" cn="相机" />
+    <item drawable="camscanner" cn="CamScanner" />
+    <item drawable="captivemgr" cn="CaptiveMgr清除x和!" />
+    <item drawable="card_iconpack" cn="Card图标" />
+    <item drawable="cardboard" cn="Cardboard" />
+    <item drawable="cardboard_camera" cn="Cardboard 相机/Cardboard Camera" />
+    <item drawable="cc_call_blocker" cn="CC来电拦截N+" />
+    <item drawable="ccb" cn="中国建设银行" />
+    <item drawable="cebbank" cn="光大银行" />
+    <item drawable="chanding_kongjian" cn="禅定空间" />
+    <item drawable="changsha_metro" cn="长沙地铁" />
+    <item drawable="changzhou_subway" cn="常州地铁" />
+    <item drawable="cheapflights" cn="Cheapflights – Flight Search" />
+    <item drawable="chelaile" cn="车来了-精准实时公交" />
+    <item drawable="china_daily" cn="CHINA DAILY - 中国日报" />
+    <item drawable="chinamobile" cn="手机营业厅" />
+    <item drawable="chinatelecom" cn="中国电信" />
+    <item drawable="chinaunicom" cn="中国联通" />
+    <item drawable="chong__chong__zhu__shou" cn="虫虫助手" />
+    <item drawable="chrissen_card" cn="麻雀笔记" />
+    <item drawable="chrome" cn="Chrome" />
+    <item drawable="chrome_beta" cn="Chrome Beta" />
+    <item drawable="chrome_canary" cn="Chrome Canary（不稳定）" />
+    <item drawable="chrome_dev" cn="Chrome Dev" />
+    <item drawable="chromium" cn="Chromium" />
+    <item drawable="chushou" cn="触手直播" />
+    <item drawable="cjzc" cn="和平精英" />
+    <item drawable="clash_for_android" cn="Clash for Android" />
+    <item drawable="clash_meta_for_android" cn="Clash Meta For Android" />
+    <item drawable="clash_royale" cn="SFX for Clash Royale" />
+    <item drawable="class_163" cn="网易公开课" />
+    <item drawable="classroom" cn="Google Classroom" />
+    <item drawable="cliff" cn="藏书馆" />
+    <item drawable="clock" cn="时钟 / Clock" />
+    <item drawable="cmb" cn="招商银行" />
+    <item drawable="cmbc" cn="民生银行手机银行" />
+    <item drawable="cn_500px" cn="500px中国版" />
+    <item drawable="cn_gov_tax" cn="个人所得税" />
+    <item drawable="colorcapture" cn="色采" />
+    <item drawable="commbank" cn="CommBank" />
+    <item drawable="contacts" cn="通讯录 / Contacts" />
+    <item drawable="coolapk" cn="酷安" />
+    <item drawable="cortana" cn="Cortana" />
+    <item drawable="csdn" cn="CSDN" />
+    <item drawable="ctrip" cn="携程企业商旅" />
+    <item drawable="ctrl_plus" cn="Ctrl +" />
+    <item drawable="cytus_ii" cn="Cytus II" />
+    <item drawable="cz_file_manager" cn="超卓文件管理器" />
+    <item drawable="cz_texteditor" cn="超卓文本编辑器/CZ TextEditor" />
+    <item drawable="d115" cn="115" />
+    <item drawable="damon_ps2" cn="呆萌PS2模拟器专业版 PS2模拟器 PPSSPP PSP" />
+    <item drawable="dancing_line" cn="Dancing Line" />
+    <item drawable="dandelion" cn="AweSeed" />
+    <item drawable="daodai" cn="倒带" />
+    <item drawable="daojucheng" cn="掌上道聚城" />
+    <item drawable="data_monitor" cn="网路流量计+分析工具" />
+    <item drawable="datong_dict" cn="大同词典-超好用的英语、日语词典" />
+    <item drawable="daydream" cn="Daydream" />
+    <item drawable="dear_translate" cn="有道翻译官" />
+    <item drawable="deepseek" cn="DeepSeek" />
+    <item drawable="delve" cn="Delve" />
+    <item drawable="devcheck" cn="DevCheck" />
+    <item drawable="dian__zi__you__jian" cn="Smartisan Mail" />
+    <item drawable="dianbiao" cn="电表" />
+    <item drawable="dianping" cn="Dianping" />
+    <item drawable="dida_music" cn="DiDa音乐下载" />
+    <item drawable="didi" cn="滴滴出行" />
+    <item drawable="digit" cn="数字尾巴" />
+    <item drawable="ding__dong__fm__dian__tai" cn="叮咚FM电台" />
+    <item drawable="ding_talk" cn="钉钉" />
+    <item drawable="dir" cn="Dir 垃圾清理" />
+    <item drawable="discord" cn="Discord - 与好友一起讨论、视频聊天以及拉家常" />
+    <item drawable="diyidan" cn="第一弹" />
+    <item drawable="dizzypassword" cn="去特么的密码" />
+    <item drawable="dji_mimo" cn="DJI Mimo" />
+    <item drawable="dmzj" cn="动漫之家" />
+    <item drawable="dnf_zhushou" cn="DNF助手" />
+    <item drawable="dolphin" cn="Dolphin" />
+    <item drawable="donghuabizhi" cn="记得动画壁纸" />
+    <item drawable="douban" cn="豆瓣" />
+    <item drawable="douyin" cn="抖音" />
+    <item drawable="douyutcv" cn="斗鱼" />
+    <item drawable="douyutv" cn="斗鱼" />
+    <item drawable="download" cn="下载 / Files" />
+    <item drawable="dragalia_lost" cn="Dragalia Lost ～失落的龙约～" />
+    <item drawable="drcom" cn="哆点" />
+    <item drawable="drops" cn="Drops点滴学语言‧学外语记单词‧英语西班牙语全球多国语言" />
+    <item drawable="du" cn="得物(毒)" />
+    <item drawable="du_gif_maker" cn="DU GIF Maker" />
+    <item drawable="duckduckgo" cn="DuckDuckGo Privacy Browser" />
+    <item drawable="duia" cn="对啊课堂" />
+    <item drawable="duitang" cn="堆糖" />
+    <item drawable="duokan_reader" cn="多看阅读" />
+    <item drawable="duolingo" cn="Duolingo" />
+    <item drawable="duxiaoman" cn="度小满金融" />
+    <item drawable="dxy" cn="丁香医生" />
+    <item drawable="earth" cn="Google 地球" />
+    <item drawable="easi" cn="EASI - 华人美食外卖送餐首选平台" />
+    <item drawable="easy_share" cn="互传" />
+    <item drawable="ecloud" cn="天翼云盘" />
+    <item drawable="edgelighting" cn="边缘闪光" />
+    <item drawable="edxposed_manager" cn="EdXposed Manager" />
+    <item drawable="eh_viewer" cn="EhViewer" />
+    <item drawable="eleme" cn="淘宝闪购" />
+    <item drawable="elexusclub" cn="eLexusClub" />
+    <item drawable="email" cn="Mail" />
+    <item drawable="emby_server" cn="Emby Server" />
+    <item drawable="emore" cn="EMore" />
+    <item drawable="emoticoncreater" cn="表情包生成器" />
+    <item drawable="emui_accountagent" cn="云空间/Cloud #EMUI" />
+    <item drawable="emui_bone" cn="华为穿戴" />
+    <item drawable="emui_findmyphone" cn="查找我的手机" />
+    <item drawable="emui_flashlight" cn="Flashlight for Huawei （站长注：实际与华为无关）" />
+    <item drawable="emui_health" cn="运动健康 #EMUI" />
+    <item drawable="emui_hnreader" cn="Honor Reader" />
+    <item drawable="emui_hwouc" cn="软件更新 #EMUI" />
+    <item drawable="emui_hwvplayer" cn="HUAWEI Video Player" />
+    <item drawable="emui_kobackup" cn="Huawei Backup" />
+    <item drawable="emui_lives" cn="生活服务 #EMUI" />
+    <item drawable="emui_music" cn="华为音乐播放器 #EMUI" />
+    <item drawable="emui_phoneservice" cn="HiCare" />
+    <item drawable="emui_systemmanager" cn="手机管家 #EMUI" />
+    <item drawable="emui_trustspace" cn="TrustSpace" />
+    <item drawable="emui_vassistant" cn="语音助手 / VoiceAssistant" />
+    <item drawable="emui_vdrive" cn="云空间/Cloud #EMUI" />
+    <item drawable="emui_youku" cn="视频•优酷版/Video · Youku #EMUI" />
+    <item drawable="erbing" cn="二柄" />
+    <item drawable="erweima" cn="Scan" />
+    <item drawable="etao" cn="一淘—淘宝官方返利、优惠券、比价客户端" />
+    <item drawable="eudic_dictionary" cn="欧路词典" />
+    <item drawable="evernote" cn="Evernote - 笔记管理专家" />
+    <item drawable="excel" cn="Microsoft Excel" />
+    <item drawable="f___droid" cn="F-Droid" />
+    <item drawable="f__droid" cn="F-Droid" />
+    <item drawable="facebook" cn="Facebook" />
+    <item drawable="faceu" cn="Faceu激萌" />
+    <item drawable="faloo_bookreader" cn="飞卢小说" />
+    <item drawable="famijia" cn="Fa米家" />
+    <item drawable="fan__qie__mian__fei__xiao__shuo" cn="番茄免费小说" />
+    <item drawable="fasthub" cn="FastHub for GitHub" />
+    <item drawable="faxianjc" cn="发现精彩广发银行官方APP" />
+    <item drawable="feedly" cn="Feedly - Smarter News Reader" />
+    <item drawable="feishu" cn="飞书" />
+    <item drawable="feizhu" cn="飞猪旅行" />
+    <item drawable="feng__chao" cn="丰巢" />
+    <item drawable="fenqile" cn="分期乐" />
+    <item drawable="file_explorer" cn="FE文件管理器" />
+    <item drawable="file_manager" cn="File Manager" />
+    <item drawable="files" cn="文件管理 / Files" />
+    <item drawable="files_go" cn="Files" />
+    <item drawable="firefox" cn="Firefox Nightly" />
+    <item drawable="firefox_focus" cn="Firefox Focus：隐私保护浏览器" />
+    <item drawable="firefox_nightly" cn="Firefox Nightly" />
+    <item drawable="fireplayer" cn="星火直播" />
+    <item drawable="fit" cn="Google 健身：活动跟踪" />
+    <item drawable="fk_kernel_manager" cn="FK Kernel Manager" />
+    <item drawable="flash_download" cn="闪电下载" />
+    <item drawable="flipboard" cn="Flipboard - Latest News, Top Stories &amp; Lifestyle" />
+    <item drawable="fluid_n_g" cn="Fluid Navigation Gestures" />
+    <item drawable="food_alaide" cn="阿德莱德送餐" />
+    <item drawable="fooview" cn="FV悬浮球-fooView" />
+    <item drawable="foxit_pdf" cn="福昕PDF阅读器" />
+    <item drawable="frdic" cn="法语助手" />
+    <item drawable="fsbi" cn="Flat Style Bar Indicators" />
+    <item drawable="fusion_app" cn="Fusion App-所有网页都是客户端" />
+    <item drawable="gallery" cn="图库 / Gallery" />
+    <item drawable="game_sdorica" cn="万象物语 sdorica" />
+    <item drawable="game_space" cn="OnePlus Games" />
+    <item drawable="gameguardian" cn="GameGuardian" />
+    <item drawable="gaode_maps" cn="高德地图" />
+    <item drawable="gboard" cn="Gboard" />
+    <item drawable="geek360" cn="360卫士极客版" />
+    <item drawable="gei__wei__lai__xie__feng__xin" cn="给未来写封信" />
+    <item drawable="gemini" cn="Gemini 图标包" />
+    <item drawable="geometric_weather" cn="几何天气 - Geometric Weather" />
+    <item drawable="get" cn="get" />
+    <item drawable="github" cn="GitHub" />
+    <item drawable="gjzs" cn="搞机助手-Local" />
+    <item drawable="gmail" cn="Gmail" />
+    <item drawable="gohosts" cn="Go Hosts" />
+    <item drawable="google" cn="Google" />
+    <item drawable="google_allo" cn="Allo" />
+    <item drawable="google_assistant" cn="Google 助理" />
+    <item drawable="google_camera" cn="相机/Camera" />
+    <item drawable="google_docs" cn="Google 文档" />
+    <item drawable="google_drive" cn="云端硬盘" />
+    <item drawable="google_duo" cn="Google Duo - 高质量的视频通话" />
+    <item drawable="google_forms" cn="Google表格" />
+    <item drawable="google_maps" cn="地图" />
+    <item drawable="google_message" cn="Messages" />
+    <item drawable="google_now_launcher" cn="Google 即时桌面/Google Now Launcher" />
+    <item drawable="google_one" cn="Google One" />
+    <item drawable="google_opinion_rewards" cn="Google Opinion Rewards" />
+    <item drawable="google_pay" cn="Google Pay" />
+    <item drawable="google_photo" cn="相册" />
+    <item drawable="google_pinyin" cn="谷歌拼音输入法" />
+    <item drawable="google_play_books" cn="Google Play 图书" />
+    <item drawable="google_play_console" cn="Google Play Console" />
+    <item drawable="google_play_games" cn="Games" />
+    <item drawable="google_play_movies" cn="Google TV" />
+    <item drawable="google_play_music" cn="YouTube Music" />
+    <item drawable="google_play_newsstand" cn="Google 新闻 – 每日要闻" />
+    <item drawable="google_plus" cn="Currents" />
+    <item drawable="google_podcasts" cn="Google 播客" />
+    <item drawable="google_slides" cn="Google幻灯片" />
+    <item drawable="google_space" cn="OurPlay原谷歌空间" />
+    <item drawable="google_translate" cn="翻译" />
+    <item drawable="google_voice" cn="Voice" />
+    <item drawable="google_voice_search" cn="Google" />
+    <item drawable="google_wallpaper" cn="壁纸" />
+    <item drawable="google_wear" cn="Wear OS by Google 智能手表" />
+    <item drawable="googlecalendar" cn="Calendar" />
+    <item drawable="googleplay" cn="Play 商店" />
+    <item drawable="gotokeep" cn="Keep" />
+    <item drawable="gravitybox_q" cn="GravityBox [Q]" />
+    <item drawable="greenify" cn="Greenify绿色守护" />
+    <item drawable="gta_sa" cn="GTA SA" />
+    <item drawable="guang__huan__zhu__shou" cn="光环助手" />
+    <item drawable="guangxinongxin" cn="广西农信" />
+    <item drawable="guanzhi_meiriyiwen" cn="观止" />
+    <item drawable="gumtree" cn="Gumtree: Shop, Buy &amp; Sell" />
+    <item drawable="gxicon" cn="GxIconPack" />
+    <item drawable="h_viewer" cn="H-Viewer" />
+    <item drawable="habits" cn="循环习惯记录" />
+    <item drawable="hangouts" cn="环聊" />
+    <item drawable="hanju_tv" cn="韩剧TV" />
+    <item drawable="hanks_notes" cn="蜜蜂便签" />
+    <item drawable="hao__you__kuai__bao" cn="好游快爆" />
+    <item drawable="haoce" cn="好策" />
+    <item drawable="happy_browser" cn="欢欢浏览器 -- 应用双开、视频嗅探、快进视频广告" />
+    <item drawable="happyelements" cn="开心消消乐" />
+    <item drawable="hdplive" cn="HDP直播" />
+    <item drawable="hdzuoye" cn="互动作业" />
+    <item drawable="hearthstone" cn="炉石盒子" />
+    <item drawable="heiyu" cn="Brevent" />
+    <item drawable="hello_voice" cn="Hello语音" />
+    <item drawable="hellobike" cn="哈啰出行" />
+    <item drawable="hema" cn="盒马" />
+    <item drawable="hermit" cn="Hermit — Lite Apps Browser" />
+    <item drawable="hero_yqlfc" cn="国际版" />
+    <item drawable="hexin" cn="同花顺手机炒股股票软件" />
+    <item drawable="hiby_music" cn="海贝音乐" />
+    <item drawable="hike" cn="海阔" />
+    <item drawable="hiker" cn="海阔" />
+    <item drawable="hola" cn="Hola桌面/Hola Launcher" />
+    <item drawable="holi_weather" cn="Holi天气" />
+    <item drawable="hook_model" cn="AppEnv" />
+    <item drawable="hsbb" cn="花生地铁" />
+    <item drawable="hsrj" cn="花生日记" />
+    <item drawable="huawei_fans" cn="花粉俱乐部" />
+    <item drawable="huawei_hilink" cn="华为 HiLink / HUAWEI Mobile WiFi 2" />
+    <item drawable="huawei_smarthome" cn="智慧生活 #EMUI" />
+    <item drawable="huihuaweijian" cn="会话微件" />
+    <item drawable="hupu" cn="虎扑" />
+    <item drawable="hupu_shihuo" cn="识货" />
+    <item drawable="huyazhibo" cn="虎牙直播" />
+    <item drawable="hyxd" cn="荒野行动" />
+    <item drawable="i_reader" cn="掌阅 iReader" />
+    <item drawable="icbc" cn="中国工商银行" />
+    <item drawable="icbc_im" cn="工银融e联" />
+    <item drawable="ice_box" cn="冰箱 IceBox：自动冻结・省电神器" />
+    <item drawable="icmbc" cn="掌上生活" />
+    <item drawable="idm_plus" cn="1DM+瀏覽器" />
+    <item drawable="ifanr" cn="爱范儿" />
+    <item drawable="ifind" cn="同花顺iFinD" />
+    <item drawable="iflat" cn="iFlat" />
+    <item drawable="ifont" cn="爱字体" />
+    <item drawable="ifttt" cn="IFTTT" />
+    <item drawable="iherb" cn="iHerb 中国" />
+    <item drawable="imgur" cn="Imgur: Funny Memes &amp; GIF Maker" />
+    <item drawable="implosion" cn="Implosion - Never Lose Hope" />
+    <item drawable="imzhiqiang_time" cn="时光提醒" />
+    <item drawable="inbox" cn="Inbox" />
+    <item drawable="ingress" cn="Ingress Prime" />
+    <item drawable="ingress_prime" cn="Ingress Prime" />
+    <item drawable="instagram" cn="Instagram" />
+    <item drawable="interface_iconpack" cn="Interface 图标包 杠精图标包 Interface'Broken" />
+    <item drawable="iqiyi" cn="爱奇艺" />
+    <item drawable="island" cn="炼妖壶（Island）" />
+    <item drawable="it_home" cn="IT之家" />
+    <item drawable="iwordnet" cn="知米背单词" />
+    <item drawable="javiewer" cn="JAViewer" />
+    <item drawable="jd" cn="京东" />
+    <item drawable="jd_jinrong" cn="京东金融" />
+    <item drawable="jd_jirong" cn="京东金融" />
+    <item drawable="jg12123" cn="交管12123" />
+    <item drawable="jiakao_baodian" cn="驾考宝典-驾照考试|驾校理论" />
+    <item drawable="jiao__tong__ka" cn="交通卡" />
+    <item drawable="jiaoyicat" cn="交易猫" />
+    <item drawable="jie__ya__suo__quan__neng__wang" cn="解压缩全能王" />
+    <item drawable="jiguang_yingyuan" cn="投屏助手" />
+    <item drawable="jike" cn="即刻" />
+    <item drawable="jing__dong__kuai__di" cn="京东快递" />
+    <item drawable="jing__dong__xiao__jia" cn="京东小家" />
+    <item drawable="jisu_browser" cn="360极速浏览器" />
+    <item drawable="jmail" cn="极邮/JadeMail" />
+    <item drawable="k_9__mail" cn="K-9 Mail" />
+    <item drawable="kai__yan" cn="开眼" />
+    <item drawable="kakaotalk" cn="KakaoTalk : 通讯应用" />
+    <item drawable="kancn" cn="KanCN-海外华人回国VPN解锁网易云优酷爱奇艺中国VPN" />
+    <item drawable="kaochong" cn="考虫" />
+    <item drawable="keep" cn="Keep notes" />
+    <item drawable="keepass_2_android" cn="Keepass2Android" />
+    <item drawable="kernel_adiutor" cn="内核调校" />
+    <item drawable="kfc" cn="肯德基" />
+    <item drawable="kihan" cn="火影忍者" />
+    <item drawable="kindle" cn="Amazon Kindle" />
+    <item drawable="kitchen_stories" cn="厨房故事 - 美食,菜谱,西餐,烘焙,视频,减肥食谱" />
+    <item drawable="kiwi_browser" cn="Kiwi Browser" />
+    <item drawable="knowspace" cn="知识星球" />
+    <item drawable="kuaishou" cn="快手" />
+    <item drawable="kugou_music" cn="酷狗音乐" />
+    <item drawable="kuwo_music" cn="酷我音乐" />
+    <item drawable="laddervpn" cn="LadderVPN" />
+    <item drawable="lantern" cn="蓝灯: 秒杀VPN" />
+    <item drawable="lastpass" cn="LastPass Password Manager" />
+    <item drawable="lawnchair" cn="Lawnchair (测试版)" />
+    <item drawable="lbe_security" cn="LBE Security Master" />
+    <item drawable="leafpic" cn="LeafPic Gallery" />
+    <item drawable="lenovo" cn="联想智选" />
+    <item drawable="lenovo_sync" cn="联想乐云" />
+    <item drawable="lexus_mirror" cn="LEXUS Mirror" />
+    <item drawable="li__tiao__tiao" cn="李跳跳" />
+    <item drawable="light_beauty" cn="轻颜相机" />
+    <item drawable="light_start" cn="轻启动" />
+    <item drawable="line" cn="LINE" />
+    <item drawable="line_lite" cn="LINE Lite" />
+    <item drawable="linewebtoon" cn="WEBTOON" />
+    <item drawable="linksys" cn="Linksys" />
+    <item drawable="linos_recorder" cn="录制器/Recorder" />
+    <item drawable="live_cc" cn="CC直播" />
+    <item drawable="live_visualizer" cn="壁纸频谱" />
+    <item drawable="lls" cn="四川电信" />
+    <item drawable="lofter" cn="网易LOFTER" />
+    <item drawable="lol_friend" cn="Riot Mobile" />
+    <item drawable="lovebizhi" cn="爱壁纸 桌面锁屏" />
+    <item drawable="lovelive" cn="Love Live!" />
+    <item drawable="lovely_cat_crack" cn="猫咪最新破解版" />
+    <item drawable="lovelycat" cn="猫咪" />
+    <item drawable="lp_iconpack" cn="【停更】LP图标包 评论区传送门" />
+    <item drawable="luckin_coffee" cn="瑞幸咖啡" />
+    <item drawable="lucky_patcher" cn="Lucky Patcher" />
+    <item drawable="ludashi" cn="鲁大师安卓版" />
+    <item drawable="lushi" cn="炉石传说" />
+    <item drawable="lv__fa__shi__ying__di" cn="旅法师营地" />
+    <item drawable="lxqw" cn="旅行青蛙" />
+    <item drawable="magenetman" cn="磁力TV" />
+    <item drawable="magic_magnet" cn="神奇磁力" />
+    <item drawable="magicalstory_cleaner" cn="安卓清理君" />
+    <item drawable="magisk_delta" cn="Magisk Delta" />
+    <item drawable="magisk_manager" cn="Magisk" />
+    <item drawable="magnet_torrent_player" cn="种子磁力播放器/Magnet Torrent Player" />
+    <item drawable="magnetic_king" cn="万磁王/MagneticKing" />
+    <item drawable="magnetman" cn="磁力TV" />
+    <item drawable="mahua" cn="麻花影视" />
+    <item drawable="maidanba" cn="买单吧" />
+    <item drawable="mail_master" cn="网易邮箱大师" />
+    <item drawable="maimai" cn="脉脉" />
+    <item drawable="maimemo" cn="墨墨背单词" />
+    <item drawable="majsoul" cn="雀魂majsoul" />
+    <item drawable="mancamera" cn="型影" />
+    <item drawable="mandu" cn="慢读" />
+    <item drawable="manhuaren" cn="漫画人" />
+    <item drawable="manyou" cn="全球上网" />
+    <item drawable="maomi_video" cn="猫咪视频" />
+    <item drawable="maoyan" cn="猫眼" />
+    <item drawable="maoyan_pro" cn="猫眼专业版" />
+    <item drawable="mark_qrcode" cn="二维码扫描" />
+    <item drawable="market" cn="Market" />
+    <item drawable="mcdonald_s" cn="麦当劳官方手机订餐APP" />
+    <item drawable="mcdonalds" cn="麦当劳官方手机订餐APP" />
+    <item drawable="mei__tuan__you__xuan" cn="美团优选" />
+    <item drawable="mei__zu__shang__cheng" cn="魅族商城" />
+    <item drawable="meitu" cn="美图秀秀" />
+    <item drawable="meituan" cn="美团-美好生活小帮手" />
+    <item drawable="meiyou" cn="美柚-大姨妈月经期助手" />
+    <item drawable="memory_zone" cn="存储卡管理器" />
+    <item drawable="message" cn="信息 / Messages" />
+    <item drawable="messenger_lite" cn="Facebook Lite" />
+    <item drawable="metro" cn="Metro大都会" />
+    <item drawable="mi__ni__jian__pan" cn="迷你键盘" />
+    <item drawable="mi_control_center" cn="Mi Control Center" />
+    <item drawable="mi_home" cn="米家" />
+    <item drawable="mi_router" cn="小米路由器 MiWiFi" />
+    <item drawable="miaomiaozhe" cn="喵喵折" />
+    <item drawable="microsoft_edge" cn="Microsoft Edge 浏览器" />
+    <item drawable="microsoft_launcher" cn="微软桌面" />
+    <item drawable="microsoft_remote_desktop" cn="Remote Desktop 8" />
+    <item drawable="microsoft_todo" cn="待办事项:	Microsoft To Do" />
+    <item drawable="midea_ac" cn="美的空气管家" />
+    <item drawable="migrate" cn="Migrate - ROM data backup: 4.0" />
+    <item drawable="migu_video" cn="咪咕视频" />
+    <item drawable="minecraft" cn="Minecraft" />
+    <item drawable="mingrifangzhou" cn="明日方舟" />
+    <item drawable="mini_metro" cn="迷你地铁" />
+    <item drawable="mint_bookkeeping" cn="薄荷记账" />
+    <item drawable="mipush" cn="小米推送服务" />
+    <item drawable="miru" cn="Miru" />
+    <item drawable="miss_lee" cn="MissLee" />
+    <item drawable="mistiness" cn="Mistiness 弥散 图标包" />
+    <item drawable="miui_bbs" cn="小米社区" />
+    <item drawable="miui_browser" cn="Browser" />
+    <item drawable="miui_clock" cn="时钟" />
+    <item drawable="miui_compass" cn="指南针" />
+    <item drawable="miui_feedback" cn="用户反馈" />
+    <item drawable="miui_forum" cn="MIUI论坛/MIUI Forum #MIUI" />
+    <item drawable="miui_market" cn="应用商店" />
+    <item drawable="miui_music" cn="Mi Music" />
+    <item drawable="miui_news" cn="一点资讯" />
+    <item drawable="miui_note" cn="笔记" />
+    <item drawable="miui_remote" cn="轻遥控" />
+    <item drawable="miui_screenrecorder" cn="屏幕录制" />
+    <item drawable="miui_security" cn="手机管家 #MIUI" />
+    <item drawable="miui_support" cn="远程协助/Remote assistant" />
+    <item drawable="miui_themes" cn="主题壁纸" />
+    <item drawable="miui_wallet" cn="Wallet" />
+    <item drawable="miui_xiao_ai" cn="小爱同学 #MIUI" />
+    <item drawable="miuihd" cn="MIUI活动推荐" />
+    <item drawable="mix_explorer" cn="MiX" />
+    <item drawable="mjweather" cn="墨迹天气" />
+    <item drawable="mjweather_light" cn="墨迹天气极速版" />
+    <item drawable="mjxq" cn="美剧星球" />
+    <item drawable="mm131" cn="MM131" />
+    <item drawable="mobai" cn="摩拜单车" />
+    <item drawable="mobile_collaboration" cn="移动协同" />
+    <item drawable="mobilism" cn="Mobilism" />
+    <item drawable="mobvoi" cn="Mobvoi Store" />
+    <item drawable="modian" cn="摩点" />
+    <item drawable="moji__wen__da" cn="MOJi问答" />
+    <item drawable="moji_dict" cn="MOJi辞書: 实用日语词典「日本旅游 | 学日语翻译必备」" />
+    <item drawable="moji_kana" cn="MOJiKana" />
+    <item drawable="moji_test" cn="MOJiTest" />
+    <item drawable="mokee_aegis" cn="Aegis" />
+    <item drawable="mokee_center" cn="魔趣中心" />
+    <item drawable="momo" cn="MOMO陌陌" />
+    <item drawable="monkeybook" cn="阅读" />
+    <item drawable="monument" cn="紀念碑谷/Monument Valley" />
+    <item drawable="moonreader" cn="静读天下 / Moon+ Reader" />
+    <item drawable="moshouzhushou" cn="魔兽世界随身助手" />
+    <item drawable="mosoteach" cn="蓝墨云班课" />
+    <item drawable="motionpro" cn="MotionPro" />
+    <item drawable="move_to_miui" cn="小米换机" />
+    <item drawable="movie_fans" cn="影迷大院" />
+    <item drawable="movie_radar" cn="短信转发" />
+    <item drawable="moviepic" cn="图解电影" />
+    <item drawable="mr_translator" cn="腾讯翻译君" />
+    <item drawable="mtglq" cn="MT Manager" />
+    <item drawable="mtgp_lol" cn="掌上英雄联盟" />
+    <item drawable="mtwm" cn="美团外卖-美食水果优惠订餐" />
+    <item drawable="music" cn="音乐 / Music" />
+    <item drawable="musicfx" cn="Equalizer" />
+    <item drawable="muzei" cn="Muzei Live Wallpaper" />
+    <item drawable="mx_player" cn="MX Player" />
+    <item drawable="myappscreenmask" cn="Zone护眼" />
+    <item drawable="mylexusdvrii" cn="MyLexusDVRII" />
+    <item drawable="mystops" cn="myStops" />
+    <item drawable="nanguayingshi" cn="南瓜影视" />
+    <item drawable="nanning_guidaojiaotong" cn="南宁轨道交通" />
+    <item drawable="nearme_game_center" cn="Game Center" />
+    <item drawable="nekogram" cn="Nekogram" />
+    <item drawable="nekoinverter_ehviewer" cn="EH Viewer" />
+    <item drawable="neoreader" cn="NeoReader" />
+    <item drawable="netease_buff" cn="网易BUFF" />
+    <item drawable="netease_cartoonreader" cn="网易漫画" />
+    <item drawable="netease_cloudmusic" cn="网易云音乐" />
+    <item drawable="netease_moba" cn="决战！平安京" />
+    <item drawable="netease_moba_bili" cn="决战！平安京" />
+    <item drawable="netease_news" cn="网易新闻（官方）" />
+    <item drawable="netease_uu" cn="网易UU加速器" />
+    <item drawable="neteasemusic_lyrics_helper" cn="网易云歌词助手" />
+    <item drawable="netflix" cn="Netflix" />
+    <item drawable="nevo" cn="女娲石" />
+    <item drawable="newpipe" cn="NewPipe" />
+    <item drawable="news_and_weather" cn="新闻和天气/News &amp; Weather" />
+    <item drawable="nga" cn="NGA玩家社区" />
+    <item drawable="nga_git" cn="National Gay Alliance客户端开源版" />
+    <item drawable="nhbooks" cn="NHBooks" />
+    <item drawable="nice" cn="nice" />
+    <item drawable="nimingban" cn="匿名版" />
+    <item drawable="nintendo_switch_online" cn="Nintendo Switch Online" />
+    <item drawable="niwodangnian" cn="你我当年" />
+    <item drawable="nokia_notes" cn="Note" />
+    <item drawable="nokia_smart_tuner" cn="Smart Tuner" />
+    <item drawable="nord_vpn" cn="NordVPN  - 快速安全的VPN" />
+    <item drawable="notes" cn="便签 / Notes" />
+    <item drawable="nothing_glyph_composer" cn="Composer" />
+    <item drawable="nothing_system_service" cn="Nothing system service" />
+    <item drawable="notion" cn="Notion" />
+    <item drawable="novalauncher" cn="Nova Launcher Prime" />
+    <item drawable="novasetting" cn="Nova Launcher" />
+    <item drawable="novelmanager" cn="书掌柜-小说阅读追书神器" />
+    <item drawable="nubia_app_fenshen" cn="Settings" />
+    <item drawable="nubia_flashlight" cn="Фонарик" />
+    <item drawable="nubia_neoshare" cn="NeoShare" />
+    <item drawable="nubia_soundrecorder" cn="录音机 / Sound Recorder" />
+    <item drawable="nubia_store" cn="红魔商城" />
+    <item drawable="nubia_supersnap" cn="Settings" />
+    <item drawable="nubia_video" cn="视频 / Video" />
+    <item drawable="nubia_wfd" cn="Transfer" />
+    <item drawable="nubia_yaokongqi" cn="Infrared" />
+    <item drawable="oblatum" cn="Oblatum IconPack" />
+    <item drawable="office_365_admin" cn="Microsoft 365 Admin" />
+    <item drawable="office_lens" cn="Office Lens" />
+    <item drawable="ofo" cn="ofo共享单车/ofo bicycle" />
+    <item drawable="okpassword_days" cn="重要日子 - 正/倒数日·生日·纪念日" />
+    <item drawable="okta" cn="Okta Mobile" />
+    <item drawable="onedrive" cn="OneDrive" />
+    <item drawable="onenote" cn="OneNote" />
+    <item drawable="oneplus_bbs" cn="一加社区" />
+    <item drawable="oneplus_browser" cn="Browser" />
+    <item drawable="oneplus_calendar" cn="日历" />
+    <item drawable="oneplus_camera" cn="相机/Camera #OnePlus" />
+    <item drawable="oneplus_card" cn="卡券/Card Package #OnePlus" />
+    <item drawable="oneplus_filemanager" cn="一加文件管理" />
+    <item drawable="oneplus_gallery" cn="OnePlus Gallery" />
+    <item drawable="oneplus_music" cn="音乐/Music #OnePlus" />
+    <item drawable="oneplus_note" cn="一加便签" />
+    <item drawable="oneplus_opbugreport" cn="用户反馈/User feedback #OnePlus" />
+    <item drawable="oneplus_soundrecorder" cn="录音机" />
+    <item drawable="oneplus_switch" cn="一加搬家" />
+    <item drawable="oneplus_wallet" cn="钱包" />
+    <item drawable="openhub" cn="OpenHub for GitHub" />
+    <item drawable="opera" cn="Opera 浏览器：快速又安全" />
+    <item drawable="oppo_app_store" cn="软件商店/App Market #OPPO" />
+    <item drawable="oppo_data_supermarket" cn="Data Supermarket" />
+    <item drawable="oppo_files" cn="My Files" />
+    <item drawable="oppo_find_my_phone" cn="OPPO" />
+    <item drawable="oppo_game_space" cn="应用增强服务/APP Enhancement Services #OPPO" />
+    <item drawable="oppo_member" cn="我的 OPPO" />
+    <item drawable="oppo_music" cn="音乐/Music #OPPO" />
+    <item drawable="oppo_ommunity" cn="OPPO 社区" />
+    <item drawable="oppo_one_tap_lockscreen" cn="一键锁屏/Screen Lock #OPPO" />
+    <item drawable="oppo_oroaming" cn="国际上网" />
+    <item drawable="oppo_relax" cn="OPPO Relax" />
+    <item drawable="oppo_tips" cn="使用技巧" />
+    <item drawable="oringe_vr" cn="橙子VR" />
+    <item drawable="osu" cn="osu!droid" />
+    <item drawable="outlook" cn="Outlook" />
+    <item drawable="pandatv" cn="熊猫直播" />
+    <item drawable="pandavpn" cn="PandaVPN Lite - 做最好最快的VPN" />
+    <item drawable="paypal" cn="PayPal" />
+    <item drawable="pdd" cn="拼多多" />
+    <item drawable="peini" cn="Bene" />
+    <item drawable="perfect_viewer" cn="Perfect Viewer" />
+    <item drawable="phone" cn="拨号 / Phone" />
+    <item drawable="phonograph" cn="Phonograph" />
+    <item drawable="photoeditor" cn="照片编辑器:Photo Editor" />
+    <item drawable="photos" cn="相册/Photos #OPPO" />
+    <item drawable="photos_go" cn="Gallery" />
+    <item drawable="picacg" cn="嗶咔漫畫 仲夏版" />
+    <item drawable="pickaxechat" cn="PickaxeChat" />
+    <item drawable="picsart" cn="Picsart Photo &amp; Video Editor" />
+    <item drawable="pinterest" cn="Pinterest" />
+    <item drawable="pixiv" cn="pixiv" />
+    <item drawable="pixles_iconpack" cn="Pixles像素包" />
+    <item drawable="playstation" cn="PlayStation App" />
+    <item drawable="plus" cn="Plus Messenger" />
+    <item drawable="pocket_casts" cn="Pocket Casts - Podcast Player" />
+    <item drawable="polarr" cn="泼辣修图" />
+    <item drawable="pornhub" cn="PH Viewer" />
+    <item drawable="potato" cn="Potato chat" />
+    <item drawable="power_clean" cn="Power Clean" />
+    <item drawable="poweramp" cn="Poweramp" />
+    <item drawable="powerpoint" cn="Microsoft PowerPoint" />
+    <item drawable="ppiicc" cn="图片拼接PPIICC" />
+    <item drawable="ppsspp" cn="PPSSPP - PSP emulator" />
+    <item drawable="protonmail" cn="ProtonMail - Encrypted Email" />
+    <item drawable="psbc" cn="邮储银行" />
+    <item drawable="pstouch" cn="PS Touch" />
+    <item drawable="pu_da_xi_beng" cn="浦大喜奔" />
+    <item drawable="pub_gfx_tool_xda" cn="PGT: GFX, Launcher &amp; Optimizer" />
+    <item drawable="pubg_huazhi" cn="刺激战场画质助手" />
+    <item drawable="pure_browser" cn="Pure浏览器" />
+    <item drawable="pure_icon_pack" cn="Pure 轻雨 图标包" />
+    <item drawable="pure_icon_pack_lite" cn="Pure IconPack Lite" />
+    <item drawable="pure_mosaic" cn="纯纯打码 - 卓越的马赛克应用" />
+    <item drawable="pure_weather" cn="Pure天气" />
+    <item drawable="puretie" cn="PureTie" />
+    <item drawable="pvz" cn="Plants vs. Zombies FREE" />
+    <item drawable="q10000" cn="10000社区" />
+    <item drawable="qbittorrent_remote" cn="qBittorrent Remote" />
+    <item drawable="qcloud" cn="微云" />
+    <item drawable="qdreader" cn="起点小说" />
+    <item drawable="qi__miao__ying__yong" cn="奇妙应用" />
+    <item drawable="qian__cheng__wu__you__51job" cn="前程无忧51Job" />
+    <item drawable="qianji" cn="钱迹-记账小能手" />
+    <item drawable="qinbaobao" cn="亲宝宝" />
+    <item drawable="qing__dao__yin__hang" cn="青岛银行" />
+    <item drawable="qing__zhuo" cn="清浊" />
+    <item drawable="qingdao_metro" cn="QINGDAO METRO" />
+    <item drawable="qingtingyingyu" cn="轻听英语" />
+    <item drawable="qinxinsou" cn="搜你妹" />
+    <item drawable="qpay" cn="Qpay" />
+    <item drawable="qq" cn="QQ" />
+    <item drawable="qq_ac" cn="腾讯动漫" />
+    <item drawable="qq_browser" cn="QQ浏览器极速版" />
+    <item drawable="qq_inputs" cn="QQ输入法" />
+    <item drawable="qq_jp" cn="QQ 日本版" />
+    <item drawable="qq_music_local_player" cn="轻听" />
+    <item drawable="qqmail" cn="QQ邮箱" />
+    <item drawable="qqmusic" cn="QQ音乐" />
+    <item drawable="qqtoken" cn="QQ安全中心" />
+    <item drawable="qqzc" cn="QQ众测" />
+    <item drawable="qrzd" cn="永远的7日之都" />
+    <item drawable="quark" cn="夸克" />
+    <item drawable="quick_pic" cn="快图浏览" />
+    <item drawable="quickedit" cn="QuickEdit 文本编辑器" />
+    <item drawable="qunar" cn="去哪儿旅行-酒店.火车" />
+    <item drawable="qzone" cn="QQ空间" />
+    <item drawable="radio" cn="收音机 / radio" />
+    <item drawable="reburn" cn="REBURN 图标包" />
+    <item drawable="register" cn="集享联盟" />
+    <item drawable="retro_music" cn="Retro Music" />
+    <item drawable="root_explorer" cn="Root Explorer" />
+    <item drawable="roundcorner" cn="小圆角" />
+    <item drawable="rricon" cn="易屋铵 圆图标包！- 圆到底！" />
+    <item drawable="rricon_primitive" cn="易屋铵 圆图标包 · 「青春版」" />
+    <item drawable="samsung_assistant" cn="三星生活助手" />
+    <item drawable="samsung_galaxycare" cn="Samsung Members" />
+    <item drawable="samsung_game_launcher" cn="游戏中心" />
+    <item drawable="samsung_game_tuner" cn="遊戲調節器(Game Tuner)/Game Tuner #Samsung" />
+    <item drawable="samsung_health" cn="三星健康" />
+    <item drawable="samsung_magazine" cn="三星阅读" />
+    <item drawable="samsung_pay" cn="Samsung Pay" />
+    <item drawable="samsung_smart_manager" cn="智能管理器" />
+    <item drawable="sbrainmusic" cn="小睡眠 - 睡眠白噪音" />
+    <item drawable="scanner_app" cn="扫描王全能宝" />
+    <item drawable="sd_nongxin_bank" cn="山东农信" />
+    <item drawable="sdcleaner" cn="存储空间清理" />
+    <item drawable="sdmaid" cn="SD Maid - 为整洁而生" />
+    <item drawable="seal" cn="Seal" />
+    <item drawable="search_by_image" cn="以图搜图/Search By Image" />
+    <item drawable="search_lite" cn="搜索 Lite" />
+    <item drawable="searchpicturetool" cn="搜图神器" />
+    <item drawable="secretinput" cn="密码键盘 - 优雅的密码管理器" />
+    <item drawable="secure_vpn" cn="Secure VPN－Safer Internet" />
+    <item drawable="security" cn="安全中心 / Security" />
+    <item drawable="seekbooks" cn="搜书大师" />
+    <item drawable="setting" cn="MAX Player" />
+    <item drawable="settings" cn="Settings" />
+    <item drawable="sh_inputs" cn="岁寒输入法" />
+    <item drawable="shanbay_listen" cn="扇贝听力口语" />
+    <item drawable="shanbay_news" cn="扇贝阅读" />
+    <item drawable="shanbei_speak" cn="扇贝口语" />
+    <item drawable="shanbei_words" cn="扇贝单词" />
+    <item drawable="shansong" cn="闪送" />
+    <item drawable="share" cn="Share" />
+    <item drawable="sharepoint" cn="Microsoft SharePoint" />
+    <item drawable="shenqi_browser" cn="神奇浏览器/Magic Browser" />
+    <item drawable="shizuku" cn="Shizuku" />
+    <item drawable="shou__ji__xing__neng__pai__hang" cn="手机性能排行" />
+    <item drawable="shu__zi__ren__min__bi" cn="数字人民币" />
+    <item drawable="shuttle" cn="Shuttle+ Music Player" />
+    <item drawable="sim_card_apps" cn="SIM Toolkit" />
+    <item drawable="sim_toolkit" cn="SIM Toolkit" />
+    <item drawable="sketchbook" cn="Sketchbook" />
+    <item drawable="sky_compass" cn="グランブルーファンタジー スカイコンパス" />
+    <item drawable="sleep" cn="Sleep as Android: 追踪您的睡眠" />
+    <item drawable="smartisan___ping__mu__lu__xiang" cn="屏幕录像 #smartisan" />
+    <item drawable="smartisan_bbs" cn="锤子科技论坛" />
+    <item drawable="smartisan_ecurity" cn="手机管理" />
+    <item drawable="smartisan_idearpills" cn="Sara" />
+    <item drawable="smartisan_notes" cn="Smartisan Notes" />
+    <item drawable="smartisan_store" cn="Smartisan Store" />
+    <item drawable="smzdm" cn="什么值得买" />
+    <item drawable="snailread" cn="网易蜗牛读书" />
+    <item drawable="snap" cn="Snap Camera HDR" />
+    <item drawable="snapseed" cn="Snapseed" />
+    <item drawable="snapvpn" cn="LightVPN" />
+    <item drawable="snkrs" cn="Nike SNKRS" />
+    <item drawable="soap" cn="Soap" />
+    <item drawable="soft_shouji" cn="手机乐园市场" />
+    <item drawable="solid_explorer" cn="Solid Explorer File Manager" />
+    <item drawable="sony_ar_effect" cn="AR图片效果" />
+    <item drawable="sony_audio_recorder" cn="录音器/Audio Recorder #Sony" />
+    <item drawable="sony_headphones" cn="Sony | Headphones Connect" />
+    <item drawable="sony_sketch" cn="涂画/Sketch #Sony" />
+    <item drawable="sony_support" cn="Support" />
+    <item drawable="sony_threed_creator" cn="3D大师/3D Creator #Sony" />
+    <item drawable="sony_what_is_new" cn="What's New #Sony" />
+    <item drawable="sougou_input" cn="搜狗输入法" />
+    <item drawable="souhu_video" cn="搜狐视频-电影电视剧美剧影音视频播放器" />
+    <item drawable="soul" cn="Soul" />
+    <item drawable="soul_knight" cn="Soul Knight" />
+    <item drawable="sound" cn="Jabra Sound+" />
+    <item drawable="sound_recorder" cn="录音机 / Sound Recorder" />
+    <item drawable="soundcloud" cn="SoundCloud" />
+    <item drawable="spdbccc" cn="浦大喜奔" />
+    <item drawable="speedtest" cn="Speedtest" />
+    <item drawable="sporteditor" cn="运动修改器" />
+    <item drawable="spotify" cn="Spotify：音乐和播客" />
+    <item drawable="ss" cn="Shadowsocks" />
+    <item drawable="ssly" cn="绅士领域" />
+    <item drawable="ssr" cn="SSR" />
+    <item drawable="ssrr" cn="SSRR" />
+    <item drawable="star_walk2" cn="Star Walk 2" />
+    <item drawable="starbucks" cn="星巴克" />
+    <item drawable="steam" cn="Steam" />
+    <item drawable="steam_lite" cn="Steam Lite" />
+    <item drawable="stellio" cn="Stellio" />
+    <item drawable="steppy_pants" cn="僵尸漫步" />
+    <item drawable="stitch" cn="Stitch" />
+    <item drawable="stocard" cn="Stocard - 会员卡" />
+    <item drawable="storage_isolation" cn="存储空间隔离" />
+    <item drawable="substratum" cn="substratum theme engine" />
+    <item drawable="suning" cn="苏宁易购" />
+    <item drawable="sunlogin_remote_control" cn="向日葵远程控制" />
+    <item drawable="super_class_schedule" cn="超级课程表" />
+    <item drawable="super_pad" cn="SuperPads" />
+    <item drawable="super_vpn" cn="SuperVPN VPN客户端" />
+    <item drawable="superstar" cn="学习通" />
+    <item drawable="supersu" cn="SuperSU" />
+    <item drawable="surf_vpn" cn="Surf VPN" />
+    <item drawable="surface" cn="Surface" />
+    <item drawable="swift_backup" cn="Swift Backup" />
+    <item drawable="swiftkey" cn="Microsoft SwiftKey Keyboard" />
+    <item drawable="sz_citizencard" cn="智慧苏州" />
+    <item drawable="szfreego" cn="苏e行" />
+    <item drawable="szzc" cn="神州专车" />
+    <item drawable="t_12306" cn="铁路12306" />
+    <item drawable="taichi" cn="太极" />
+    <item drawable="taobao_live" cn="点淘" />
+    <item drawable="taobao_movie" cn="淘票票" />
+    <item drawable="tap_and_go" cn="Tap &amp; Go by HKT" />
+    <item drawable="taptap" cn="apkInstaller/TapTap" />
+    <item drawable="tarsin_ehviewer" cn="EhViewer" />
+    <item drawable="teamviewer" cn="TeamViewer Remote Control" />
+    <item drawable="telegram" cn="Telegram" />
+    <item drawable="telegram_premium" cn="Telegram" />
+    <item drawable="telegram_x" cn="Telegram X" />
+    <item drawable="telstra_247" cn="My Telstra" />
+    <item drawable="tencent_edu" cn="腾讯课堂" />
+    <item drawable="tencent_filemanager" cn="腾讯文件" />
+    <item drawable="tencent_gamehelper_wzyd" cn="王者营地" />
+    <item drawable="tencent_karaoke" cn="全民K歌" />
+    <item drawable="tencent_maps" cn="腾讯地图" />
+    <item drawable="tencent_news" cn="腾讯新闻-打开眼界" />
+    <item drawable="tencent_speedmobile" cn="QQ飞车手游" />
+    <item drawable="tencent_video" cn="腾讯视频" />
+    <item drawable="tencent_weread" cn="微信读书" />
+    <item drawable="teng__xun__shou__ji__guan__jia" cn="腾讯手机管家" />
+    <item drawable="teng__xun__shou__you__jia__su__qi" cn="腾讯手游加速器" />
+    <item drawable="teng__xun__wei__shi" cn="腾讯微视-短视频创作与分享" />
+    <item drawable="termux" cn="Terminal" />
+    <item drawable="terrarium_tv" cn="Terrarium 影视" />
+    <item drawable="tesla_unread" cn="TeslaUnread" />
+    <item drawable="tgp" cn="掌上WeGame" />
+    <item drawable="themes" cn="主题 / theme" />
+    <item drawable="thing" cn="THING Launcher - No ads, totally free" />
+    <item drawable="ticktick_task" cn="滴答清单" />
+    <item drawable="tidal" cn="TIDAL Music" />
+    <item drawable="tide" cn="潮汐" />
+    <item drawable="tieba" cn="贴吧极速版" />
+    <item drawable="tieyou" cn="铁友火车票-12306抢票" />
+    <item drawable="tim" cn="TIM-QQ办公简洁版" />
+    <item drawable="titaniumbackup" cn="钛备份" />
+    <item drawable="tmall" cn="手机天猫" />
+    <item drawable="tmgp_cf" cn="穿越火线-枪战王者（国民枪战手游）" />
+    <item drawable="today_s_headline" cn="今日头条" />
+    <item drawable="todesk" cn="ToDesk" />
+    <item drawable="todolist" cn="Todo清单" />
+    <item drawable="tong__xin__xing__cheng__ka" cn="通信行程卡" />
+    <item drawable="torch" cn="System UI" />
+    <item drawable="torrse" cn="TorrSE" />
+    <item drawable="total_launcher" cn="Total Launcher" />
+    <item drawable="touchpal" cn="触宝输入法国际版/触宝输入法" />
+    <item drawable="tp_link" cn="TP-LINK" />
+    <item drawable="tpybx" cn="太平洋保险" />
+    <item drawable="tracker_network" cn="Tracker Network" />
+    <item drawable="transit" cn="Transit" />
+    <item drawable="translate" cn="Translate" />
+    <item drawable="tripview_lite" cn="TripView Lite" />
+    <item drawable="troye_sivan" cn="Troye Sivan" />
+    <item drawable="tuchong" cn="图虫" />
+    <item drawable="tumblr" cn="Tumblr – 文化，艺术，混沌" />
+    <item drawable="turing_wallpaper" cn="CWall" />
+    <item drawable="twitch" cn="Twitch" />
+    <item drawable="twitter" cn="X" />
+    <item drawable="twrp" cn="Official TWRP App" />
+    <item drawable="uber_eats" cn="Uber Eats 优食：本地餐点派送" />
+    <item drawable="uc_browser" cn="UC浏览器 - 飞速上网 极速下载" />
+    <item drawable="uc_turbo" cn="UC Turbo" />
+    <item drawable="ucmooc" cn="中国大学MOOC" />
+    <item drawable="umetrip" cn="航旅纵横" />
+    <item drawable="unionpay" cn="UnionPay" />
+    <item drawable="v2ray_ng" cn="v2rayNG" />
+    <item drawable="vertical_book" cn="好搜小说-免费小说-电子书阅读器-TXT小说下载-玄幻言情" />
+    <item drawable="via" cn="Via浏览器 – 简洁轻快浏览器 – 极客之选" />
+    <item drawable="video" cn="Music" />
+    <item drawable="video_diandian" cn="实时天气365天气预报" />
+    <item drawable="video_rr" cn="人人视频" />
+    <item drawable="video_wanmei" cn="完美视频播放器" />
+    <item drawable="village" cn="Village" />
+    <item drawable="viper4android" cn="VIPERFX--XDA代理开发版" />
+    <item drawable="viperfx" cn="VIPERFX 音效驱动 正式版 v2.5.0.5" />
+    <item drawable="vlc" cn="VLC" />
+    <item drawable="vmall" cn="华为商城" />
+    <item drawable="vmos" cn="VMOS" />
+    <item drawable="voice_assistant" cn="咪咕灵犀" />
+    <item drawable="voice_tmall" cn="天猫精灵" />
+    <item drawable="vue" cn="VUEVlog" />
+    <item drawable="w3cschool" cn="编程狮" />
+    <item drawable="wakeup" cn="抬手唤醒/WakeUp" />
+    <item drawable="wallet_baidu" cn="贴吧极速版 todo：换新" />
+    <item drawable="walli" cn="Walli - 4K, HD Wallpapers" />
+    <item drawable="wandoujia" cn="豌豆荚" />
+    <item drawable="wang_vpn" cn="老王VPN" />
+    <item drawable="wangmiao" cn="简喵" />
+    <item drawable="wangvpn" cn="老王VPN" />
+    <item drawable="wangyidashen" cn="网易大神" />
+    <item drawable="wanmeixiaoyaun" cn="完美校园" />
+    <item drawable="weather" cn="天气 / Weather" />
+    <item drawable="wechat_scanonescan" cn="微信扫一扫" />
+    <item drawable="wechat_work" cn="WeCom" />
+    <item drawable="wei__pin__hui" cn="唯品会" />
+    <item drawable="wei_account" cn="账号本子" />
+    <item drawable="weibo" cn="新浪微博" />
+    <item drawable="weibo_int" cn="微博轻享版" />
+    <item drawable="weibo_see" cn="See" />
+    <item drawable="weibo_siju" cn="微博极速版" />
+    <item drawable="weico" cn="Weico" />
+    <item drawable="weixin" cn="微信" />
+    <item drawable="weiyi" cn="微医" />
+    <item drawable="welike" cn="Welike" />
+    <item drawable="wepop" cn="跑跑卡丁车官方竞速版" />
+    <item drawable="wey" cn="魏" />
+    <item drawable="whale_tv" cn="时间杂货铺" />
+    <item drawable="whatsapp" cn="WhatsApp Messenger" />
+    <item drawable="wifi_master_key" cn="WiFi Master Key" />
+    <item drawable="wifilocating" cn="WiFi 大师 - 免费,安全,快速连接Wi-Fi" />
+    <item drawable="wikihow" cn="wikiHow：万事指南" />
+    <item drawable="wikipedia" cn="Wikipedia Beta" />
+    <item drawable="windscribe" cn="Windscribe VPN" />
+    <item drawable="wisdom_tree" cn="知到" />
+    <item drawable="wo__de__qing__dao" cn="我的青岛" />
+    <item drawable="wolf_man" cn="狼人" />
+    <item drawable="word" cn="Avast Passwords" />
+    <item drawable="wordpress" cn="WordPress - 网站和博客构建工具" />
+    <item drawable="wps_office" cn="WPS Office" />
+    <item drawable="wudaokou_hippo" cn="盒马" />
+    <item drawable="wzry" cn="王者荣耀" />
+    <item drawable="wzry_beta" cn="王者荣耀前瞻版" />
+    <item drawable="wzry_helper" cn="王者营地" />
+    <item drawable="x_apm" cn="应用管理Xposed" />
+    <item drawable="x_plore" cn="X-plore" />
+    <item drawable="xbj" cn="学霸君" />
+    <item drawable="xbox" cn="Xbox beta" />
+    <item drawable="xbrowser" cn="X浏览器" />
+    <item drawable="xda_lab" cn="XDA" />
+    <item drawable="xgsp" cn="西瓜视频" />
+    <item drawable="xiachufang" cn="下厨房" />
+    <item drawable="xiami_music" cn="虾米音乐" />
+    <item drawable="xianyou" cn="腾讯先锋" />
+    <item drawable="xiao__qi__e__shu__ru__fa__5" cn="小企鹅输入法5" />
+    <item drawable="xiaoenai" cn="小恩爱" />
+    <item drawable="xiaohongshu" cn="Rednote" />
+    <item drawable="xiaomi_shop" cn="小米商城" />
+    <item drawable="xiaomi_youpin" cn="小米有品" />
+    <item drawable="xiaomiyidong" cn="小米移动" />
+    <item drawable="xiaoniu_diandong" cn="小牛电动" />
+    <item drawable="xiaorichang" cn="小习惯" />
+    <item drawable="ximalayafm" cn="喜马拉雅" />
+    <item drawable="xing__ye__yin__hang" cn="兴业银行" />
+    <item drawable="xinyue_vip" cn="心悦俱乐部" />
+    <item drawable="xk_wallpaper" cn="星空视频壁纸" />
+    <item drawable="xmhealth" cn="Zepp Life" />
+    <item drawable="xmqz" cn="小米枪战" />
+    <item drawable="xueqiu" cn="雪球" />
+    <item drawable="xuexi_cn" cn="学习强国" />
+    <item drawable="xun__fei__you__sheng" cn="海豚有声" />
+    <item drawable="xunfei_input" cn="讯飞输入法" />
+    <item drawable="xunlei" cn="迅雷" />
+    <item drawable="xyst" cn="小猿搜题" />
+    <item drawable="yandex_disk" cn="Yandex.Disk" />
+    <item drawable="yang__guang__hui__sheng__huo" cn="阳光惠生活" />
+    <item drawable="yangshipin" cn="央视频" />
+    <item drawable="yanxuan" cn="网易严选" />
+    <item drawable="ygmh" cn="一个木函" />
+    <item drawable="yiciyuan" cn="异次元" />
+    <item drawable="yidianzixun" cn="一点资讯" />
+    <item drawable="ying__xiong__lian__meng__shou__you" cn="英雄联盟手游" />
+    <item drawable="ying__yong__zhong__xin" cn="应用中心" />
+    <item drawable="yizhifu" cn="翼支付" />
+    <item drawable="ykjl" cn="遙控精靈" />
+    <item drawable="yogurt_iconpack" cn="Yogurt 酸奶盖图标包" />
+    <item drawable="you__dao__yun__bi__ji" cn="有道云笔记" />
+    <item drawable="you__xi__zhong__xin" cn="游戏中心" />
+    <item drawable="youdao_dict" cn="网易有道词典-英语学习翻译" />
+    <item drawable="youdao_net_note" cn="有道云笔记" />
+    <item drawable="youku" cn="优酷视频" />
+    <item drawable="your_phone_companion" cn="你的手机助手 - 链接至 Windows" />
+    <item drawable="youtube" cn="YouTube" />
+    <item drawable="yun__zhi__jia" cn="云之家" />
+    <item drawable="yunduo_nighttools" cn="云朵护眼" />
+    <item drawable="yys" cn="阴阳师" />
+    <item drawable="yyszs" cn="阴阳师助手" />
+    <item drawable="z_live" cn="Z直播" />
+    <item drawable="zaker" cn="ZAKER（新闻阅读）" />
+    <item drawable="zarchiver" cn="压缩大师专业版" />
+    <item drawable="zedge" cn="ZEDGE™ 铃声和壁纸" />
+    <item drawable="zenge" cn="Zenge" />
+    <item drawable="zenly" cn="Zenly：你的专属地图，你的伙伴们" />
+    <item drawable="zero_vpn" cn="Zero VPN" />
+    <item drawable="zhang__shang__chu__xing" cn="掌上出行" />
+    <item drawable="zhen__xin__wen" cn="珍新闻" />
+    <item drawable="zhifou" cn="知否/ExpandableTextViewLibrary" />
+    <item drawable="zhihu" cn="知乎" />
+    <item drawable="zhihu_daily" cn="知乎日报" />
+    <item drawable="zhilianzhaoping" cn="智联招聘" />
+    <item drawable="zhuishu" cn="追书神器" />
+    <item drawable="zhuishudashen" cn="全民追书" />
+    <item drawable="zlive" cn="Z直播" />
+    <item drawable="zonghengxiaoshuo" cn="纵横小说" />
+    <item drawable="zui___wen__jian__guan__li" cn="文件管理 #ZUI" />
+    <item drawable="zuiyou" cn="最右" />
+    <item drawable="zzw" cn="志愿汇" />
+    <item drawable="铁路12306" cn="铁路12306" />
+</appnames>
