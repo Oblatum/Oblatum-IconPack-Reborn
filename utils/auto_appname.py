@@ -4,7 +4,7 @@
 - 读取 app/src/main/res/xml/appfilter.xml 中未被 XML 注释掉的 <item ... drawable="..." />
 - 提取 component="ComponentInfo{package/activity}" 中的 packageName
 - 调用 AppTracker API 查询应用名称
-- 将查询到的名称写入 app/src/main/res/xml/appname.xml：<item drawable="xxx" cn="名称" />
+- 将查询到的名称写入 appname.xml：<item drawable="xxx" name="..." />
 
 默认行为：只补全 appname.xml 中缺失的 drawable，不覆盖已有映射。
 
@@ -20,6 +20,7 @@ import json
 import re
 import sys
 import ssl
+import time
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
 from urllib.parse import quote
@@ -27,18 +28,39 @@ from xml.sax.saxutils import escape
 
 
 DEFAULT_APPFILTER = Path("app/src/main/res/xml/appfilter.xml")
-DEFAULT_APPNAME = Path("app/src/main/res/xml/appname.xml")
+DEFAULT_APPNAME_EN = Path("app/src/main/res/xml/appname.xml")
+DEFAULT_APPNAME_ZH = Path("app/src/main/res/xml-zh/appname.xml")
+DEFAULT_APPNAME_ZH_RCN = Path("app/src/main/res/xml-zh-rCN/appname.xml")
 
 
-APPNAME_HEADER_COMMENT = """    <!--
-	  用于中文环境下的图标中文名映射（优先显示）。
+APPNAME_HEADER_COMMENT_EN = """    <!--
+			Default (fallback) icon name mapping.
+			key: drawable resource name (without extension)
+			value: display name
 
-	  key: 图标文件名（drawable 资源名，不带扩展名），例如 amber_circle
-	  value: 中文名，例如 琥珀圆形
+			Example:
+			<item drawable=\"amber_circle\" name=\"Amber Circle\" />
+		-->"""
 
-	  示例：
-	  <item drawable=\"amber_circle\" cn=\"琥珀圆形\" />
-	-->"""
+APPNAME_HEADER_COMMENT_ZH = """    <!--
+			zh（中文）环境下的图标名称映射（当该图标没有对应已安装应用时使用）。
+
+			key: 图标文件名（drawable 资源名，不带扩展名），例如 amber_circle
+			value: 显示名称，例如 琥珀圆形
+
+			示例：
+			<item drawable=\"amber_circle\" name=\"琥珀圆形\" />
+		-->"""
+
+APPNAME_HEADER_COMMENT_ZH_RCN = """    <!--
+			zh-rCN（简体中文/中国）环境下的图标名称映射。
+
+			key: 图标文件名（drawable 资源名，不带扩展名），例如 amber_circle
+			value: 显示名称，例如 琥珀圆形
+
+			示例：
+			<item drawable=\"amber_circle\" name=\"琥珀圆形\" />
+		-->"""
 
 
 def _strip_xml_comments(text: str) -> str:
@@ -82,16 +104,30 @@ def parse_appfilter_items(appfilter_text: str) -> List[Tuple[str, str]]:
 
 
 def parse_existing_appname(appname_text: str) -> Dict[str, str]:
-	"""解析 appname.xml 现有映射：drawable -> cn"""
+	"""解析 appname.xml 现有映射：drawable -> name。
+
+	兼容旧格式（cn="..."），但旧格式会被视为“无有效映射”，避免迁移期跳过写入。
+	"""
 
 	text = _strip_xml_comments(appname_text)
-	pattern = re.compile(r'<item\b[^>]*drawable\s*=\s*"([^"]+)"[^>]*cn\s*=\s*"([^"]*)"[^>]*/>', flags=re.I)
+
+	# 新格式：name="..."
+	pattern_name = re.compile(r'<item\b[^>]*drawable\s*=\s*"([^"]+)"[^>]*name\s*=\s*"([^"]*)"[^>]*/>', flags=re.I)
 	mapping: Dict[str, str] = {}
-	for drawable, cn in pattern.findall(text):
+	for drawable, name in pattern_name.findall(text):
 		drawable = drawable.strip()
 		if not drawable:
 			continue
-		mapping[drawable] = cn
+		mapping[drawable] = name
+
+	# 旧格式存在但新格式没有：返回空，强制本次生成覆盖写入
+	if mapping:
+		return mapping
+
+	pattern_cn = re.compile(r'<item\b[^>]*drawable\s*=\s*"([^"]+)"[^>]*cn\s*=\s*"([^"]*)"[^>]*/>', flags=re.I)
+	if pattern_cn.search(text):
+		return {}
+
 	return mapping
 
 
@@ -111,18 +147,44 @@ def _http_get_json(url: str, *, timeout_s: float = 15.0, verify_ssl: bool = True
 
 	try:
 		import requests  # type: ignore
+		from requests import exceptions as req_exc  # type: ignore
 
-		try:
-			resp = requests.get(url, timeout=timeout_s, verify=verify_ssl)
-			if resp.status_code == 404:
-				raise ApiNotFoundError(f"404 Not Found: {url}")
-			resp.raise_for_status()
-			return resp.json()
-		except Exception as e:
-			# requests 未安装时不会走到这里；这里主要兜住 SSL 错误
-			if "SSLError" in type(e).__name__ or "CERTIFICATE_VERIFY_FAILED" in str(e):
-				raise ApiSslError(str(e)) from e
-			raise
+		def _is_cert_verify_error(err: BaseException) -> bool:
+			text = str(err)
+			return (
+				"CERTIFICATE_VERIFY_FAILED" in text
+				or "certificate verify failed" in text
+				or isinstance(err, ssl.SSLCertVerificationError)
+			)
+
+		# 轻量重试：处理网络抖动/EOF/超时（不包含证书校验失败）
+		last_error: Optional[BaseException] = None
+		for attempt in range(3):
+			try:
+				# timeout 支持 (connect, read)，避免连接成功但读取卡住
+				resp = requests.get(url, timeout=(timeout_s, timeout_s), verify=verify_ssl)
+				if resp.status_code == 404:
+					raise ApiNotFoundError(f"404 Not Found: {url}")
+				resp.raise_for_status()
+				return resp.json()
+			except ApiNotFoundError:
+				raise
+			except req_exc.SSLError as e:
+				# 证书校验失败：直接报错退出；其他 SSL 错误（比如 EOF）按网络错误重试/降级
+				if _is_cert_verify_error(e):
+					raise ApiSslError(str(e)) from e
+				last_error = e
+			except (req_exc.Timeout, req_exc.ConnectionError) as e:
+				last_error = e
+			except Exception as e:
+				# 其他错误不重试
+				raise
+
+			# 非最后一次则退避
+			if attempt < 2:
+				time.sleep(1.0 * (attempt + 1))
+
+		raise last_error if last_error else RuntimeError("Unknown HTTP error")
 	except ModuleNotFoundError:
 		from urllib.error import URLError
 		from urllib.request import Request, urlopen
@@ -143,64 +205,69 @@ def _http_get_json(url: str, *, timeout_s: float = 15.0, verify_ssl: bool = True
 			raise
 
 
-def query_apptracker_name(
+def query_apptracker_name(*args, **kwargs):  # pragma: no cover
+	"""兼容旧接口：已弃用。
+
+	之前版本返回单一名称；现在需要分别生成 zh/zh-rCN/en 三份映射。
+	"""
+	raise RuntimeError("query_apptracker_name 已弃用，请使用 query_apptracker_app + pick_localized_name")
+
+
+def build_drawable_to_package(pairs: Iterable[Tuple[str, str]]) -> Dict[str, str]:
+	"""为每个 drawable 选择一个 package（同 drawable 多条时取第一条）。"""
+	result: Dict[str, str] = {}
+	for package_name, drawable in pairs:
+		if drawable not in result:
+			result[drawable] = package_name
+	return result
+
+
+_CHINESE_CHAR_RE = re.compile(r"[\u4e00-\u9fff]")
+
+
+def _contains_chinese(text: str) -> bool:
+	return bool(_CHINESE_CHAR_RE.search(text))
+
+
+def render_appname_xml(mapping: Dict[str, str], *, header_comment: str) -> str:
+	lines: List[str] = [
+		'<?xml version="1.0" encoding="utf-8"?>',
+		"<appnames>",
+		header_comment,
+	]
+
+	for drawable in sorted(mapping.keys()):
+		name = mapping[drawable]
+		lines.append(f'    <item drawable="{escape(drawable)}" name="{escape(name)}" />')
+	lines.append("</appnames>")
+	lines.append("")
+	return "\n".join(lines)
+
+
+def query_apptracker_app(
 	package_name: str,
 	*,
 	api_template: str,
 	verify_ssl: bool = True,
 	timeout_s: float = 15.0,
 	encode_regex: bool = True,
-) -> Optional[str]:
-	# 兼容两类 API：
-	# - 旧版：regex={regex}
-	# - 新版：byPackageName={package}（swagger: /app-info/search）
+) -> Optional[dict]:
+	"""返回单个 app 的 JSON dict（优先 packageName 精确匹配）。"""
+
 	regex_raw = f"^{package_name}$"
 	regex_value = quote(regex_raw, safe="") if encode_regex else regex_raw
 	package_value = quote(package_name, safe="")
 	url = api_template.format(regex=regex_value, package=package_value)
 	data = _http_get_json(url, timeout_s=timeout_s, verify_ssl=verify_ssl)
 
-	def pick_name(app: dict) -> Optional[str]:
-		# 新版 swagger: AppInfoDTO.defaultName + localizedName[]
-		localized = app.get("localizedName")
-		if localized is None:
-			# swagger 实际返回字段为 localizedNames
-			localized = app.get("localizedNames")
-		if isinstance(localized, list):
-			preferred_langs = (
-				"zh-Hans",
-				"zh-Hans-CN",
-				"zh-CN",
-				"zh",
-				"zh-Hant",
-				"zh-TW",
-			)
-			by_lang: Dict[str, str] = {}
-			for entry in localized:
-				if not isinstance(entry, dict):
-					continue
-				lang = entry.get("languageCode")
-				nm = entry.get("name")
-				if isinstance(lang, str) and isinstance(nm, str) and nm.strip():
-					by_lang[lang] = nm.strip()
-			for lang in preferred_langs:
-				if lang in by_lang:
-					return by_lang[lang]
-
-		for key in ("defaultName", "appName", "name"):
-			value = app.get(key)
-			if isinstance(value, str) and value.strip():
-				return value.strip()
-		return None
-
 	def to_items(payload) -> List[dict]:
 		if isinstance(payload, dict):
 			items = payload.get("items")
 			if isinstance(items, list):
 				return [x for x in items if isinstance(x, dict)]
-			data = payload.get("data")
-			if isinstance(data, list):
-				return [x for x in data if isinstance(x, dict)]
+			data2 = payload.get("data")
+			if isinstance(data2, list):
+				return [x for x in data2 if isinstance(x, dict)]
 			results = payload.get("results")
 			if isinstance(results, list):
 				return [x for x in results if isinstance(x, dict)]
@@ -213,46 +280,40 @@ def query_apptracker_name(
 	if not items:
 		return None
 
-	# 优先取 packageName 完全匹配的项
-	exact = None
 	for app in items:
 		pkg = app.get("packageName")
 		if isinstance(pkg, str) and pkg == package_name:
-			exact = app
-			break
+			return app
 
-	chosen = exact or items[0]
-	return pick_name(chosen)
+	return items[0]
 
 
-def build_drawable_to_package(pairs: Iterable[Tuple[str, str]]) -> Dict[str, str]:
-	"""为每个 drawable 选择一个 package（同 drawable 多条时取第一条）。"""
-	result: Dict[str, str] = {}
-	for package_name, drawable in pairs:
-		if drawable not in result:
-			result[drawable] = package_name
-	return result
+def pick_localized_name(app: dict, preferred_language_codes: Tuple[str, ...]) -> Optional[str]:
+	localized = app.get("localizedNames")
+	if localized is None:
+		localized = app.get("localizedName")
 
-
-def render_appname_xml(mapping: Dict[str, str]) -> str:
-	lines: List[str] = [
-		'<?xml version="1.0" encoding="utf-8"?>',
-		"<appnames>",
-		APPNAME_HEADER_COMMENT,
-	]
-
-	for drawable in sorted(mapping.keys()):
-		cn = mapping[drawable]
-		lines.append(f'    <item drawable="{escape(drawable)}" cn="{escape(cn)}" />')
-	lines.append("</appnames>")
-	lines.append("")
-	return "\n".join(lines)
+	if isinstance(localized, list):
+		by_lang: Dict[str, str] = {}
+		for entry in localized:
+			if not isinstance(entry, dict):
+				continue
+			lang = entry.get("languageCode")
+			nm = entry.get("name")
+			if isinstance(lang, str) and isinstance(nm, str) and nm.strip():
+				by_lang[lang] = nm.strip()
+		for lang in preferred_language_codes:
+			if lang in by_lang:
+				return by_lang[lang]
+	return None
 
 
 def main(argv: Optional[List[str]] = None) -> int:
 	parser = argparse.ArgumentParser(description="从 appfilter.xml 查询 API 并补全 appname.xml")
 	parser.add_argument("--appfilter", default=str(DEFAULT_APPFILTER), help="appfilter.xml 路径")
-	parser.add_argument("--appname", default=str(DEFAULT_APPNAME), help="appname.xml 路径")
+	parser.add_argument("--appname-en", default=str(DEFAULT_APPNAME_EN), help="默认(英文/回退) appname.xml 路径")
+	parser.add_argument("--appname-zh", default=str(DEFAULT_APPNAME_ZH), help="xml-zh/appname.xml 路径")
+	parser.add_argument("--appname-zh-rCN", default=str(DEFAULT_APPNAME_ZH_RCN), help="xml-zh-rCN/appname.xml 路径")
 	parser.add_argument("--update", action="store_true", help="覆盖 appname.xml 中已存在的 drawable 映射")
 	parser.add_argument("--dry-run", action="store_true", help="只打印统计，不写文件")
 	parser.add_argument("--insecure", action="store_true", help="关闭 HTTPS 证书校验（仅在证书报错时使用）")
@@ -267,25 +328,32 @@ def main(argv: Optional[List[str]] = None) -> int:
 	args = parser.parse_args(argv)
 
 	appfilter_path = Path(args.appfilter)
-	appname_path = Path(args.appname)
+	appname_en_path = Path(args.appname_en)
+	appname_zh_path = Path(args.appname_zh)
+	appname_zh_rcn_path = Path(getattr(args, "appname_zh_rCN"))
 
 	if not appfilter_path.exists():
 		print(f"err: 找不到 appfilter.xml：{appfilter_path}")
 		return 2
-	if not appname_path.exists():
-		print(f"err: 找不到 appname.xml：{appname_path}")
-		return 2
+	for p in (appname_en_path, appname_zh_path, appname_zh_rcn_path):
+		if not p.exists():
+			print(f"err: 找不到 appname.xml：{p}")
+			return 2
 
 	appfilter_text = appfilter_path.read_text(encoding="utf-8")
-	appname_text = appname_path.read_text(encoding="utf-8")
+	appname_en_text = appname_en_path.read_text(encoding="utf-8")
+	appname_zh_text = appname_zh_path.read_text(encoding="utf-8")
+	appname_zh_rcn_text = appname_zh_rcn_path.read_text(encoding="utf-8")
 
 	pairs = parse_appfilter_items(appfilter_text)
 	drawable_to_package = build_drawable_to_package(pairs)
-	existing = parse_existing_appname(appname_text)
+	existing_en = parse_existing_appname(appname_en_text)
+	existing_zh = parse_existing_appname(appname_zh_text)
+	existing_zh_rcn = parse_existing_appname(appname_zh_rcn_text)
 
 	total_drawables = len(drawable_to_package)
 	print(f"appfilter drawable 总数：{total_drawables}")
-	print(f"appname 已有映射数：{len(existing)}")
+	print(f"appname 已有映射数：en {len(existing_en)} / zh {len(existing_zh)} / zh-rCN {len(existing_zh_rcn)}")
 	if args.insecure:
 		print("warn: 已启用 --insecure，HTTPS 证书校验已关闭")
 		# 避免 urllib3 InsecureRequestWarning 刷屏
@@ -298,72 +366,134 @@ def main(argv: Optional[List[str]] = None) -> int:
 		except Exception:
 			pass
 
-	package_cache: Dict[str, Optional[str]] = {}
-	added = 0
-	updated = 0
-	api_miss = 0
+	package_cache: Dict[str, Optional[dict]] = {}
 
-	merged = dict(existing)
+	added_en = updated_en = miss_en = skipped_en = 0
+	added_zh = updated_zh = miss_zh = 0
+	added_zh_rcn = updated_zh_rcn = miss_zh_rcn = 0
+
+	merged_en = dict(existing_en)
+	merged_zh = dict(existing_zh)
+	merged_zh_rcn = dict(existing_zh_rcn)
 	processed = 0
-	for drawable, package_name in drawable_to_package.items():
-		if not args.update and drawable in existing:
-			continue
+	interrupted = False
+	try:
+		for drawable, package_name in drawable_to_package.items():
+			# 仅当三份文件都已有该 drawable，才跳过；否则补齐缺失的语言版本
+			if not args.update and (drawable in existing_en and drawable in existing_zh and drawable in existing_zh_rcn):
+				continue
 
-		if args.max and processed >= args.max:
-			break
+			if args.max and processed >= args.max:
+				break
 
-		processed += 1
+			processed += 1
 
-		if package_name not in package_cache:
-			try:
-				package_cache[package_name] = query_apptracker_name(
-					package_name,
-					api_template=args.api_template,
-					verify_ssl=not args.insecure,
-					timeout_s=args.timeout,
-					encode_regex=not args.no_regex_encode,
-				)
-			except ApiSslError as e:
-				print("err: HTTPS 证书校验失败，无法访问 API。")
-				print(f"detail: {e}")
-				print("解决方案：")
-				print("  1) 先安装 requests 试试（可避免部分 urllib/证书问题）")
-				print("  2) 或在确认网络环境安全的前提下使用 --insecure")
-				return 3
-			except ApiNotFoundError as e:
-				print("err: API 返回 404 Not Found（接口路径可能已变更/不可用）。")
-				print(f"detail: {e}")
-				print("解决方案：")
-				print("  1) 用 --api-template 指向新的接口地址")
-				print("  2) 或确认域名/路径是否可访问")
-				return 4
-			except Exception as e:
-				print(f"warn: API 查询失败 {package_name}: {e}")
-				package_cache[package_name] = None
+			if package_name not in package_cache:
+				try:
+					package_cache[package_name] = query_apptracker_app(
+						package_name,
+						api_template=args.api_template,
+						verify_ssl=not args.insecure,
+						timeout_s=args.timeout,
+						encode_regex=not args.no_regex_encode,
+					)
+				except ApiSslError as e:
+					print("err: HTTPS 证书校验失败，无法访问 API。")
+					print(f"detail: {e}")
+					print("解决方案：")
+					print("  1) 先安装 requests 试试（可避免部分 urllib/证书问题）")
+					print("  2) 或在确认网络环境安全的前提下使用 --insecure")
+					return 3
+				except ApiNotFoundError as e:
+					print("err: API 返回 404 Not Found（接口路径可能已变更/不可用）。")
+					print(f"detail: {e}")
+					print("解决方案：")
+					print("  1) 用 --api-template 指向新的接口地址")
+					print("  2) 或确认域名/路径是否可访问")
+					return 4
+				except Exception as e:
+					print(f"warn: API 查询失败 {package_name}: {e}")
+					package_cache[package_name] = None
 
-		app_cn = package_cache[package_name]
-		if not app_cn:
-			api_miss += 1
-			continue
+			app = package_cache[package_name]
+			if not app:
+				miss_en += 1
+				miss_zh += 1
+				miss_zh_rcn += 1
+				continue
 
-		if drawable in merged:
-			if merged[drawable] != app_cn:
-				merged[drawable] = app_cn
-				updated += 1
-		else:
-			merged[drawable] = app_cn
-			added += 1
+			# zh / zh-rCN：按你的规则优先级：zh-CN > zh-rCN > zh-Hans-CN
+			zh_name = pick_localized_name(app, ("zh-CN", "zh-rCN", "zh-Hans-CN"))
+			if zh_name:
+				if drawable in merged_zh:
+					if args.update and merged_zh[drawable] != zh_name:
+						merged_zh[drawable] = zh_name
+						updated_zh += 1
+				else:
+					merged_zh[drawable] = zh_name
+					added_zh += 1
+			else:
+				miss_zh += 1
 
-	print(f"API 命中写入：新增 {added}，更新 {updated}，未命中 {api_miss}")
+			zh_rcn_name = pick_localized_name(app, ("zh-CN", "zh-rCN", "zh-Hans-CN"))
+			if zh_rcn_name:
+				if drawable in merged_zh_rcn:
+					if args.update and merged_zh_rcn[drawable] != zh_rcn_name:
+						merged_zh_rcn[drawable] = zh_rcn_name
+						updated_zh_rcn += 1
+				else:
+					merged_zh_rcn[drawable] = zh_rcn_name
+					added_zh_rcn += 1
+			else:
+				miss_zh_rcn += 1
+
+			# en：只使用 en-US；若 en-US 含中文则整条跳过；禁止 fallback defaultName
+			en_name = pick_localized_name(app, ("en-US",))
+			force_skip_en = False
+			if en_name and _contains_chinese(en_name):
+				skipped_en += 1
+				force_skip_en = True
+				en_name = None
+
+			if en_name:
+				if drawable in merged_en:
+					if args.update and merged_en[drawable] != en_name:
+						merged_en[drawable] = en_name
+						updated_en += 1
+				else:
+					merged_en[drawable] = en_name
+					added_en += 1
+			else:
+				miss_en += 1
+	except KeyboardInterrupt:
+		interrupted = True
+		print("warn: 检测到中断(KeyboardInterrupt)，将写入已获取到的部分结果…")
+
+	print(
+		"API 命中写入："
+		f"en 新增 {added_en} 更新 {updated_en} 未命中 {miss_en} 跳过(含中文) {skipped_en}；"
+		f"zh 新增 {added_zh} 更新 {updated_zh} 未命中 {miss_zh}；"
+		f"zh-rCN 新增 {added_zh_rcn} 更新 {updated_zh_rcn} 未命中 {miss_zh_rcn}"
+	)
 
 	if args.dry_run:
 		print("dry-run: 未写入文件")
 		return 0
 
-	out = render_appname_xml(merged)
-	appname_path.write_text(out, encoding="utf-8")
-	print(f"ok: 已写入 {appname_path}")
-	return 0
+	out_en = render_appname_xml(merged_en, header_comment=APPNAME_HEADER_COMMENT_EN)
+	out_zh = render_appname_xml(merged_zh, header_comment=APPNAME_HEADER_COMMENT_ZH)
+	out_zh_rcn = render_appname_xml(merged_zh_rcn, header_comment=APPNAME_HEADER_COMMENT_ZH_RCN)
+
+	for p in (appname_en_path, appname_zh_path, appname_zh_rcn_path):
+		p.parent.mkdir(parents=True, exist_ok=True)
+
+	appname_en_path.write_text(out_en, encoding="utf-8")
+	appname_zh_path.write_text(out_zh, encoding="utf-8")
+	appname_zh_rcn_path.write_text(out_zh_rcn, encoding="utf-8")
+	print(f"ok: 已写入 {appname_en_path}")
+	print(f"ok: 已写入 {appname_zh_path}")
+	print(f"ok: 已写入 {appname_zh_rcn_path}")
+	return 130 if interrupted else 0
 
 
 if __name__ == "__main__":

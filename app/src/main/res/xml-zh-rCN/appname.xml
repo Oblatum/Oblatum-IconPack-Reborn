@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appnames>
+    <!--
+			zh-rCN（简体中文/中国）环境下的图标名称映射。
+
+			key: 图标文件名（drawable 资源名，不带扩展名），例如 amber_circle
+			value: 显示名称，例如 琥珀圆形
+
+			示例：
+			<item drawable="amber_circle" name="琥珀圆形" />
+		-->
+    <item drawable="abc" name="中国农业银行" />
+    <item drawable="aliyun" name="阿里云" />
+    <item drawable="aurora_store" name="Aurora Store" />
+    <item drawable="baidu_homework" name="作业帮" />
+    <item drawable="baidu_tieba" name="百度贴吧" />
+    <item drawable="bar" name="Bar" />
+    <item drawable="book_jj" name="晋江小说阅读" />
+    <item drawable="breeno_voice" name="Breeno" />
+    <item drawable="browser" name="浏览器" />
+    <item drawable="camscanner" name="扫描全能王" />
+    <item drawable="chinatelecom" name="中国电信" />
+    <item drawable="clash_meta_for_android" name="Clash Meta For Android" />
+    <item drawable="cmb" name="招商银行" />
+    <item drawable="dandelion" name="贝锐蒲公英" />
+    <item drawable="devcheck" name="DevCheck" />
+    <item drawable="dianping" name="大众点评" />
+    <item drawable="didi" name="滴滴出行" />
+    <item drawable="duolingo" name="Duolingo" />
+    <item drawable="email" name="电子邮件" />
+    <item drawable="gboard" name="Gboard" />
+    <item drawable="gta_sa" name="GTA SA" />
+    <item drawable="hupu" name="虎扑" />
+    <item drawable="icbc" name="中国工商银行" />
+    <item drawable="jd" name="京东" />
+    <item drawable="keepass_2_android" name="Keepass2Android" />
+    <item drawable="lofter" name="网易LOFTER" />
+    <item drawable="luckin_coffee" name="瑞幸咖啡" />
+    <item drawable="manyou" name="全球上网" />
+    <item drawable="miui_browser" name="浏览器" />
+    <item drawable="miui_wallet" name="钱包" />
+    <item drawable="mtglq" name="MT管理器" />
+    <item drawable="nearme_game_center" name="Game Center" />
+    <item drawable="nekogram" name="Nekogram" />
+    <item drawable="oneplus_bbs" name="一加社区" />
+    <item drawable="oneplus_browser" name="浏览器" />
+    <item drawable="oppo_files" name="My Files" />
+    <item drawable="oppo_ommunity" name="OPPO 社区" />
+    <item drawable="outlook" name="Outlook" />
+    <item drawable="qqtoken" name="QQ安全中心" />
+    <item drawable="sim_card_apps" name="SIM Toolkit" />
+    <item drawable="sim_toolkit" name="SIM Toolkit" />
+    <item drawable="smartisan_notes" name="锤子便签" />
+    <item drawable="soundcloud" name="SoundCloud" />
+    <item drawable="telegram" name="Telegram" />
+    <item drawable="telegram_premium" name="Telegram" />
+    <item drawable="tencent_gamehelper_wzyd" name="王者营地" />
+    <item drawable="teng__xun__shou__you__jia__su__qi" name="腾讯手游加速器" />
+    <item drawable="unionpay" name="云闪付" />
+    <item drawable="wps_office" name="WPS Office" />
+    <item drawable="wzry_helper" name="王者营地" />
+    <item drawable="xiachufang" name="下厨房" />
+    <item drawable="xiaohongshu" name="小红书" />
+</appnames>
