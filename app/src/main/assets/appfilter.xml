@@ -526,6 +526,7 @@
 		<item component="ComponentInfo{cmb.pb/cmb.pb.launch.PBInitActivity}" drawable="cmb"/>
 		<item component="ComponentInfo{cmb.pb/cmb.pb.mainframe.PBEntryActivity}" drawable="cmb"/>
 		<item component="ComponentInfo{cmb.pb/cmb.pb.ui.PBInitActivity}" drawable="cmb" />
+		<item component="ComponentInfo{cmb.pb/cmb.pb.app.mainframe.container.PBMainActivity}" drawable="cmb"/>
 		<item component="ComponentInfo{cn.co.toyota_ms.smartGLINK/cn.co.toyota_ms.smartGLINK.activity.LoginSplashActivity}" drawable="elexusclub"/>
 		<item component="ComponentInfo{cn.coldsong.fusionapp/com.androlua.Welcome}" drawable="fusion_app" />
 		<item component="ComponentInfo{cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.activity.WelComeActivity}" drawable="cmbc" />
@@ -558,6 +559,7 @@
 		<item component="ComponentInfo{cn.ticktick.task/com.ticktick.task.activity.MeTaskActivity}" drawable="ticktick_task"/>
 		<item component="ComponentInfo{cn.w3cschool.app/com.uzmap.pkg.EntranceActivity}" drawable="w3cschool" />
 		<item component="ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity}" drawable="wps_office" />
+		<item component="ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.ab.proxy.main}" drawable="wps_office"/>
 		<item component="ComponentInfo{com.kingsoft.moffice_pro/cn.wps.moffice.documentmanager.PreStartActivity}" drawable="wps_office" />
 		<item component="ComponentInfo{cn.xiaochuankeji.tieba/cn.xiaochuankeji.tieba.ui.base.SplashActivity}" drawable="zuiyou"/> 
 		<item component="ComponentInfo{cn.xuexi.android/com.alibaba.android.rimet.biz.SplashActivity}" drawable="xuexi_cn" />
@@ -647,6 +649,7 @@
 		<item component="ComponentInfo{com.baidu.BaiduMap.meizu/com.baidu.baidumaps.WelcomeScreen}" drawable="baidu_map" />
 		<item component="ComponentInfo{com.baidu.BaiduMap.meizu/com.baidu.baidumaps.WelcomeScreen}" drawable="baidu_map" />
 		<item component="ComponentInfo{com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen}" drawable="baidu_map" />
+		<item component="ComponentInfo{com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen.Alias0}" drawable="baidu_map"/>
 		<item component="ComponentInfo{com.baidu.baidutranslate/com.baidu.baidutranslate.activity.SplashActivity}" drawable="baidu_translate"/>
 		<item component="ComponentInfo{com.baidu.browser.apps/com.baidu.browser.framework.BdBrowserActivity}" drawable="baidu_browser" />
 		<item component="ComponentInfo{com.baidu.browser.apps/com.baidu.searchbox.SplashActivity}" drawable="baidu_browser"/>
@@ -656,6 +659,7 @@
 		<item component="ComponentInfo{com.baidu.netdisA/com.baidu.netdisA.ui.Navigate}" drawable="baidu_netdisk" />
 		<item component="ComponentInfo{com.baidu.netdisk/com.androlua.Welcome}" drawable="baidu_netdisk" />
 		<item component="ComponentInfo{com.baidu.netdisk/com.baidu.netdisk.ui.Navigate}" drawable="baidu_netdisk" />
+		<item component="ComponentInfo{com.baidu.netdisk/com.baidu.netdisk.ui.DefaultMainActivity}" drawable="baidu_netdisk"/>
 		<item component="ComponentInfo{com.baidu.netdisl/com.baidu.netdisk.ui.Navigate}" drawable="baidu_netdisk"/>
 		<item component="ComponentInfo{com.baidu.searchbox/com.baidu.searchbox.SplashActivity}" drawable="baidu"/>
 		<item component="ComponentInfo{com.baidu.tieba/com.baidu.tieba.LogoActivity}" drawable="baidu_tieba" />
@@ -922,6 +926,7 @@
 		<item component="ComponentInfo{com.grarak.kerneladiutor/com.grarak.kerneladiutor.activities.StartActivity}" drawable="kernel_adiutor"/>
 		<item component="ComponentInfo{com.greenline.guahao/com.greenline.guahao.home.WelcomeActivity}" drawable="weiyi"/>
 		<item component="ComponentInfo{com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.base.StartPageActivity}" drawable="chinamobile" />
+		<item component="ComponentInfo{com.greenpoint.android.mc10086.activity/com.mc10086.cmcc.base.StartPageActivity}" drawable="chinamobile"/>
 		<item component="ComponentInfo{com.grofsoft.tripview.lite/com.grofsoft.tripview.TripViewActivity}" drawable="tripview_lite" />
 		<item component="ComponentInfo{com.halo.wifikey.wifilocating/com.halo.wifikey.wifilocating.ui.activity.WelcomeActivity}" drawable="wifilocating" />
 		<item component="ComponentInfo{com.halo.wifikey.wifilocating/com.lantern.launcher.ui.MainActivity}" drawable="wifilocating" />
@@ -968,6 +973,7 @@
 		<item component="ComponentInfo{com.hypergryph.arknights/com.u8.sdk.U8UnityContext}" drawable="mingrifangzhou"/> 
 		<item component="ComponentInfo{com.icbc.im/com.icbc.im.SplashActivity}" drawable="icbc_im" />
 		<item component="ComponentInfo{com.icbc.im/com.icbc.im.SplashActivity}" drawable="icbc_im" />
+		<item component="ComponentInfo{com.icbc/com.icbc.activity.init.NewLoadingActivity}" drawable="icbc"/>
 		<item component="ComponentInfo{com.icbc/com.icbc.activity.init.LoadingActivity}" drawable="icbc" />
 		<item component="ComponentInfo{com.icbc/com.icbc.activity.init.LoadingActivity}" drawable="icbc"/>
 		<item component="ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}" drawable="ankidroid"/>
@@ -1004,6 +1010,7 @@
 		<item component="ComponentInfo{com.jf.lkrj/com.jf.lkrj.SplashActivity}" drawable="hsrj"/>
 		<item component="ComponentInfo{com.jingdong.app.mall/com.jingdong.app.mall.main.MainActivity}" drawable="jd" />
 		<item component="ComponentInfo{com.jingdong.app.mall/com.jingdong.app.mall.MainActivity}" drawable="jd" />
+		<item component="ComponentInfo{com.jingdong.app.mall/com.jingdong.app.mall.MainFrameActivity}" drawable="jd"/>
 		<item component="ComponentInfo{com.jingyao.easybike/com.jingyao.easybike.presentation.ui.activity.SplashActivity}" drawable="hellobike" />
 		<item component="ComponentInfo{com.jiongji.andriod.card/com.baicizhan.main.activity.LoadingPageActivity}" drawable="baicizhan" />
 		<item component="ComponentInfo{com.jiuwu/com.jiuwu.view.welcome.WelcomeActivity}" drawable="a_95fen"/>
@@ -1317,6 +1324,7 @@
 		<item component="ComponentInfo{com.scee.psxandroid/com.scee.psxandroid.activity.TopActivity}" drawable="playstation"/>
 		<item component="ComponentInfo{com.sdu.didi.psnger/com.didi.sdk.app.DidiLoadDexActivity}" drawable="didi" />
 		<item component="ComponentInfo{com.sdu.didi.psnger/com.didi.sdk.app.launch.DidiLoadDexActivity}" drawable="didi" />
+		<item component="ComponentInfo{com.sdu.didi.psnger/com.didi.sdk.app.launch.splash.SplashActivity}" drawable="didi"/>
 		<item component="ComponentInfo{com.sec.android.app.shealth/com.samsung.android.app.shealth.home.HomeMainActivity}" drawable="samsung_health" />
 		<item component="ComponentInfo{com.seeyon.mobile.android/com.seeyon.mobile.android.model.login.LoadActivity}" drawable="mobile_collaboration" />
 		<item component="ComponentInfo{com.sftmi.iconpack.omfg.air.pro/com.sftmi.iconpack.omfg.air.pro.activities.SplashActivity}" drawable="omfg" />
@@ -1516,6 +1524,7 @@
 		<item component="ComponentInfo{com.ultronix.mylexusdvrii/com.amba.app.SplashActivity}" drawable="mylexusdvrii"/>
 		<item component="ComponentInfo{com.umetrip.android.msky.app/com.umetrip.android.msky.app.module.startup.SplashActivity}" drawable="umetrip"/>
 		<item component="ComponentInfo{com.unionpay/com.unionpay.activity.UPActivityWelcome}" drawable="unionpay" />
+		<item component="ComponentInfo{com.unionpay/com.unionpay.activity.UPActivityMain}" drawable="unionpay"/>
 		<item component="ComponentInfo{com.unnoo.quan/com.unnoo.quan.activities.StartActivity}" drawable="knowspace"/>
 		<item component="ComponentInfo{com.urbandroid.sleep/com.urbandroid.sleep.alarmclock.AlarmClock}" drawable="sleep"/>
 		<item component="ComponentInfo{com.ushaqi.zhuishushenqi/com.ushaqi.zhuishushenqi.ui.SplashActivity}" drawable="zhuishu" />
@@ -1612,6 +1621,7 @@
 		<item component="ComponentInfo{com.ximalaya.ting.android/com.ximalaya.ting.android.host.activity.WelComeActivity}" drawable="ximalayafm" />
 		<item component="ComponentInfo{com.ximalaya.ting.android/com.ximalaya.ting.android.main.activity.account.WelComeActivity}" drawable="ximalayafm" />
 		<item component="ComponentInfo{com.xingin.xhs/com.xingin.xhs.activity.SplashActivity}" drawable="xiaohongshu"/>
+		<item component="ComponentInfo{com.xingin.xhs/com.xingin.xhs.index.v2.IndexActivityV2}" drawable="xiaohongshu"/>
 		<item component="ComponentInfo{com.xingyuyou.xingyuyou/com.xingyuyou.xingyuyou.SplashActivity}" drawable="ciyuanjn"/>
 		<item component="ComponentInfo{com.xinyue.gsmobilewxzt/com.xinyue.gsmobilewxzt.activitys.SplashActivity}" drawable="chinamobile" />
 		<item component="ComponentInfo{com.xtuone.android.syllabus/com.xtuone.android.friday.InitActivity}" drawable="super_class_schedule" />
@@ -1654,6 +1664,7 @@
 		<item component="ComponentInfo{com.zzzmode.appopsx.sys/com.zzzmode.appopsx.ui.main.MainActivity}" drawable="appopsx" />
 		<item component="ComponentInfo{com.zzzmode.appopsx/com.zzzmode.appopsx.ui.main.MainActivity}" drawable="appopsx" />
 		<item component="ComponentInfo{ComponentInfo: bin.mt.plus/l.ۛۘۖۛ}" drawable="mtglq" />
+		<item component="ComponentInfo{bin.mt.plus/bin.mt.plus.MainLightIcon}" drawable="mtglq"/>
 		<item component="ComponentInfo{ctrip.android.view/ctrip.android.view.home.CtripDeclarationActivity}" drawable="ctrip" />
 		<item component="ComponentInfo{ctrip.android.view/ctrip.android.view.view.CtripDeclarationActivity}" drawable="ctrip" />
 		<item component="ComponentInfo{ctrip.android.view/ctrip.business.splash.CtripSplashActivity}" drawable="ctrip" />
@@ -1715,6 +1726,7 @@
 		<item component="ComponentInfo{mark.qrcode/mark.qrcode.CaptureActivity}" drawable="mark_qrcode" />
 		<item component="ComponentInfo{mark.via.gp/mark.via.ui.activity.BrowserActivity}" drawable="via" />
 		<item component="ComponentInfo{mark.via/mark.via.ui.activity.BrowserActivity}" drawable="via" />
+		<item component="ComponentInfo{mark.via/mark.via.Shell}" drawable="via"/>
 		<item component="ComponentInfo{me.bluemail.mail/com.trtf.blue.activity.Accounts}" drawable="bluemail"/>
 		<item component="ComponentInfo{me.drakeet.puremosaic/me.drakeet.puremosaic.MainActivity}" drawable="pure_mosaic"/>
 		<item component="ComponentInfo{me.ele/me.ele.Launcher}" drawable="eleme" />
@@ -1786,6 +1798,7 @@
 		<item component="ComponentInfo{org.ppsspp.ppsspp3kqq/org.ppsspp.ppsspp.PpssppActivity}" drawable="ppsspp" />
 		<item component="ComponentInfo{org.swiftapps.swiftbackup/org.swiftapps.swiftbackup.intro.IntroActivity}" drawable="swift_backup"/>
 		<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" />
+		<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
 		<item component="ComponentInfo{org.telegram.plus/org.telegram.ui.LaunchActivity}" drawable="plus"/>
 		<item component="ComponentInfo{org.thunderdog.challegram/org.thunderdog.challegram.MainActivity}" drawable="telegram_x" />
 		<item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.StartActivity}" drawable="vlc" />
@@ -2071,6 +2084,7 @@
 		<item component="ComponentInfo{com.MobileTicket/com.MobileTicket.ui.activity.WelcomeGuideActivity}" drawable="铁路12306"/>
 		<!-- McDonald S -->
 		<item component="ComponentInfo{com.mcdonalds.gma.cn/com.mcdonalds.gma.cn.activity.LaunchActivity}" drawable="mcdonald_s"/>
+
 		<!-- AutoPack: add in v3.0.25.7.7 -->
 		<!-- Bilibili CN -->
 		<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili_cn"/>
