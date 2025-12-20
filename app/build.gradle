@@ -83,3 +83,17 @@ dependencies {
     // TODO: Remove comment marks to enable
     // implementation Libs.oneSignal
 }
+
+// Task to copy XML files from res/xml to assets
+tasks.register('copyXMLs', Copy) {
+    from "$projectDir/src/main/res/xml/appfilter.xml",
+         "$projectDir/src/main/res/xml/drawable.xml"
+    into "$projectDir/src/main/assets/"
+}
+
+// Run copyXMLs before preBuild to ensure assets are up-to-date
+afterEvaluate {
+    tasks.named('preBuild').configure {
+        dependsOn tasks.named('copyXMLs')
+    }
+}
